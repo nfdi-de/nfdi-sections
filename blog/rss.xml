@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>NFDI Sections Blog</title>
-        <link>https://okoepler.github.io/nfdi-sections/blog</link>
+        <link>https://nfdi-de.github.io/nfdi-sections/blog</link>
         <description>NFDI Sections Blog</description>
         <lastBuildDate>Sun, 21 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://okoepler.github.io/nfdi-sections/blog/welcome</link>
-            <guid>https://okoepler.github.io/nfdi-sections/blog/welcome</guid>
+            <link>https://nfdi-de.github.io/nfdi-sections/blog/welcome</link>
+            <guid>https://nfdi-de.github.io/nfdi-sections/blog/welcome</guid>
             <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[This is the summary of a very long blog post,]]></description>
             <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
@@ -25,8 +25,8 @@
         </item>
         <item>
             <title><![CDATA[First Blog Post]]></title>
-            <link>https://okoepler.github.io/nfdi-sections/blog/first-blog-post</link>
-            <guid>https://okoepler.github.io/nfdi-sections/blog/first-blog-post</guid>
+            <link>https://nfdi-de.github.io/nfdi-sections/blog/first-blog-post</link>
+            <guid>https://nfdi-de.github.io/nfdi-sections/blog/first-blog-post</guid>
             <pubDate>Sat, 20 Sep 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
             <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>

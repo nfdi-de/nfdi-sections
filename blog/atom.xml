@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://okoepler.github.io/nfdi-sections/blog</id>
+    <id>https://nfdi-de.github.io/nfdi-sections/blog</id>
     <title>NFDI Sections Blog</title>
     <updated>2025-09-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://okoepler.github.io/nfdi-sections/blog"/>
+    <link rel="alternate" href="https://nfdi-de.github.io/nfdi-sections/blog"/>
     <subtitle>NFDI Sections Blog</subtitle>
-    <icon>https://okoepler.github.io/nfdi-sections/img/nfdi_favicon.png</icon>
+    <icon>https://nfdi-de.github.io/nfdi-sections/img/nfdi_favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://okoepler.github.io/nfdi-sections/blog/welcome</id>
-        <link href="https://okoepler.github.io/nfdi-sections/blog/welcome"/>
+        <id>https://nfdi-de.github.io/nfdi-sections/blog/welcome</id>
+        <link href="https://nfdi-de.github.io/nfdi-sections/blog/welcome"/>
         <updated>2025-09-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
         <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
@@ -28,8 +28,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://okoepler.github.io/nfdi-sections/blog/first-blog-post</id>
-        <link href="https://okoepler.github.io/nfdi-sections/blog/first-blog-post"/>
+        <id>https://nfdi-de.github.io/nfdi-sections/blog/first-blog-post</id>
+        <link href="https://nfdi-de.github.io/nfdi-sections/blog/first-blog-post"/>
         <updated>2025-09-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
