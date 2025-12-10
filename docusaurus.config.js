@@ -29,12 +29,12 @@ const config = {
 
   // --- GitHub Pages settings ---
   // Your GitHub Pages root domain (override locally with SITE_URL)
-  url: process.env.SITE_URL || 'https://okoepler.github.io',
+  url: process.env.SITE_URL || 'https://nfdi-de.github.io',
   // Path under which the site is served (override locally with BASE_URL)
   baseUrl: process.env.BASE_URL || '/nfdi-sections/',
 
   // GitHub pages deployment config
-  organizationName: 'okoepler',   // GitHub username or org
+  organizationName: 'nfdi-de',   // GitHub username or org
   projectName: 'nfdi-sections',       // Repository name
   trailingSlash: false,             // optional, but keeps cleaner URLs
 
@@ -54,7 +54,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           // Edit links now point to your repo
-          editUrl: 'https://github.com/okoepler/nfdi-sections/edit/main/',
+          editUrl: 'https://github.com/nfdi-de/nfdi-sections/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -62,7 +62,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/okoepler/nfdi-sections/edit/main/blog/',
+          editUrl: 'https://github.com/nfdi-de/nfdi-sections/edit/main/blog/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -108,7 +108,7 @@ const config = {
           { type: 'doc', docId: 'internationalisation/intro', label: 'Internationalisation', position: 'left' },
           {to: '/blog', label: 'News', position: 'left'},
           {
-            href: 'https://github.com/okoepler/nfdi-sections',
+            href: 'https://github.com/nfdi-de/nfdi-sections',
             label: 'GitHub',
             position: 'right',
           },

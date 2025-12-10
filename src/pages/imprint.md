@@ -8,7 +8,7 @@ description: Legal disclosure and contact information.
 This is a community documentation site for the NFDI Sections.
 
 - Maintainer: Project contributors
-- Repository: https://github.com/okoepler/nfdi-sections
+- Repository: https://github.com/nfdi-de/nfdi-sections
 
 Contact the maintainers by opening an issue on the repository.
 
