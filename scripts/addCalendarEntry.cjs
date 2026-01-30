@@ -97,11 +97,22 @@ function main() {
     process.exit(1);
   }
   const f = parseIssueBody(body);
+  const organisersFile = path.join(process.cwd(), 'static', 'calendar-organisers.json');
+  let organisersData = {categories: {}, organisers: []};
+  if (fs.existsSync(organisersFile)) {
+    try {
+      organisersData = JSON.parse(fs.readFileSync(organisersFile, 'utf8'));
+    } catch (e) {
+      console.error(`Failed to parse ${organisersFile}:`, e.message);
+      process.exit(1);
+    }
+  }
 
   const title = getField(f, 'title')?.trim();
   const date = getField(f, 'date', 'date (yyyy-mm-dd)')?.trim();
   const startTime = getField(f, 'start time (hh:mm)', 'start time')?.trim();
   const endTime = getField(f, 'end time (hh:mm)', 'end time')?.trim();
+  const organiser = getField(f, 'organiser')?.trim();
   if (!title || !date) {
     console.error('Missing required fields: title/date');
     process.exit(1);
@@ -109,6 +120,19 @@ function main() {
   const allDay = truthy(getField(f, 'all day event?')) || false;
   const startISO = buildBerlinISO(date, startTime || (allDay ? '00:00' : '00:00'));
   const endISO = buildBerlinISO(date, endTime || (allDay ? '23:59' : startTime || '00:00'));
+  const organiserEntry = (organisersData.organisers || []).find(
+    (entry) => entry.label === organiser
+  );
+  const category = organiserEntry?.category;
+  const categoryColor = category ? organisersData.categories?.[category]?.color : undefined;
+  if (organiser && !organiserEntry) {
+    console.error(`Unknown organiser: "${organiser}"`);
+    process.exit(1);
+  }
+  if (organiserEntry && !categoryColor) {
+    console.error(`Missing color for category: "${category}"`);
+    process.exit(1);
+  }
 
   const event = {
     title,
@@ -118,7 +142,9 @@ function main() {
     location: getField(f, 'location')?.trim() || undefined,
     url: getField(f, 'link (optional)', 'url')?.trim() || undefined,
     type: getField(f, 'type')?.trim() || 'Event',
-    color: getField(f, 'color (hex, optional)', 'color')?.trim() || undefined,
+    organiser: organiser || undefined,
+    category,
+    color: categoryColor || undefined,
     description: getField(f, 'description')?.trim() || undefined,
     createdBy: process.env.ISSUE_USER || undefined,
   };

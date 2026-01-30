@@ -1,0 +1,86 @@
+{
+  "categories": {
+    "section-meta": {
+      "label": "Section-Meta",
+      "color": "#00617c"
+    },
+    "section-infra": {
+      "label": "Section Infra",
+      "color": "#0BBBEF"
+    },
+    "section-edu": {
+      "label": "Section Edu",
+      "color": "#0073AA"
+    },
+    "section-elsa": {
+      "label": "Section Elsa",
+      "color": "#0073AA"
+    },
+    "section-industry": {
+      "label": "Section Industry",
+      "color": "#009688"
+    },
+    "section-internationalisation": {
+      "label": "Section Internationalisation",
+      "color": "#4CAF50"
+    }
+  },
+  "organisers": [
+    {
+      "label": "WG Onto (Section-Meta)",
+      "category": "section-meta"
+    },
+    {
+      "label": "WG Terminology Services (Section-Meta)",
+      "category": "section-meta"
+    },
+    {
+      "label": "WG ELN (Section Infra)",
+      "category": "section-infra"
+    },
+    {
+      "label": "WG Dalia (Section Edu)",
+      "category": "section-edu"
+    },
+    {
+      "label": "WG Overall Architecture (OA) (Section Infra)",
+      "category": "section-infra"
+    },
+    {
+      "label": "WG Data Integration (DI) (Section Infra)",
+      "category": "section-infra"
+    },
+    {
+      "label": "WG Data Management Planning (DMP) (Section Infra)",
+      "category": "section-infra"
+    },
+    {
+      "label": "WG Data Science and Artificial Intelligence (DSAI) (Section Infra)",
+      "category": "section-infra"
+    },
+    {
+      "label": "WG Identity and Access Management (IAM) (Section Infra)",
+      "category": "section-infra"
+    },
+    {
+      "label": "WG Infrastructure and Data Security (IDS) (Section Infra)",
+      "category": "section-infra"
+    },
+    {
+      "label": "WG Long-term Access and Preservation (LTA) (Section Infra)",
+      "category": "section-infra"
+    },
+    {
+      "label": "WG Multi-Cloud (MC) (Section Infra)",
+      "category": "section-infra"
+    },
+    {
+      "label": "WG Research Software Engineering (RSE) (Section Infra)",
+      "category": "section-infra"
+    },
+    {
+      "label": "WG Persistent Identifiers (PID) (Section Infra)",
+      "category": "section-infra"
+    }
+  ]
+}
