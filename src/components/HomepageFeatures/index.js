@@ -40,17 +40,17 @@ const secondRow = [
     link: '/docs/edutrain/intro',
   },
   {
-    title: 'Industry',
+    title: 'Industry Engagement',
     img: require('@site/static/img/Icon-section-industry.png').default,
-    alt: 'Industry section',
+    alt: 'Industry Engagement section',
     description:
       'Interfaces with industry partners and knowledge transfer.',
     link: '/docs/industry/intro',
   },
   {
-    title: 'Internationalisation',
-    img: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    alt: 'Section Internationalisation',
+    title: 'International Engagement',
+    img: require('@site/static/img/Icon-section-international.png').default,
+    alt: 'Section International Engagement',
     description:
       'Alignment with international initiatives and best practices.',
     link: '/docs/internationalisation/intro',

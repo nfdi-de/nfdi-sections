@@ -104,8 +104,8 @@ const config = {
           { type: 'doc', docId: 'elsa/intro', label: 'ELSA', position: 'left' },
           { type: 'doc', docId: 'infra/intro', label: 'INFRA', position: 'left' },
           { type: 'doc', docId: 'edutrain/intro', label: 'EduTrain', position: 'left' },
-          { type: 'doc', docId: 'industry/intro', label: 'Industry', position: 'left' },
-          { type: 'doc', docId: 'internationalisation/intro', label: 'Internationalisation', position: 'left' },
+          { type: 'doc', docId: 'industry/intro', label: 'Industry Engagement', position: 'left' },
+          { type: 'doc', docId: 'internationalisation/intro', label: 'International Engagement', position: 'left' },
           {to: '/blog', label: 'News', position: 'left'},
           {
             href: 'https://github.com/nfdi-de/nfdi-sections',
