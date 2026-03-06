@@ -1,0 +1,43 @@
+### Title
+
+Section Metadata General Meeting
+
+### Date (YYYY-MM-DD)
+
+2026-03-31
+
+### Start time (HH:MM)
+
+16:00
+
+### End time (HH:MM)
+
+18:00
+
+### All day event?
+
+false
+
+### Location
+
+Online
+
+### Link (optional)
+
+_No response_
+
+### event.website (optional)
+
+_No response_
+
+### Type
+
+Section
+
+### Organiser
+
+Section-Meta
+
+### Description
+
+2nd General Meeting of the Section Metadata
