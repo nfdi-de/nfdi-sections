@@ -8,8 +8,10 @@ const locales = { 'en-US': enUS };
 const localizer = dateFnsLocalizer({format, parse, startOfWeek, getDay, locales});
 
 function useCalendarData() {
-  const url = useBaseUrl('/calendar.json');
+  const eventsUrl = useBaseUrl('/calendar.json');
+  const organisersUrl = useBaseUrl('/calendar-organisers.json');
   const [events, setEvents] = useState([]);
+  const [categoryMap, setCategoryMap] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -18,19 +20,28 @@ function useCalendarData() {
     async function load() {
       try {
         setLoading(true);
-        const res = await fetch(url, {cache: 'no-cache'});
-        if (!res.ok) throw new Error(`Failed to load calendar: ${res.status}`);
-        const data = await res.json();
+        const [evRes, orgRes] = await Promise.all([
+          fetch(eventsUrl, {cache: 'no-cache'}),
+          fetch(organisersUrl, {cache: 'no-cache'}),
+        ]);
+        if (!evRes.ok) throw new Error(`Failed to load calendar: ${evRes.status}`);
+        const [data, organisersData] = await Promise.all([
+          evRes.json(),
+          orgRes.ok ? orgRes.json() : {},
+        ]);
         if (cancelled) return;
+        setCategoryMap(organisersData?.categories || {});
         const mapped = (data || []).map(ev => ({
           title: ev.title,
           start: new Date(ev.start),
           end: new Date(ev.end),
           allDay: !!ev.allDay,
           url: ev.url,
+          website: ev.website,
           location: ev.location,
           description: ev.description,
           type: ev.type,
+          category: ev.category,
           color: ev.color,
         }));
         setEvents(mapped);
@@ -42,33 +53,32 @@ function useCalendarData() {
     }
     load();
     return () => { cancelled = true };
-  }, [url]);
+  }, [eventsUrl, organisersUrl]);
 
-  return {events, loading, error};
+  return {events, categoryMap, loading, error};
 }
 
-function Legend({events, enabledTypes, onToggleType, onShowAll}) {
+function Legend({events, categoryMap, enabledCategories, onToggleCategory, onShowAll}) {
   const items = useMemo(() => {
-    const byType = new Map();
-    for (const ev of events) {
-      const label = ev.type || 'Event';
-      if (!byType.has(label)) byType.set(label, {label, color: ev.color || 'var(--ifm-color-primary)'});
-    }
-    return Array.from(byType.values());
-  }, [events]);
+    return Object.entries(categoryMap).map(([key, cat]) => ({
+      key,
+      label: cat.label || key,
+      color: cat.color || 'var(--ifm-color-primary)',
+    }));
+  }, [categoryMap]);
 
   if (!items.length) return null;
   return (
     <div style={{display:'flex', flexWrap:'wrap', gap:'0.5rem', marginBottom:'0.75rem', alignItems:'center'}}>
       <strong style={{marginRight:'0.25rem'}}>Filter:</strong>
       {items.map((it) => {
-        const active = enabledTypes.has(it.label);
+        const active = enabledCategories.has(it.key);
         return (
           <button
-            key={it.label}
+            key={it.key}
             type="button"
-            onClick={() => onToggleType(it.label)}
-            title={active ? 'Click to hide this type' : 'Click to show this type'}
+            onClick={() => onToggleCategory(it.key)}
+            title={active ? 'Click to hide this category' : 'Click to show this category'}
             style={{
               display:'inline-flex', alignItems:'center', gap:'0.4rem',
               fontSize:'0.9rem', padding:'0.25rem 0.5rem', cursor:'pointer',
@@ -83,22 +93,20 @@ function Legend({events, enabledTypes, onToggleType, onShowAll}) {
         );
       })}
       <button type="button" onClick={onShowAll} style={{marginLeft:'0.25rem'}} className="button button--sm button--secondary">
-        Show all
+        Reset
       </button>
     </div>
   );
 }
 
 export default function Calendar() {
-  const {events, loading, error} = useCalendarData();
-  const [enabledTypes, setEnabledTypes] = useState(new Set());
+  const {events, categoryMap, loading, error} = useCalendarData();
+  const [enabledCategories, setEnabledCategories] = useState(new Set());
   const [selectedEvent, setSelectedEvent] = useState(null);
 
-  // Initialize enabled types when events change
   useEffect(() => {
-    const types = new Set((events || []).map(ev => ev.type || 'Event'));
-    setEnabledTypes(types);
-  }, [events]);
+    setEnabledCategories(new Set(Object.keys(categoryMap)));
+  }, [categoryMap]);
 
   const eventPropGetter = useCallback((event) => {
     const style = {
@@ -116,8 +124,8 @@ export default function Calendar() {
   }, []);
 
   const filtered = useMemo(() => {
-    return events.filter(ev => enabledTypes.has(ev.type || 'Event'));
-  }, [events, enabledTypes]);
+    return events.filter(ev => enabledCategories.has(ev.category || 'other'));
+  }, [events, enabledCategories]);
 
   const tooltipAccessor = useCallback((event) => {
     const parts = [];
@@ -126,18 +134,17 @@ export default function Calendar() {
     return parts.join(' • ');
   }, []);
 
-  const handleToggleType = useCallback((label) => {
-    setEnabledTypes(prev => {
+  const handleToggleCategory = useCallback((key) => {
+    setEnabledCategories(prev => {
       const next = new Set(prev);
-      if (next.has(label)) next.delete(label); else next.add(label);
+      if (next.has(key)) next.delete(key); else next.add(key);
       return next;
     });
   }, []);
 
   const handleShowAll = useCallback(() => {
-    const types = new Set((events || []).map(ev => ev.type || 'Event'));
-    setEnabledTypes(types);
-  }, [events]);
+    setEnabledCategories(new Set(Object.keys(categoryMap)));
+  }, [categoryMap]);
 
   if (error) {
     return <div className="alert alert--danger">{String(error)}</div>;
@@ -146,7 +153,13 @@ export default function Calendar() {
   return (
     <div>
       {loading && <div className="alert alert--info">Loading calendar…</div>}
-      <Legend events={events} enabledTypes={enabledTypes} onToggleType={handleToggleType} onShowAll={handleShowAll} />
+      <Legend
+        events={events}
+        categoryMap={categoryMap}
+        enabledCategories={enabledCategories}
+        onToggleCategory={handleToggleCategory}
+        onShowAll={handleShowAll}
+      />
       <div className="calendarWrapper">
         <RBCalendar
           localizer={localizer}
@@ -209,6 +222,9 @@ function EventModal({event, onClose}) {
         <div className="calendarModalFooter">
           {event.url && (
             <a className="button button--primary" href={event.url} target="_blank" rel="noopener noreferrer">Open link</a>
+          )}
+          {event.website && (
+            <a className="button button--secondary" href={event.website} target="_blank" rel="noopener noreferrer">Website</a>
           )}
           <button className="button button--secondary" onClick={onClose}>Close</button>
         </div>
