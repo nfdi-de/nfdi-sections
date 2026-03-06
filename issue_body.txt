@@ -1,10 +1,10 @@
 ### Title
 
-Section Metadata General Meeting
+Section Meeting Metadata
 
 ### Date (YYYY-MM-DD)
 
-2026-03-31
+2026-06-20
 
 ### Start time (HH:MM)
 
@@ -20,7 +20,7 @@ false
 
 ### Location
 
-Online
+_No response_
 
 ### Link (optional)
 
@@ -40,4 +40,4 @@ Section-Meta
 
 ### Description
 
-2nd General Meeting of the Section Metadata
+3rd General Section meeting

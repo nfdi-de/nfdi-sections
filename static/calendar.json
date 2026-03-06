@@ -60,5 +60,17 @@
     "color": "#00617c",
     "description": "2nd General Meeting of the Section Metadata",
     "createdBy": "okoepler"
+  },
+  {
+    "title": "Section Meeting Metadata",
+    "start": "2026-06-20T16:00:00+02:00",
+    "end": "2026-06-20T18:00:00+02:00",
+    "allDay": false,
+    "type": "Section",
+    "organiser": "Section-Meta",
+    "category": "section-meta",
+    "color": "#00617c",
+    "description": "3rd General Section meeting",
+    "createdBy": "okoepler"
   }
 ]
