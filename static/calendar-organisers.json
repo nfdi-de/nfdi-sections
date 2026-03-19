@@ -23,6 +23,22 @@
     "section-international": {
       "label": "Section International",
       "color": "#4CAF50"
+    },
+    "natural-sciences": {
+      "label": "Natural Sciences",
+      "color": "#08B8F0"
+    },
+    "engineering-sciences": {
+      "label": "Engineering Sciences",
+      "color": "#E83050"
+    },
+    "life-sciences": {
+      "label": "Life Sciences",
+      "color": "#A0C818"  
+    },
+    "humanities-and-social-sciences": {
+      "label": "Humanities and Social Sciences",
+      "color": "#F8C040"  
     }
   },
   "organisers": [
@@ -145,6 +161,114 @@
     {
       "label": "WG Outreach (Section International)",
       "category": "section-international"
-    }
+    },
+    {
+      "label": "Base4NFDI",
+      "category": "Basic Services"
+    },
+    {
+    "label": "BERD@NFDI",
+    "category": "Humanities and Social Sciences"
+  },
+  {
+    "label": "NFDI4Society",
+    "category": "Humanities and Social Sciences"
+  },
+  {
+    "label": "NFDI4Culture",
+    "category": "Humanities and Social Sciences"
+  },
+  {
+    "label": "NFDI4Memory",
+    "category": "Humanities and Social Sciences"
+  },
+  {
+    "label": "NFDI4Objects",
+    "category": "Humanities and Social Sciences"
+  },
+  {
+    "label": "Text+",
+    "category": "Humanities and Social Sciences"
+  },
+  {
+    "label": "NFDI4DataScience",
+    "category": "Engineering Sciences"
+  },
+  {
+    "label": "NFDI4Energy",
+    "category": "Engineering Sciences"
+  },
+  {
+    "label": "NFDI4ING",
+    "category": "Engineering Sciences"
+  },
+  {
+    "label": "NFDI-MatWerk",
+    "category": "Engineering Sciences"
+  },
+  {
+    "label": "NFDIxCS",
+    "category": "Engineering Sciences"
+  },
+  {
+    "label": "DataPLANT",
+    "category": "Life Sciences"
+  },
+  {
+    "label": "FAIRagro",
+    "category": "Life Sciences"
+  },
+  {
+    "label": "NFDI4Immuno",
+    "category": "Life Sciences"
+  },
+  {
+    "label": "GHGA",
+    "category": "Life Sciences"
+  },
+  {
+    "label": "NFDI4Biodiversity",
+    "category": "Life Sciences"
+  },
+  {
+    "label": "NFDI4BIOIMAGE",
+    "category": "Life Sciences"
+  },
+  {
+    "label": "NFDI4Health",
+    "category": "Life Sciences"
+  },
+  {
+    "label": "NFDI4Microbiota",
+    "category": "Life Sciences"
+  },
+  {
+    "label": "DAPHNE4NFDI",
+    "category": "Natural Sciences"
+  },
+  {
+    "label": "FAIRmat",
+    "category": "Natural Sciences"
+  },
+  {
+    "label": "NFDI4Cat",
+    "category": "Natural Sciences"
+  },
+  {
+    "label": "MaRDI",
+    "category": "Natural Sciences"
+  },
+  {
+    "label": "NFDI4Chem",
+    "category": "Natural Sciences"
+  },
+  {
+    "label": "NFDI4Earth",
+    "category": "Natural Sciences"
+  },
+  {
+    "label": "PUNCH4NFDI",
+    "category": "Natural Sciences"
+  }
   ]
 }
