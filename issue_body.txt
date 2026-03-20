@@ -1,18 +1,18 @@
 ### Title
 
-Section Meeting Metadata
+JF DIR-SEC
 
 ### Date (YYYY-MM-DD)
 
-2026-06-20
+2026-03-20
 
 ### Start time (HH:MM)
 
-16:00
+08:30
 
 ### End time (HH:MM)
 
-18:00
+09:30
 
 ### All day event?
 
@@ -20,7 +20,7 @@ false
 
 ### Location
 
-_No response_
+Online
 
 ### Link (optional)
 
@@ -32,7 +32,7 @@ _No response_
 
 ### Type
 
-Section
+_No response_
 
 ### Organiser
 
@@ -40,4 +40,4 @@ Section-Meta
 
 ### Description
 
-3rd General Section meeting
+_No response_
