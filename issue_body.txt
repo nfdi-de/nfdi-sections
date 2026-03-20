@@ -1,18 +1,18 @@
 ### Title
 
-JF DIR-SEC
+Section Meeting International Engagement
 
 ### Date (YYYY-MM-DD)
 
-2026-03-20
+2026-03-31
 
 ### Start time (HH:MM)
 
-08:30
+13:00
 
 ### End time (HH:MM)
 
-09:30
+14:30
 
 ### All day event?
 
@@ -20,7 +20,7 @@ false
 
 ### Location
 
-Online
+_No response_
 
 ### Link (optional)
 
@@ -32,12 +32,12 @@ _No response_
 
 ### Type
 
-_No response_
+section
 
 ### Organiser
 
-Section-Meta
+Section International
 
 ### Description
 
-_No response_
+Kick-Off Section Meeting International Engagement
