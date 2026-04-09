@@ -19,6 +19,7 @@ The working group coordinates this work, which is essential for linking research
 
 - Working Group Charter on Zenodo: [https://doi.org/10.5281/zenodo.6726518](https://doi.org/10.5281/zenodo.6726518)
 - GitHub: [github.com/nfdi-de/section-metadata-wg-onto](https://github.com/nfdi-de/section-metadata-wg-onto) (issues, self-organisation)
+- Recommendations: [nfdi-de.github.io/section-metadata-wg-onto/](https://nfdi-de.github.io/section-metadata-wg-onto/)
 
 ## Mailing list
 
@@ -27,12 +28,17 @@ The working group coordinates this work, which is essential for linking research
 
 ## Coordinators
 
-- Philip Strömert (Technische Informationsbibliothek) — philip.stroemert@tib.eu
-- Lozana Rossenova (Technische Informationsbibliothek; NFDI4Culture) — lozana.rossenova@tib.eu
-- Roman Baum (Deutsche Zentralbibliothek für Medizin; NFDI4Health) — baum@zbmed.de
+| Name            | Affiliation                       | Email                            |
+|-----------------|-----------------------------------|----------------------------------|
+| Philip Strömert | Technische Informationsbibliothek | philip.stroemert@tib.eu          |
+| Anja Gerber     | Klassik Stiftung Weimar           | Anja.Gerber@klassik-stiftung.de  | 
+| Ulrik Stervbo   | St. Elisabeth Gruppe              | Ulrik.Stervbo@elisabethgruppe.de |
 
 ## Used Ontologies
 
 Browse per-consortium ontology usage tables extracted from the consolidated spreadsheet.
 
 - View index: [Used Ontologies](/docs/meta/wg_onto/used-ontologies)
+
+Collections of ontologies, terminologies, and related resources are being ported to 
+the [Semantic Farm](https://semantic.farm/collection/?ror=05qj6w324) in Q2/3 in 2026.
