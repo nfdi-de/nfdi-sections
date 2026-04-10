@@ -9,6 +9,7 @@
 
 """Update collections."""
 
+import os
 import datetime
 from textwrap import dedent
 from pathlib import Path
@@ -20,7 +21,7 @@ from tabulate import tabulate
 
 HERE = Path(__file__).parent.resolve()
 ROOT = HERE.parent.resolve()
-ONTOLOGIES = ROOT.joinpath("docs", "meta", "wg_onto", "used-ontologies")
+ONTOLOGIES = ROOT.joinpath("docs", "meta", "wg_onto", "used-ontologies").resolve()
 
 RENAMES = {"text+": "text-plus", "berd@nfdi": "bern-nfdi"}
 
@@ -52,8 +53,16 @@ def main() -> None:
 
         This page was automatically generated on {today} using Semantic Farm v{bioregistry.version.get_version()}.
         See this collection in the [Semantic Farm](https://semantic.farm/collection/{collection.identifier}).
+
+        Suggest a new addition to this collection [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection={collection.identifier}&title=Add%20prefix%20X%20to%20collection%20{collection.identifier}).
         """)
         text += "\n\n"
+
+        if collection.maintainers:
+            text += "This collection is maintained by:\n\n"
+            for maintainer in collection.maintainers:
+                text += f"- [{maintainer.name.strip()}](https://semantic.farm/orcid:{maintainer.orcid})\n"
+            text += "\n"
 
         rows = []
 
@@ -110,6 +119,7 @@ def main() -> None:
 
     ONTOLOGIES.joinpath("index.md").write_text(index_text)
 
+    os.system(f"npx --yes prettier --check --prose-wrap always --write '{ONTOLOGIES}/*.md'")
 
 if __name__ == "__main__":
     main()

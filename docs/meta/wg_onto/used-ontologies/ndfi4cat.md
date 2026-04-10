@@ -2,12 +2,21 @@
 title: NDFI4Cat
 ---
 
-This page was automatically generated on 2026-04-10 using Semantic Farm v0.13.36-dev.
-See this collection in the [Semantic Farm](https://semantic.farm/collection/0000011).
+This page was automatically generated on 2026-04-10 using Semantic Farm
+v0.13.36-dev. See this collection in the
+[Semantic Farm](https://semantic.farm/collection/0000011).
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000011&title=Add%20prefix%20X%20to%20collection%200000011).
+
+This collection is maintained by:
+
+- [Hendrik Borgelt](https://semantic.farm/orcid:0000-0001-5886-7860)
+- [Alexander Behr](https://semantic.farm/orcid:0000-0003-4620-8248)
+- [David Linke](https://semantic.farm/orcid:0000-0002-5898-1820)
 
 | Prefix                                                               | Name                                                          | License                                             |
-|----------------------------------------------------------------------|---------------------------------------------------------------|-----------------------------------------------------|
+| -------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------- |
 | [`afo`](https://semantic.farm/afo)                                   | Allotrope Merged Ontology Suite                               | [Custom](http://purl.allotrope.org/voc/copyright)   |
 | [`bao`](https://semantic.farm/bao)                                   | BioAssay Ontology                                             | CC BY-SA 4.0                                        |
 | [`BFO`](https://semantic.farm/bfo)                                   | Basic Formal Ontology                                         | CC-BY-4.0                                           |

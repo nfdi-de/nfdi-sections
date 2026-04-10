@@ -2,12 +2,19 @@
 title: NFDI4Chem
 ---
 
-This page was automatically generated on 2026-04-10 using Semantic Farm v0.13.36-dev.
-See this collection in the [Semantic Farm](https://semantic.farm/collection/0000014).
+This page was automatically generated on 2026-04-10 using Semantic Farm
+v0.13.36-dev. See this collection in the
+[Semantic Farm](https://semantic.farm/collection/0000014).
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000014&title=Add%20prefix%20X%20to%20collection%200000014).
+
+This collection is maintained by:
+
+- [Philip Strömert](https://semantic.farm/orcid:0000-0002-1595-3213)
 
 | Prefix                                                                 | Name                                                                                 | License                                                                           | Comment                                                               |
-|------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [`afo`](https://semantic.farm/afo)                                     | Allotrope Merged Ontology Suite                                                      | [Custom](http://purl.allotrope.org/voc/copyright)                                 |                                                                       |
 | [`BFO`](https://semantic.farm/bfo)                                     | Basic Formal Ontology                                                                | CC-BY-4.0                                                                         |                                                                       |
 | [`BTO`](https://semantic.farm/bto)                                     | BRENDA Tissue Ontology                                                               | CC-BY-4.0                                                                         |                                                                       |

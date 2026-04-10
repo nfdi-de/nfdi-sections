@@ -2,12 +2,15 @@
 title: NFDI4Ing
 ---
 
-This page was automatically generated on 2026-04-10 using Semantic Farm v0.13.36-dev.
-See this collection in the [Semantic Farm](https://semantic.farm/collection/0000022).
+This page was automatically generated on 2026-04-10 using Semantic Farm
+v0.13.36-dev. See this collection in the
+[Semantic Farm](https://semantic.farm/collection/0000022).
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000022&title=Add%20prefix%20X%20to%20collection%200000022).
 
 | Prefix                                                                                 | Name                                                                                       | License                                                                           |
-|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | [`afo`](https://semantic.farm/afo)                                                     | Allotrope Merged Ontology Suite                                                            | [Custom](http://purl.allotrope.org/voc/copyright)                                 |
 | [`atomistic`](https://semantic.farm/atomistic)                                         | Atomistic                                                                                  | CC-BY-4.0                                                                         |
 | [`battinfo`](https://semantic.farm/battinfo)                                           | Battery Interface Ontology                                                                 |                                                                                   |

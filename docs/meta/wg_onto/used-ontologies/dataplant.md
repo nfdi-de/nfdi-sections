@@ -2,12 +2,15 @@
 title: DataPLANT
 ---
 
-This page was automatically generated on 2026-04-10 using Semantic Farm v0.13.36-dev.
-See this collection in the [Semantic Farm](https://semantic.farm/collection/0000023).
+This page was automatically generated on 2026-04-10 using Semantic Farm
+v0.13.36-dev. See this collection in the
+[Semantic Farm](https://semantic.farm/collection/0000023).
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000023&title=Add%20prefix%20X%20to%20collection%200000023).
 
 | Prefix                                   | Name                                       | License      |
-|------------------------------------------|--------------------------------------------|--------------|
+| ---------------------------------------- | ------------------------------------------ | ------------ |
 | [`AGRO`](https://semantic.farm/agro)     | Agronomy Ontology                          | CC-BY-4.0    |
 | [`bao`](https://semantic.farm/bao)       | BioAssay Ontology                          | CC BY-SA 4.0 |
 | [`BCO`](https://semantic.farm/bco)       | Biological Collections Ontology            | CC0-1.0      |

@@ -2,12 +2,19 @@
 title: NFDI4Energy
 ---
 
-This page was automatically generated on 2026-04-10 using Semantic Farm v0.13.36-dev.
-See this collection in the [Semantic Farm](https://semantic.farm/collection/0000021).
+This page was automatically generated on 2026-04-10 using Semantic Farm
+v0.13.36-dev. See this collection in the
+[Semantic Farm](https://semantic.farm/collection/0000021).
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000021&title=Add%20prefix%20X%20to%20collection%200000021).
+
+This collection is maintained by:
+
+- [Amanda Wein](https://semantic.farm/orcid:0009-0009-2960-3474)
 
 | Prefix                                                                           | Name                                                               | License      |
-|----------------------------------------------------------------------------------|--------------------------------------------------------------------|--------------|
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------ |
 | [`bonsai`](https://semantic.farm/bonsai)                                         | Big Open Network of Sustainability Assessment Information Ontology |              |
 | [`brick`](https://semantic.farm/brick)                                           | Brick Ontology                                                     |              |
 | [`cim`](https://semantic.farm/cim)                                               | Common Information Model Ontology                                  |              |
