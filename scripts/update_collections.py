@@ -58,8 +58,7 @@ def main() -> None:
         rows = []
 
         has_comments = any(
-            annotation.comment
-            for annotation in collection.get_annotated_prefixes()
+            annotation.comment for annotation in collection.get_annotated_prefixes()
         )
 
         for annotation in collection.get_annotated_prefixes():
@@ -70,7 +69,7 @@ def main() -> None:
                 license = f"[Custom]({license})"
 
             parts = [
-                f"[`{resource.prefix}`](https://semantic.farm/{resource.prefix})",
+                f"[`{resource.get_preferred_prefix() or resource.prefix}`](https://semantic.farm/{resource.prefix})",
                 resource.get_name(),
                 license,
             ]
@@ -78,18 +77,20 @@ def main() -> None:
                 parts.append(annotation.comment)
             rows.append(tuple(parts))
 
-        headers = ['Prefix', "Name", "License"]
+        headers = ["Prefix", "Name", "License"]
         if has_comments:
             headers.append("Comment")
         text += tabulate(rows, headers=headers, tablefmt="github")
         text += "\n"
         path.write_text(text)
 
-        index_rows.append((
-            f'[{name}](/docs/meta/wg_onto/used-ontologies/{path.name})',
-            len(collection.resources),
-            ", ".join(sorted(m.name for m in collection.maintainers or []))
-        ))
+        index_rows.append(
+            (
+                f"[{name}](/docs/meta/wg_onto/used-ontologies/{path.name})",
+                len(collection.resources),
+                ", ".join(sorted(m.name for m in collection.maintainers or [])),
+            )
+        )
 
     index_text = dedent(f"""\
     ---
@@ -100,11 +101,15 @@ def main() -> None:
     """)
 
     index_text += "\n\n"
-    index_text += tabulate(index_rows, headers=["Consortium", "# Ontologies", "Maintainers"], tablefmt="github")
+    index_text += tabulate(
+        sorted(index_rows),
+        headers=["Consortium", "# Ontologies", "Collection Maintainers"],
+        tablefmt="github",
+    )
     index_text += "\n"
 
     ONTOLOGIES.joinpath("index.md").write_text(index_text)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
