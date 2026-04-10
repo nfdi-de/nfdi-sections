@@ -3,7 +3,7 @@
 This repo contains the code and - most importantly - content of the NFDI Sections Knowledge Base https://nfdi-de.github.io/nfdi-sections/ 
 This website is built using [Docusaurus](https://docusaurus.io/).
 
-The knowledge base is maintained by section spokespersons, section working groups, and section liason officers. Any contributions from sections members are welcome.
+The knowledge base is maintained by section spokespersons, section working groups, and section liaison officers. Any contributions from sections members are welcome.
 
 ## Adding calendar entries for sections, working group meetings, workshop
 Use the Issue Template "New Calendar Event" add all relevant information. A pull request will be created to add your event automatically.
