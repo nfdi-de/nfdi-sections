@@ -36,6 +36,9 @@ def main() -> None:
     for collection in bioregistry.read_collections().values():
         if not collection.has_organization_with_ror(NFDI_ROR):
             continue
+        if len(collection.resources) < 2:
+            continue
+
         name = collection.name.removesuffix(" Collection").strip()
         key = RENAMES.get(name.lower(), name.lower())
 
@@ -58,7 +61,7 @@ def main() -> None:
                 annotation.comment
             ))
         text += tabulate(rows, headers=['Prefix', "Name", "License", "Comment"], tablefmt="github")
-
+        text += "\n"
         path.write_text(text)
 
         index_rows.append((
@@ -77,6 +80,7 @@ def main() -> None:
 
     index_text += "\n\n"
     index_text += tabulate(index_rows, headers=["Consortium", "# Ontologies", "Maintainers"], tablefmt="github")
+    index_text += "\n"
 
     ONTOLOGIES.joinpath("index.md").write_text(index_text)
 
