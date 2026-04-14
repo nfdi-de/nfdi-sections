@@ -2,6 +2,10 @@
 title: DataPLANT
 ---
 
+The review [Ontologies for increasing the FAIRness of plant research data](https://doi.org/10.3389/fpls.2023.1279694) provides an overview and usage guidance for ontologies in plant research.
+
+The table below is from the WG Ontology collection spreadsheet.
+
 Source: `/files/meta/Used_Ontologies_at_NFDI.xlsx` (sheet: DataPLANT)
 
 |Ontology ID|Domain|License|Modularity|Format|developed / reused / only indexed / only evaluated|Ontology Name|Upper Level Ontology|References|Ontology Type|DataPlant Domains|Obofoundry &lt;br/&gt;domain|Ontology ID Bioportal|Bioportal category|Used in|OBO dependencies|Obofoundry|OLS Url|BioPortal|Some other URL|Type Sorting|TODO: Domain aufräumen|

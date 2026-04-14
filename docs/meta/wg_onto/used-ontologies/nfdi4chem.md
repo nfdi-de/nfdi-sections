@@ -2,6 +2,10 @@
 title: NFDI4Chem
 ---
 
+The review [The current landscape of author guidelines in chemistry through the lens of research data sharing](https://doi.org/10.1515/pac-2022-1001) provides an overview and usage guidance for ontologies in chemistry.
+
+The table below is from the WG Ontology collection spreadsheet.
+
 Source: `/files/meta/Used_Ontologies_at_NFDI.xlsx` (sheet: NFDI4Chem)
 
 |Ontology ID|Domain|License|Modularity|Format|Used in|Comments|developed / reused / only indexed / only evaluated|NFDI4Chem contributions|
