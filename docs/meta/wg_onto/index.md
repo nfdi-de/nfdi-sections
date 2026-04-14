@@ -19,8 +19,6 @@ The working group coordinates this work, which is essential for linking research
 
 - Working Group Charter on Zenodo: [https://doi.org/10.5281/zenodo.6726518](https://doi.org/10.5281/zenodo.6726518)
 - GitHub: [github.com/nfdi-de/section-metadata-wg-onto](https://github.com/nfdi-de/section-metadata-wg-onto) (issues, self-organisation)
-- [Ontologies for increasing the FAIRness of plant research data](https://doi.org/10.3389/fpls.2023.1279694) provides an overview and usage guidance for ontologies in plant research
-- [The current landscape of author guidelines in chemistry through the lens of research data sharing](https://doi.org/10.1515/pac-2022-1001) provides an overview and usage guidance for ontologies in chemistry
 
 ## Mailing list
 
