@@ -2,8 +2,8 @@
 title: NFDI4Chem
 ---
 
-This page was automatically generated on 2026-04-10 using Semantic Farm
-v0.13.36-dev. See this collection in the
+This page was automatically generated on 2026-04-15 using Semantic Farm
+v0.13.40. See this collection in the
 [Semantic Farm](https://semantic.farm/collection/0000014).
 
 Suggest a new addition to this collection
