@@ -2,9 +2,14 @@
 title: NFDI4DataScience
 ---
 
-Source: `/files/meta/Used_Ontologies_at_NFDI.xlsx` (sheet: NFDI4DataScience)
+This page was automatically generated on 2026-04-16 using Semantic Farm
+v0.13.40. See this collection in the
+[Semantic Farm](https://semantic.farm/collection/0000029).
 
-|Ontology ID|Domain|License|Modularity|Format|developed / reused / only indexed / only evaluated|Used in|
-|---|---|---|---|---|---|---|
-|SCHEMA|General|CC BY-SA 3.0||rdf|reused|Portal (under construction)|
-|NFDICO|Research information for NFDI Consortia|CC BY 4.0|imports SCHEMA, maps_to: "DCAT, DOAP, FOAF, FABIO, SD, VCARD, VIVO, SWO, WIKIDATA, ORG, FRAPO, MODSCI, DBO, SCHEMA, DCTERMS, IAO, OBI"|owl|reused|NFDI4CUlture, NFDI-MatWerk, NFDI4Memory|
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000029&title=Add%20prefix%20X%20to%20collection%200000029).
+
+| Prefix                                         | Name               | License |
+| ---------------------------------------------- | ------------------ | ------- |
+| [`nfdi.core`](https://semantic.farm/nfdi.core) | NFDI Core Ontology | CC0-1.0 |
+| [`schema`](https://semantic.farm/schema)       | Schema.org         |         |

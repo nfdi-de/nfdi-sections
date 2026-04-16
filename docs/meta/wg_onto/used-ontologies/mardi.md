@@ -2,15 +2,24 @@
 title: MaRDI
 ---
 
-Source: `/files/meta/Used_Ontologies_at_NFDI.xlsx` (sheet: MaRDI)
+This page was automatically generated on 2026-04-16 using Semantic Farm
+v0.13.40. See this collection in the
+[Semantic Farm](https://semantic.farm/collection/0000027).
 
-|Ontology ID|Ontology name|Domain|License|Modularity|Format|developed / reused / only indexed / only evaluated|Used in|Comments|NFDI contributions|
-|---|---|---|---|---|---|---|---|---|---|
-|AlgoData|Algorithm Knowledge Graph Ontology|Ontology of mathematicals algorithms|||owl|developed|AlgoData|wip||
-|MathModDB|Ontology for Mathematical Models|Ontology of mathematical models|||owl|developed|Knowledge Graph for mathematical models|wip||
-|QUDT|Quantities, Units, Dimensons, Types|Quantities||||reused|MathModDB|||
-|MSC|Mathematical Subject Classification|Application Domain|||skos|only evaluated|MathModDB|||
-|PhysSH|Physical Subject Classification|Application Domain||||only evaluated|MathModDB|||
-|Basisklassifikation||Application Domain||||only evaluated|MathModDB|||
-|CodeMeta||Software||||only evaluated||||
-|AMV|Algorithms Metadata Vocabulary|||||only evaluated||||
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000027&title=Add%20prefix%20X%20to%20collection%200000027).
+
+This collection is maintained by:
+
+- [Björn Schembera](https://semantic.farm/orcid:0000-0003-2860-6621)
+
+| Prefix                                           | Name                                                           | License         |
+| ------------------------------------------------ | -------------------------------------------------------------- | --------------- |
+| [`amv`](https://semantic.farm/amv)               | Algorithm Metadata Vocabulary                                  | CC0-1.0         |
+| [`codemeta`](https://semantic.farm/codemeta)     | CodeMeta                                                       | Apache-2.0      |
+| [`mathalgodb`](https://semantic.farm/mathalgodb) | Algorithm Knowledge Graph Ontology                             | CC-BY-4.0       |
+| [`mathmoddb`](https://semantic.farm/mathmoddb)   | MathModDB Ontology and Knowledge Graph for Mathematical Models | CC-BY-4.0       |
+| [`msc`](https://semantic.farm/msc)               | Mathematics Subject Classification                             | CC BY-NC-SA 3.0 |
+| [`physh`](https://semantic.farm/physh)           | Physics Subject Headings                                       | CC0-1.0         |
+| [`qudt`](https://semantic.farm/qudt)             | Quantities, Units, Dimensions, and Types Ontology              | CC-BY-4.0       |
+| [`tib.bk`](https://semantic.farm/tib.bk)         | Basic Classification                                           | CC0-1.0         |

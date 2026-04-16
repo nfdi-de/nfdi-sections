@@ -2,29 +2,26 @@
 title: Text+
 ---
 
-Source: `/files/meta/Used_Ontologies_at_NFDI.xlsx` (sheet: Text+)
+This page was automatically generated on 2026-04-16 using Semantic Farm
+v0.13.40. See this collection in the
+[Semantic Farm](https://semantic.farm/collection/0000038).
 
-|BARTOC URI|Ontology ID|License|Domain|Format|Modularity|developed / reused / only indexed / only evaluated|Used in|Comments|
-|---|---|---|---|---|---|---|---|---|
-|none|LIDO|CC BY 4.0|Museum Sector, cultural heritage|xsd|based on CIDOC-CRM, CDWA, museumdat, and SPECTRUM|reused|||
-|http://bartoc.org/en/node/20291|CIDOC-CRM|CC BY 4.0|Museum Sector, cultural heritage|owl|Abstract data model|reused|||
-|http://bartoc.org/en/node/1576|CERIF|CC BY 3.0|Information about research (activities, institutions...)|owl||reused|||
-|multiple|OntoME|CC BY 4.0||rdf|based on CIDOC-CRM|reused|||
-|none (not one ontology)|TEI|CC BY 3.0|Textual Documents|xsd||reused|||
-||MiMoText|CC0 1.0|Literary History (French Enlightenment Novel)|rdf|Wikibase-based, maps_to: "WIKIDATA, 11 modules"|reused|Mining and Modeling Text||
-|http://bartoc.org/en/node/20436|OntoLex|W3C Community FSA|Lexical resources|owl||reused|||
-|http://bartoc.org/en/node/857|BIBFRAME|Apache License 2.0||owl||reused|||
-|http://bartoc.org/en/node/963|CESSDA|CC BY-NC-SA 4.0||skos||reused|||
-|http://bartoc.org/en/node/18706|DARIAH Backbone Thesaurus|||skos||reused|||
-|http://bartoc.org/en/node/1674|GEONAMES|CC BY 4.0|General: Geographic Names|owl||reused|||
-|https://bartoc.org/en/node/75|AAT|ODC-By 1.0|Culture: Art & Architecture|skos||reused||partOf Getty Vocabularies|
-|https://bartoc.org/en/node/109|TGN|ODC-By 1.0|General: Geographic Names|skos||reused||partOf Getty Vocabularies|
-|https://bartoc.org/en/node/94|CONA|ODC-By 1.0|Culture: Cultural Objects|skos||reused||partOf Getty Vocabularies|
-|https://bartoc.org/en/node/118|ULAN|ODC-By 1.0|Culture: Artist Names & Information|skos||reused||partOf Getty Vocabularies|
-|none|IA|ODC-By 1.0|Culture: proper names, relationships, and dates for iconographical narratives, religious or fictional characters, historical events, names of literary works and performing art|skos||reused||partOf Getty Vocabularies|
-|https://bartoc.org/en/node/18498|CDWA|ODC-By 1.0|Culture: set of guidelines and cataloging rules for the description of art, architecture, and other cultural works|skos||reused||partOf Getty Vocabularies|
-|http://bartoc.org/en/node/430|GND|CC0 1.0|General: authority file of named entities|rdf||reused|||
-|http://bartoc.org/en/node/459|Iconclass||Art History|skos||reused|||
-|multiple|Library of Congress Vocabularies||General: named entities|skos||reused|||
-|multiple|Loterre vocabularies||General|skos||reused|||
-|http://bartoc.org/en/node/18|Rameau||General|skos||reused|||
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000038&title=Add%20prefix%20X%20to%20collection%200000038).
+
+| Prefix                                                                           | Name                                          | License    |
+| -------------------------------------------------------------------------------- | --------------------------------------------- | ---------- |
+| [`bibframe`](https://semantic.farm/bibframe)                                     | Bibliographic Framework Initiative Vocabulary | CC0-1.0    |
+| [`cessda.topicclassification`](https://semantic.farm/cessda.topicclassification) | CESSDA Topic Classification                   | CC-BY-4.0  |
+| [`cidoc.crm`](https://semantic.farm/cidoc.crm)                                   | CIDOC Conceptual Reference Model              |            |
+| [`geonames`](https://semantic.farm/geonames)                                     | GeoNames                                      | CC-BY-4.0  |
+| [`getty.att`](https://semantic.farm/getty.att)                                   | Art and Architecture Thesaurus                | ODC-By-1.0 |
+| [`getty.cona`](https://semantic.farm/getty.cona)                                 | Cultural Objects Names Authority              | ODC-By-1.0 |
+| [`getty.ia`](https://semantic.farm/getty.ia)                                     | Getty Iconography Authority                   |            |
+| [`getty.tgn`](https://semantic.farm/getty.tgn)                                   | Getty Thesaurus of Geographic Names           | ODC-By-1.0 |
+| [`getty.ulan`](https://semantic.farm/getty.ulan)                                 | Union List of Artist Names                    | ODC-By-1.0 |
+| [`gnd`](https://semantic.farm/gnd)                                               | Gemeinsame Normdatei                          | CC0-1.0    |
+| [`iconclass`](https://semantic.farm/iconclass)                                   | Iconclass Classification                      | ODBL       |
+| [`lido`](https://semantic.farm/lido)                                             | Lightweight Information Describing Objects    | CC-BY-4.0  |
+| [`ontolex`](https://semantic.farm/ontolex)                                       | Lexicon Model for Ontologies                  |            |
+| [`ontome`](https://semantic.farm/ontome)                                         | Ontology Management Environment               | CC-BY-4.0  |

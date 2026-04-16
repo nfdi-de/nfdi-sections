@@ -2,18 +2,23 @@
 title: NFDI-MatWerk
 ---
 
-Source: `/files/meta/Used_Ontologies_at_NFDI.xlsx` (sheet: NFDI-MatWerk)
+This page was automatically generated on 2026-04-16 using Semantic Farm
+v0.13.40. See this collection in the
+[Semantic Farm](https://semantic.farm/collection/0000031).
 
-|Ontology ID|Domain|License|Modularity|Format|developed / reused / only indexed / only evaluated|Used in|Comment|
-|---|---|---|---|---|---|---|---|
-|MDMC-NEP|top-level management of research experiments workflow|CC BY 3.0|based on the MDMC Glossary and aligned with PROV-O, DCTERM for annotations||reused|JL MDMC, NEP, EOSC-Pillar|https://jl-mdmc-helmholtz.de/ontology/; https://github.com/Materials-Data-Science-and-Informatics/MDMC-NEP-top-level-ontology|
-|user schema|||||reused|JL MDMC, NEP, MatWerk||
-|sample schema|physical samples||||reused|JL MDMC, NEP||
-|SEM schema|Scanning Electron Microscopy||user, sample||reused|JL MDMC, NEP, MatWerk||
-|TEM schema|Transmission Electron Microscopy||user, sample||reused|JL MDMC, NEP||
-|MRI schema|Magnetic Resonance Imaging||user||reused|JL MDMC, NEP, HMC||
-|MWO|research information about the NFDI-MatWerk|CC BY 4.0|based on NFDICO, imports SCHEMA, maps_to: "DCAT, DOAP, FOAF, FABIO, SD, VCARD, VIVO, SWO, WIKIDATA, ORG, FRAPO, MODSCI, DBO, SCHEMA, DCTERMS, IAO, OBI"|owl|extended existing modular ontologies|MatWerk|based on NFDICO, see https://ise-fizkarlsruhe.github.io/nfdicore/|
-|NFDICORE||||owl||||
-|PMD|Material Science|||owl||Platform Materail Digital|https://w3id.org/pmd/co/|
-|Chebi|Chemistry|||owl||||
-|BFO2020||||owl||||
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000031&title=Add%20prefix%20X%20to%20collection%200000031).
+
+This collection is maintained by:
+
+- [Ebrahim Nourouzi](https://semantic.farm/orcid:0000-0002-2691-6995)
+- [Heike Fliegl](https://semantic.farm/orcid:0000-0002-7541-115X)
+
+| Prefix                                         | Name                                                  | License   | Comment                           |
+| ---------------------------------------------- | ----------------------------------------------------- | --------- | --------------------------------- |
+| [`BFO`](https://semantic.farm/bfo)             | Basic Formal Ontology                                 | CC-BY-4.0 |                                   |
+| [`CHEBI`](https://semantic.farm/chebi)         | Chemical Entities of Biological Interest              | CC-BY-4.0 |                                   |
+| [`mwo`](https://semantic.farm/mwo)             | NFDI MatWerk Ontology                                 | CC0-1.0   |                                   |
+| [`nfdi.core`](https://semantic.farm/nfdi.core) | NFDI Core Ontology                                    | CC0-1.0   |                                   |
+| [`pmdco`](https://semantic.farm/pmdco)         | Platform Material Digital Core Ontology               | CC-BY-4.0 |                                   |
+| [`prima`](https://semantic.farm/prima)         | Provenance Information for Materials Science Ontology | CC-BY-3.0 | used by JL MDMC, NEP, EOSC-Pillar |
