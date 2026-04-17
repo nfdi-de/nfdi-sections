@@ -1,0 +1,97 @@
+name: Calendar Issue to PR
+
+on:
+  issues:
+    types: [opened, edited, reopened, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-pr:
+    # Run if the issue has the 'calendar' label OR the title starts with our template prefix
+    if: contains(toJson(github.event.issue.labels), 'calendar') || startsWith(github.event.issue.title, '[Calendar]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PAT_TOKEN secret
+        run: |
+          if [ -z "${{ secrets.PAT_TOKEN }}" ]; then
+            echo "::error::PAT_TOKEN secret is not set. Go to Settings → Secrets and variables → Actions and add a PAT_TOKEN repository secret."
+            exit 1
+          fi
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Ensure 'calendar' label exists and is applied
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const name = 'calendar';
+            // Ensure label exists
+            try {
+              await github.rest.issues.getLabel({owner, repo, name});
+            } catch (e) {
+              if (e.status === 404) {
+                await github.rest.issues.createLabel({owner, repo, name, color: '0E8A16'});
+              } else {
+                core.warning(`Could not get/create label: ${e.message}`);
+              }
+            }
+            // Apply label to the issue (ignore if already labeled)
+            try {
+              await github.rest.issues.addLabels({owner, repo, issue_number: context.issue.number, labels: [name]});
+            } catch (e) {
+              core.info(`Label may already be present: ${e.message}`);
+            }
+
+      - name: Write issue body to file
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = context.payload.issue.body || '';
+            fs.writeFileSync('issue_body.txt', body, 'utf8');
+            core.info(`Issue body written (${body.length} chars)`);
+
+      - name: Append calendar entry
+        env:
+          ISSUE_BODY_FILE: issue_body.txt
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        run: |
+          node scripts/addCalendarEntry.cjs
+
+      - name: Validate calendar.json
+        run: jq empty static/calendar.json
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          base: main
+          commit-message: "chore(calendar): add event from #${{ github.event.issue.number }}"
+          title: "Add calendar event: #${{ github.event.issue.number }}"
+          body: |
+            This PR was created automatically from issue #${{ github.event.issue.number }}.
+            Please review the event details in `static/calendar.json`.
+
+            Closes #${{ github.event.issue.number }}
+          branch: chore/add-calendar-${{ github.event.issue.number }}
+          labels: calendar
+
+      - name: Verify PR was created
+        if: steps.cpr.outputs.pull-request-number == ''
+        run: |
+          echo "::error::No PR was created. Either calendar.json was not modified or the token lacks pull-request write permissions."
+          exit 1

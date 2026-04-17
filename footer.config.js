@@ -11,9 +11,8 @@ const footer = {
     {
       title: 'Community',
       items: [
-        { label: 'Lorum Ipsum', to: '/' },
-        { label: 'Lorum Ipsum', to: '/' },
-        { label: 'Lorum Ipsum', to: '/' },
+        { label: 'NFDI e.V.', to: 'https://www.nfdi.de/' },
+        { label: 'Base4NFDI', to: 'https://base4nfdi.de/' },
       ],
     },
     {

@@ -19,6 +19,9 @@
   --ifm-navbar-height: 72px;
 }
 
+/* Base styles for third-party calendar */
+@import 'react-big-calendar/lib/css/react-big-calendar.css';
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
@@ -49,4 +52,94 @@
 .navbar__logo img {
   max-height: 2.75rem;
   width: auto;
+}
+
+/* Calendar (react-big-calendar) theme tweaks */
+.calendarWrapper :where(.rbc-calendar) {
+  font-family: var(--ifm-font-family-base);
+  color: var(--ifm-font-color-base);
+  background: transparent;
+}
+.calendarWrapper .rbc-toolbar button {
+  border-radius: 4px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  padding: 0.35rem 0.6rem;
+}
+.calendarWrapper .rbc-toolbar button.rbc-active,
+.calendarWrapper .rbc-toolbar button:focus,
+.calendarWrapper .rbc-toolbar button:hover {
+  background: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
+  border-color: var(--ifm-color-primary);
+}
+.calendarWrapper .rbc-toolbar .rbc-toolbar-label {
+  font-weight: 600;
+}
+.calendarWrapper .rbc-month-view,
+.calendarWrapper .rbc-time-view,
+.calendarWrapper .rbc-agenda-view {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+}
+.calendarWrapper .rbc-today {
+  background-color: rgba(0, 156, 188, 0.08);
+}
+.calendarWrapper .rbc-off-range-bg {
+  background: var(--ifm-background-color);
+}
+.calendarWrapper .rbc-event {
+  box-shadow: var(--ifm-global-shadow-lw);
+  color: #ffffff;
+  border: none;
+}
+.calendarWrapper .rbc-header,
+.calendarWrapper .rbc-time-header,
+.calendarWrapper .rbc-timeslot-group,
+.calendarWrapper .rbc-agenda-table thead > tr > th,
+.calendarWrapper .rbc-agenda-table tbody > tr > td {
+  border-color: var(--ifm-color-emphasis-300);
+}
+.calendarWrapper .rbc-overlay {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: var(--ifm-global-shadow-lw);
+  border-radius: 6px;
+}
+
+/* Calendar modal */
+.calendarModalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.calendarModal {
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  box-shadow: var(--ifm-global-shadow-lw);
+  max-width: 640px;
+  width: 100%;
+}
+.calendarModalHeader,
+.calendarModalFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+.calendarModalFooter {
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  border-bottom: none;
+}
+.calendarModalBody {
+  padding: 0.75rem 1rem;
 }

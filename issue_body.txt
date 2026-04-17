@@ -1,0 +1,43 @@
+### Title
+
+Section Meeting International Engagement
+
+### Date (YYYY-MM-DD)
+
+2026-03-31
+
+### Start time (HH:MM)
+
+13:00
+
+### End time (HH:MM)
+
+14:30
+
+### All day event?
+
+false
+
+### Location
+
+_No response_
+
+### Link (optional)
+
+_No response_
+
+### event.website (optional)
+
+_No response_
+
+### Type
+
+section
+
+### Organiser
+
+Section International
+
+### Description
+
+Kick-Off Section Meeting International Engagement

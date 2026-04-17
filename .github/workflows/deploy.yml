@@ -11,7 +11,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '20'
-      - run: npm ci
+          cache: 'npm'
+      # Install dependencies from lockfile for reproducible builds
+      - name: Install dependencies
+        run: npm ci
       - run: npm run build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

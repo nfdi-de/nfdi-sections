@@ -1,0 +1,16 @@
+name: Validate Calendar JSON
+
+on:
+  pull_request:
+    paths:
+      - 'static/calendar.json'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate JSON with jq
+        run: jq empty static/calendar.json
+
