@@ -1,18 +1,18 @@
 ### Title
 
-Section Meeting International Engagement
+NFDI Consortia Assembly
 
 ### Date (YYYY-MM-DD)
 
-2026-03-31
+2026-04-17
 
 ### Start time (HH:MM)
 
-13:00
+09:00
 
 ### End time (HH:MM)
 
-14:30
+13:00
 
 ### All day event?
 
@@ -32,12 +32,12 @@ _No response_
 
 ### Type
 
-section
+_No response_
 
 ### Organiser
 
-Section International
+NFDI
 
 ### Description
 
-Kick-Off Section Meeting International Engagement
+NFDI Consortia Assembly
