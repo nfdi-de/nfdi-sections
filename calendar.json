@@ -216,6 +216,18 @@
     "createdBy": "okoepler"
   },
   {
+    "title": "NFDI Consortia Assembly",
+    "start": "2026-04-17T09:00:00+02:00",
+    "end": "2026-04-17T13:00:00+02:00",
+    "allDay": false,
+    "type": "Event",
+    "organiser": "NFDI",
+    "category": "nfdi",
+    "color": "#003764",
+    "description": "NFDI Consortia Assembly",
+    "createdBy": "okoepler"
+  },
+  {
     "title": "NFDI nach 2029",
     "start": "2026-04-21",
     "end": "2026-04-22",
