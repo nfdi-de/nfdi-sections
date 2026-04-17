@@ -26,11 +26,6 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
       - name: Ensure 'calendar' label exists and is applied
         uses: actions/github-script@v7
         with:
