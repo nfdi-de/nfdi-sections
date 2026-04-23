@@ -3,7 +3,7 @@ title: Introduction
 sidebar_position: 1
 ---
 
-# Common Infrastructure (INFRA)
+# Common Infrastructures (INFRA)
 
 The Section Common Infrastructures addresses the challenges of building shared, interoperable technical services that span NFDI consortia. Its working groups develop solutions for data integration, identity management, persistent identifiers, long-term preservation, electronic lab notebooks, data management planning, research software engineering, and more. The section acts as a coordination hub ensuring that infrastructure components developed across consortia are compatible, reusable, and aligned with FAIR principles.
 
