@@ -1,5 +1,10 @@
 ### Title
 
+Meeting Section Working Group Coordinators
+
+### Date (YYYY-MM-DD)
+
+2026-04-24
 Seaction Meeting EduTrain
 
 ### Date (YYYY-MM-DD)
@@ -39,7 +44,7 @@ _No response_
 
 ### Type
 
-_No response_
+WG
 
 ### Organiser
 
