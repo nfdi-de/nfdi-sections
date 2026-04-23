@@ -216,6 +216,18 @@
     "createdBy": "okoepler"
   },
   {
+    "title": "Section Meeting Common Infrastructures",
+    "start": "2026-04-15T10:00:00+02:00",
+    "end": "2026-04-15T12:00:00+02:00",
+    "allDay": false,
+    "location": "hybrid",
+    "type": "Event",
+    "organiser": "NFDI",
+    "category": "nfdi",
+    "color": "#003764",
+    "createdBy": "Wiljes"
+  },
+  {
     "title": "NFDI Consortia Assembly",
     "start": "2026-04-17T09:00:00+02:00",
     "end": "2026-04-17T13:00:00+02:00",
