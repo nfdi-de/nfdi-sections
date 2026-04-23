@@ -13,12 +13,12 @@ The NFDI Overall Architecture Working Group aims to develop a shared vision and 
 - Contact: Marius Politze, Philipp Wieder
 :::
 
-## Ressources
+## Resources
 
 - Working Group Charter on Zenodo: [https://doi.org/10.5281/zenodo.15210894](https://doi.org/10.5281/zenodo.15210894)
 - Further links will be added later.
 
-## Mailing list
+## Mailinglist
 
 - Address: tba
 - Subscribe/Archive: tba
