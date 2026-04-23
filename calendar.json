@@ -279,6 +279,18 @@
     "createdBy": "okoepler"
   },
   {
+    "title": "Seaction Meeting EduTrain",
+    "start": "2026-04-30T09:00:00+02:00",
+    "end": "2026-04-30T11:00:00+02:00",
+    "allDay": false,
+    "location": "Online",
+    "type": "Event",
+    "organiser": "NFDI",
+    "category": "nfdi",
+    "color": "#003764",
+    "createdBy": "Wiljes"
+  },
+  {
     "title": "NFDI4ChemConsortium Meeting (Plenary)",
     "start": "2026-05-12",
     "end": "2026-05-13",
