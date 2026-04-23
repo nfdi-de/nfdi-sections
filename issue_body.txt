@@ -1,10 +1,10 @@
 ### Title
 
-NFDI Consortia Assembly
+Seaction Meeting EduTrain
 
 ### Date (YYYY-MM-DD)
 
-2026-04-17
+2026-04-30
 
 ### Start time (HH:MM)
 
@@ -12,7 +12,7 @@ NFDI Consortia Assembly
 
 ### End time (HH:MM)
 
-13:00
+11:00
 
 ### All day event?
 
@@ -20,7 +20,7 @@ false
 
 ### Location
 
-_No response_
+Online
 
 ### Link (optional)
 
@@ -40,4 +40,4 @@ NFDI
 
 ### Description
 
-NFDI Consortia Assembly
+_No response_
