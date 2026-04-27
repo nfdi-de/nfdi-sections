@@ -2,8 +2,8 @@
 title: NFDI4Culture
 ---
 
-This page was automatically generated on 2026-04-16 using Semantic Farm
-v0.13.40. See this collection in the
+This page was automatically generated on 2026-04-27 using Semantic Farm
+v0.13.44. See this collection in the
 [Semantic Farm](https://semantic.farm/collection/0000025).
 
 Suggest a new addition to this collection
@@ -22,7 +22,7 @@ This collection is maintained by:
 | [`dcterms`](https://semantic.farm/dcterms)                   | Dublin Core Metadata Initiative Terms                  |            |
 | [`doap`](https://semantic.farm/doap)                         | Description of a Project                               |            |
 | [`fabio`](https://semantic.farm/fabio)                       | FaBiO, the FRBR-aligned Bibliographic Ontology         | CC-BY-4.0  |
-| [`foaf`](https://semantic.farm/foaf)                         | Friend of a Friend                                     |            |
+| [`foaf`](https://semantic.farm/foaf)                         | Friend of a Friend                                     | CC-BY-1.0  |
 | [`FRAPO`](https://semantic.farm/frapo)                       | Funding, Research Administration and Projects Ontology |            |
 | [`geonames`](https://semantic.farm/geonames)                 | GeoNames                                               | CC-BY-4.0  |
 | [`gnd`](https://semantic.farm/gnd)                           | Gemeinsame Normdatei                                   | CC0-1.0    |

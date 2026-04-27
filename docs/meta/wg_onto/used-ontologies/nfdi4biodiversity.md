@@ -2,8 +2,8 @@
 title: NFDI4Biodiversity
 ---
 
-This page was automatically generated on 2026-04-16 using Semantic Farm
-v0.13.40. See this collection in the
+This page was automatically generated on 2026-04-27 using Semantic Farm
+v0.13.44. See this collection in the
 [Semantic Farm](https://semantic.farm/collection/0000040).
 
 Suggest a new addition to this collection
@@ -71,7 +71,7 @@ This collection is maintained by:
 | [`schema`](https://semantic.farm/schema)                       | Schema.org                                                           |                                                                                   |
 | [`sosa`](https://semantic.farm/sosa)                           | Sensor, Observation, Sample, and Actuator Ontology                   | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
 | [`sumso`](https://semantic.farm/sumso)                         | Sustainable Meat Systems Ontology                                    | CC-BY-4.0                                                                         |
-| [`sweet`](https://semantic.farm/sweet)                         | Semantic Web for Earth and Environment Technology Ontology           | CC_MARK                                                                           |
+| [`sweet`](https://semantic.farm/sweet)                         | Semantic Web for Earth and Environment Technology Ontology           | CC0-1.0                                                                           |
 | [`SWO`](https://semantic.farm/swo)                             | Software ontology                                                    | CC-BY-4.0                                                                         |
 | [`taxonconcept`](https://semantic.farm/taxonconcept)           | TaxonConcept Ontology                                                |                                                                                   |
 | [`TAXRANK`](https://semantic.farm/taxrank)                     | Taxonomic rank vocabulary                                            | CC0-1.0                                                                           |

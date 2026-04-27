@@ -2,12 +2,18 @@
 title: NFDI4Ing
 ---
 
-This page was automatically generated on 2026-04-16 using Semantic Farm
-v0.13.40. See this collection in the
+This page was automatically generated on 2026-04-27 using Semantic Farm
+v0.13.44. See this collection in the
 [Semantic Farm](https://semantic.farm/collection/0000022).
 
 Suggest a new addition to this collection
 [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000022&title=Add%20prefix%20X%20to%20collection%200000022).
+
+This collection is maintained by:
+
+- [Dorothea Iglezakis](https://semantic.farm/orcid:0000-0002-8524-0569)
+- [Giacomo Lanza](https://semantic.farm/orcid:0000-0002-2239-3955)
+- [Susanne Arndt](https://semantic.farm/orcid:0000-0002-1019-9151)
 
 | Prefix                                                                                 | Name                                                                                       | License                                                                           |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
@@ -86,7 +92,7 @@ Suggest a new addition to this collection
 | [`sosa`](https://semantic.farm/sosa)                                                   | Sensor, Observation, Sample, and Actuator Ontology                                         | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
 | [`ssn`](https://semantic.farm/ssn)                                                     | Semantic Sensor Network Ontology                                                           | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
 | [`ssn.system`](https://semantic.farm/ssn.system)                                       | System capabilities, operating ranges, and survival ranges ontology                        | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
-| [`sweet`](https://semantic.farm/sweet)                                                 | Semantic Web for Earth and Environment Technology Ontology                                 | CC_MARK                                                                           |
+| [`sweet`](https://semantic.farm/sweet)                                                 | Semantic Web for Earth and Environment Technology Ontology                                 | CC0-1.0                                                                           |
 | [`SWO`](https://semantic.farm/swo)                                                     | Software ontology                                                                          | CC-BY-4.0                                                                         |
 | [`T4FS`](https://semantic.farm/t4fs)                                                   | terms4FAIRskills                                                                           | CC-BY-4.0                                                                         |
 | [`tib.bk`](https://semantic.farm/tib.bk)                                               | Basic Classification                                                                       | CC0-1.0                                                                           |
