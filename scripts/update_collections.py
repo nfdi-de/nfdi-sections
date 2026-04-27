@@ -101,6 +101,10 @@ def main() -> None:
             text += tabulate(rows, headers=headers, tablefmt="github")
             text += "\n"
 
+        # TODO add a "how to edit" section that either
+        #  says to make a suggestion on Semantic Farm or to update
+        #  upstream lists on TIB/BARTOC
+
         path.write_text(text)
 
         index_rows.append(
