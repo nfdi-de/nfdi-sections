@@ -116,7 +116,18 @@ def main() -> None:
         headers=["Consortium", "# Ontologies", "Collection Maintainers"],
         tablefmt="github",
     )
-    index_text += "\n"
+    index_text += dedent("""\
+    
+    Update collections with the newest content from the [Semantic Farm](https://semantic.farm)
+    by running the following commands:
+
+    ```console
+    $ git clone https://github.com/nfdi-de/nfdi-sections
+    $ cd nfdi-sections
+    $ uv run scripts/update_collections.py
+    $ git commit -am "Update WG Onto collections"
+    $ git push
+    """)
 
     ONTOLOGIES.joinpath("index.md").write_text(index_text)
 

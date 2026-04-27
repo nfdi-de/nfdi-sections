@@ -27,3 +27,14 @@ at https://semantic.farm/collection/?ror=05qj6w324.
 | [NFDI4Memory](/docs/meta/wg_onto/used-ontologies/nfdi4memory.md)             | 21           | Tabea Tietz                                              |
 | [NFDI4Objects](/docs/meta/wg_onto/used-ontologies/nfdi4objects.md)           | 47           | Anja Gerber, Florian Thiery, Jakob Voß, Kristina Fischer |
 | [Text+](/docs/meta/wg_onto/used-ontologies/text-plus.md)                     | 15           | Thorsten Trippel                                         |
+
+Update collections with the newest content from the
+[Semantic Farm](https://semantic.farm) by running the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```
