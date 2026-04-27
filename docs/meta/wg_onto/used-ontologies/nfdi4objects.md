@@ -2,19 +2,31 @@
 title: NFDI4Objects
 ---
 
-This page was automatically generated on 2026-04-27 using Semantic Farm
-v0.13.44. See this collection in the
-[Semantic Farm](https://semantic.farm/collection/0000036).
+## Important Links
 
-Suggest a new addition to this collection
-[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000036&title=Add%20prefix%20X%20to%20collection%200000036).
+- See this collection in the
+  [Semantic Farm](https://semantic.farm/collection/0000036).
+- Suggest a new addition to this collection
+  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000036&title=Add%20prefix%20X%20to%20collection%200000036).
 
-This collection is maintained by:
+## Description
+
+A collection of ontologies, controlled vocabularies, and schemas relevant for
+the NFDI4Objects Consortium imported from the consortium's official BARTOC
+record [https://bartoc.org/en/node/18961](https://bartoc.org/en/node/18961).
+
+Note: this collection is a subset of the BARTOC collection until all ontologies
+and controlled vocabularies in the BARTOC collection are also curated in the
+Semantic Farm.
+
+## Maintainers
 
 - [Jakob Voß](https://semantic.farm/orcid:0000-0002-7613-4123)
 - [Anja Gerber](https://semantic.farm/orcid:0000-0003-2576-1511)
 - [Florian Thiery](https://semantic.farm/orcid:0000-0002-3246-3531)
 - [Kristina Fischer](https://semantic.farm/orcid:0009-0005-3991-1025)
+
+## Ontologies
 
 | Prefix                                                                             | Name                                                                              | License                               |
 | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------- |
@@ -65,3 +77,17 @@ This collection is maintained by:
 | [`viaf`](https://semantic.farm/viaf)                                               | Virtual International Authority File                                              | ODC-By-1.0                            |
 | [`whg`](https://semantic.farm/whg)                                                 | World Historical Gazetteer                                                        | CC BY-NC 4.0                          |
 | [`wikidata`](https://semantic.farm/wikidata)                                       | Wikidata                                                                          | CC0-1.0                               |
+
+## Colophon
+
+This page was automatically generated on 2026-04-27 using
+[Semantic Farm v0.13.44](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.44)
+using the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```

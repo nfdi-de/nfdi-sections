@@ -2,16 +2,33 @@
 title: NFDI4Chem
 ---
 
-This page was automatically generated on 2026-04-27 using Semantic Farm
-v0.13.44. See this collection in the
-[Semantic Farm](https://semantic.farm/collection/0000014).
+## Important Links
 
-Suggest a new addition to this collection
-[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000014&title=Add%20prefix%20X%20to%20collection%200000014).
+- See this collection in the
+  [Semantic Farm](https://semantic.farm/collection/0000014).
+- Suggest a new addition to this collection
+  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000014&title=Add%20prefix%20X%20to%20collection%200000014).
 
-This collection is maintained by:
+## Description
+
+A collection of ontologies relevant within the
+[NFDI4Chem project](https://www.nfdi4chem.de/) that is mostly based on the
+overview paper
+[Ontologies4Chem: the landscape of ontologies in chemistry](https://doi.org/10.1515/pac-2021-2007).
+
+NFDI4Chem deploys a [custom instance](https://terminology.nfdi4chem.de/ts/) of
+the Ontology Lookup Service (OLS), called NFDI4Chem Terminology Services (TS),
+that provides the ontologies in this list. This list contains ontologies that
+cover various domains of chemistry (e.g. ChEBI, CHMO, and RXNO), those that are
+dependencies of these chemistry specific ontologies (e.g. BFO, RO, IAO, and OBI)
+as well as those ontologies, which where indexed in the NFDI4Chem TS for
+interoperability research purposes (e.g. PROV-O, SOSA, and OBOE).
+
+## Maintainers
 
 - [Philip Strömert](https://semantic.farm/orcid:0000-0002-1595-3213)
+
+## Ontologies
 
 | Prefix                                                                 | Name                                                                                 | License                                                                           | Comment                                                               |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
@@ -66,3 +83,17 @@ This collection is maintained by:
 | [`worldavatar.compchem`](https://semantic.farm/worldavatar.compchem)   | Computational Chemistry Ontology                                                     |                                                                                   |                                                                       |
 | [`worldavatar.kin`](https://semantic.farm/worldavatar.kin)             | Ontology for Chemical Kinetic Reaction Mechanisms                                    |                                                                                   |                                                                       |
 | [`worldavatar.os`](https://semantic.farm/worldavatar.os)               | OntoSpecies - Chemical Species Ontology for Data Integration and Knowledge Discovery |                                                                                   |                                                                       |
+
+## Colophon
+
+This page was automatically generated on 2026-04-27 using
+[Semantic Farm v0.13.44](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.44)
+using the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```

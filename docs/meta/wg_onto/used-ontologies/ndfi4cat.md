@@ -2,18 +2,34 @@
 title: NDFI4Cat
 ---
 
-This page was automatically generated on 2026-04-27 using Semantic Farm
-v0.13.44. See this collection in the
-[Semantic Farm](https://semantic.farm/collection/0000011).
+## Important Links
 
-Suggest a new addition to this collection
-[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000011&title=Add%20prefix%20X%20to%20collection%200000011).
+- See this collection in the
+  [Semantic Farm](https://semantic.farm/collection/0000011).
+- Suggest a new addition to this collection
+  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000011&title=Add%20prefix%20X%20to%20collection%200000011).
 
-This collection is maintained by:
+## Description
+
+A collection of ontologies, controlled vocabularies, and schemas relevant for
+the NDFI4Cat Consortium.
+
+This collection was originally based on the metadata landscape of the ontologies
+in this list can be found
+[here](https://github.com/nfdi4cat/Ontology-Overview-of-NFDI4Cat).
+
+OntoCompChem and OntoKin appear on the NFDI4Cat list but have not yet been
+registered in the Bioregistry because the resources are missing/incomplete such
+that they do not meet minimum Bioregistry metadata standards. These might be
+added in the future if additional metadata can be found.
+
+## Maintainers
 
 - [Hendrik Borgelt](https://semantic.farm/orcid:0000-0001-5886-7860)
 - [Alexander Behr](https://semantic.farm/orcid:0000-0003-4620-8248)
 - [David Linke](https://semantic.farm/orcid:0000-0002-5898-1820)
+
+## Ontologies
 
 | Prefix                                                               | Name                                                          | License                                             |
 | -------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------- |
@@ -43,3 +59,17 @@ This collection is maintained by:
 | [`voc4cat`](https://semantic.farm/voc4cat)                           | A vocabulary for the catalysis disciplines                    | CC0-1.0                                             |
 | [`worldavatar.compchem`](https://semantic.farm/worldavatar.compchem) | Computational Chemistry Ontology                              |                                                     |
 | [`worldavatar.kin`](https://semantic.farm/worldavatar.kin)           | Ontology for Chemical Kinetic Reaction Mechanisms             |                                                     |
+
+## Colophon
+
+This page was automatically generated on 2026-04-27 using
+[Semantic Farm v0.13.44](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.44)
+using the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```

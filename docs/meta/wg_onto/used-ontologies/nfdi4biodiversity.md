@@ -2,17 +2,27 @@
 title: NFDI4Biodiversity
 ---
 
-This page was automatically generated on 2026-04-27 using Semantic Farm
-v0.13.44. See this collection in the
-[Semantic Farm](https://semantic.farm/collection/0000040).
+## Important Links
 
-Suggest a new addition to this collection
-[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000040&title=Add%20prefix%20X%20to%20collection%200000040).
+- See this collection in the
+  [Semantic Farm](https://semantic.farm/collection/0000040).
+- Suggest a new addition to this collection
+  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000040&title=Add%20prefix%20X%20to%20collection%200000040).
 
-This collection is maintained by:
+## Description
+
+A placeholder collection of ontologies, controlled vocabularies, and schemas
+relevant for the NFDI4Biodiversity Consortium created by the
+[NFDI Section Metadata WG Ontology Harmonization and Mapping](https://github.com/nfdi-de/section-metadata-wg-onto/).
+The working group is in the process of identifying NFDI4Biodiversity Consortium
+members appropriate for maintaining this collection.
+
+## Maintainers
 
 - [Naouel Karam](https://semantic.farm/orcid:0000-0002-6762-6417)
 - [Ralph Schäfermeier](https://semantic.farm/orcid:0000-0002-4349-6726)
+
+## Ontologies
 
 | Prefix                                                         | Name                                                                 | License                                                                           |
 | -------------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
@@ -81,3 +91,17 @@ This collection is maintained by:
 | [`unesco.thesaurus`](https://semantic.farm/unesco.thesaurus)   | UNESCO Thesaurus                                                     | CC-BY-3.0-IGO                                                                     |
 | [`VBO`](https://semantic.farm/vbo)                             | Vertebrate Breed Ontology                                            | CC-BY-4.0                                                                         |
 | [`VT`](https://semantic.farm/vt)                               | Vertebrate trait ontology                                            | CC-BY-4.0                                                                         |
+
+## Colophon
+
+This page was automatically generated on 2026-04-27 using
+[Semantic Farm v0.13.44](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.44)
+using the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```

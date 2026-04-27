@@ -2,16 +2,23 @@
 title: NFDI4BIOIMAGE
 ---
 
-This page was automatically generated on 2026-04-27 using Semantic Farm
-v0.13.44. See this collection in the
-[Semantic Farm](https://semantic.farm/collection/0000034).
+## Important Links
 
-Suggest a new addition to this collection
-[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000034&title=Add%20prefix%20X%20to%20collection%200000034).
+- See this collection in the
+  [Semantic Farm](https://semantic.farm/collection/0000034).
+- Suggest a new addition to this collection
+  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000034&title=Add%20prefix%20X%20to%20collection%200000034).
 
-This collection is maintained by:
+## Description
+
+A collection of ontologies, controlled vocabularies, database, and schemas
+relevant for NFDI4BIOIMAGE
+
+## Maintainers
 
 - [Damien Goutte-Gattat](https://semantic.farm/orcid:0000-0002-6095-8718)
+
+## Ontologies
 
 | Prefix                                             | Name                                     | License                                                                                                                     |
 | -------------------------------------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -37,3 +44,17 @@ This collection is maintained by:
 | [`SWO`](https://semantic.farm/swo)                 | Software ontology                        | CC-BY-4.0                                                                                                                   |
 | [`UBERON`](https://semantic.farm/uberon)           | Uber Anatomy Ontology                    | CC-BY-3.0                                                                                                                   |
 | [`UO`](https://semantic.farm/uo)                   | Units of measurement ontology            | CC-BY-3.0                                                                                                                   |
+
+## Colophon
+
+This page was automatically generated on 2026-04-27 using
+[Semantic Farm v0.13.44](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.44)
+using the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```

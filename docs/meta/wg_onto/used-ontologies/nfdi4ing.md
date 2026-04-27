@@ -2,18 +2,27 @@
 title: NFDI4Ing
 ---
 
-This page was automatically generated on 2026-04-27 using Semantic Farm
-v0.13.44. See this collection in the
-[Semantic Farm](https://semantic.farm/collection/0000022).
+## Important Links
 
-Suggest a new addition to this collection
-[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000022&title=Add%20prefix%20X%20to%20collection%200000022).
+- See this collection in the
+  [Semantic Farm](https://semantic.farm/collection/0000022).
+- Suggest a new addition to this collection
+  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000022&title=Add%20prefix%20X%20to%20collection%200000022).
 
-This collection is maintained by:
+## Description
+
+A collection of ontologies, controlled vocabularies, and schemas relevant for
+engineering and the [NFDI4Ing Consortium](https://nfdi4ing.de). Ontologies are
+chronologically imported from the corresponding
+[TIB Terminology Service collection](https://service.tib.eu/terminology/collections/nfdi4ing).
+
+## Maintainers
 
 - [Dorothea Iglezakis](https://semantic.farm/orcid:0000-0002-8524-0569)
 - [Giacomo Lanza](https://semantic.farm/orcid:0000-0002-2239-3955)
 - [Susanne Arndt](https://semantic.farm/orcid:0000-0002-1019-9151)
+
+## Ontologies
 
 | Prefix                                                                                 | Name                                                                                       | License                                                                           |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
@@ -119,3 +128,17 @@ This collection is maintained by:
 | [`vssocore`](https://semantic.farm/vssocore)                                           | Vehicle Signal Specification Core Ontology                                                 |                                                                                   |
 | [`woc.ontology`](https://semantic.farm/woc.ontology)                                   | Code Ontology                                                                              |                                                                                   |
 | [`wot.td`](https://semantic.farm/wot.td)                                               | Thing Description Ontology                                                                 |                                                                                   |
+
+## Colophon
+
+This page was automatically generated on 2026-04-27 using
+[Semantic Farm v0.13.44](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.44)
+using the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```

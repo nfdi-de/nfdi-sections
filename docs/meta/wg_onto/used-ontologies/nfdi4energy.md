@@ -2,16 +2,22 @@
 title: NFDI4Energy
 ---
 
-This page was automatically generated on 2026-04-27 using Semantic Farm
-v0.13.44. See this collection in the
-[Semantic Farm](https://semantic.farm/collection/0000021).
+## Important Links
 
-Suggest a new addition to this collection
-[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000021&title=Add%20prefix%20X%20to%20collection%200000021).
+- See this collection in the
+  [Semantic Farm](https://semantic.farm/collection/0000021).
+- Suggest a new addition to this collection
+  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000021&title=Add%20prefix%20X%20to%20collection%200000021).
 
-This collection is maintained by:
+## Description
+
+Prefixes for ontologies relevant for the NFDI4Energy
+
+## Maintainers
 
 - [Amanda Wein](https://semantic.farm/orcid:0009-0009-2960-3474)
+
+## Ontologies
 
 | Prefix                                                                           | Name                                                               | License      |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------ |
@@ -32,3 +38,17 @@ This collection is maintained by:
 | [`udsaes.fmi`](https://semantic.farm/udsaes.fmi)                                 | Functional Mock-up Interface Ontology                              |              |
 | [`udsaes.sms`](https://semantic.farm/udsaes.sms)                                 | Systems, Models, and Simulation Ontology                           |              |
 | [`zbw.stw`](https://semantic.farm/zbw.stw)                                       | Standard-Thesaurus Wirtschaft                                      |              |
+
+## Colophon
+
+This page was automatically generated on 2026-04-27 using
+[Semantic Farm v0.13.44](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.44)
+using the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```

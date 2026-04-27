@@ -2,16 +2,28 @@
 title: NFDI4Culture
 ---
 
-This page was automatically generated on 2026-04-27 using Semantic Farm
-v0.13.44. See this collection in the
-[Semantic Farm](https://semantic.farm/collection/0000025).
+## Important Links
 
-Suggest a new addition to this collection
-[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000025&title=Add%20prefix%20X%20to%20collection%200000025).
+- See this collection in the
+  [Semantic Farm](https://semantic.farm/collection/0000025).
+- Suggest a new addition to this collection
+  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000025&title=Add%20prefix%20X%20to%20collection%200000025).
 
-This collection is maintained by:
+## Description
+
+A placeholder collection of ontologies, controlled vocabularies, and schemas
+relevant for the NFDI4Culture Consortium seeded from corresponding the
+[TIB OLS collection](https://service.tib.eu/terminology/collections/nfdi4culture).
+The
+[NFDI Section Metadata WG Ontology Harmonization and Mapping](https://github.com/nfdi-de/section-metadata-wg-onto/)
+is in the process of identifying NFDI4Culture Consortium members appropriate for
+maintaining this collection.
+
+## Maintainers
 
 - [Tabea Tietz](https://semantic.farm/orcid:0000-0002-1648-1684)
+
+## Ontologies
 
 | Prefix                                                       | Name                                                   | License    |
 | ------------------------------------------------------------ | ------------------------------------------------------ | ---------- |
@@ -41,3 +53,17 @@ This collection is maintained by:
 | [`viaf`](https://semantic.farm/viaf)                         | Virtual International Authority File                   | ODC-By-1.0 |
 | [`vivo`](https://semantic.farm/vivo)                         | VIVO Ontology                                          | unlicense  |
 | [`wikidata`](https://semantic.farm/wikidata)                 | Wikidata                                               | CC0-1.0    |
+
+## Colophon
+
+This page was automatically generated on 2026-04-27 using
+[Semantic Farm v0.13.44](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.44)
+using the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```

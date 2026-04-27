@@ -2,16 +2,26 @@
 title: KonsortSWD
 ---
 
-This page was automatically generated on 2026-04-27 using Semantic Farm
-v0.13.44. See this collection in the
-[Semantic Farm](https://semantic.farm/collection/0000020).
+## Important Links
 
-Suggest a new addition to this collection
-[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000020&title=Add%20prefix%20X%20to%20collection%200000020).
+- See this collection in the
+  [Semantic Farm](https://semantic.farm/collection/0000020).
+- Suggest a new addition to this collection
+  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000020&title=Add%20prefix%20X%20to%20collection%200000020).
 
-This collection is maintained by:
+## Description
+
+[KonsortSWD (Strengthen, Widen, Deepen)](https://www.nfdi.de/consortia-konsortswd)
+is the German National Data Infrastructure (NFDI) consortium for social,
+educational, behavioral, and economic sciences. This collection reflects the
+prefixes collected by NFDI Section Metadata for ontologies and controlled
+vocabularies used by members of the consortium.
+
+## Maintainers
 
 - [Noemi Betancort](https://semantic.farm/orcid:0000-0002-0156-3556)
+
+## Ontologies
 
 | Prefix                                                                                                   | Name                                                           | License     |
 | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ----------- | --------- |
@@ -52,3 +62,17 @@ This collection is maintained by:
 | [`gesis.rexdatatype`](https://semantic.farm/gesis.rexdatatype)                                           | Data types in R                                                | EX research | CC-BY-4.0 |
 | [`gesis.rexgroups`](https://semantic.farm/gesis.rexgroups)                                               | Diversification criteria of R                                  | EX research | CC-BY-4.0 |
 | [`gesis.variables-relations`](https://semantic.farm/gesis.variables-relations)                           | Variables relations for Social Sciences research data          | CC-BY-4.0   |
+
+## Colophon
+
+This page was automatically generated on 2026-04-27 using
+[Semantic Farm v0.13.44](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.44)
+using the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```
