@@ -19,7 +19,7 @@ members appropriate for maintaining this collection.
 
 ## Maintainers
 
-This collection does not yet have maintainers.
+- [Benjamin Zapilko](https://semantic.farm/orcid:0000-0001-9495-040X)
 
 ## Ontologies
 
@@ -31,8 +31,8 @@ This collection does not yet have maintainers.
 
 ## Colophon
 
-This page was automatically generated on 2026-04-27 using
-[Semantic Farm v0.13.44](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.44)
+This page was automatically generated on 2026-04-27 using Semantic Farm
+([v0.13.45](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.45))
 by running the following commands:
 
 ```console

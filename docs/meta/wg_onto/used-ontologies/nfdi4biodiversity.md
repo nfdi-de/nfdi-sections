@@ -58,7 +58,7 @@ members appropriate for maintaining this collection.
 | [`gfbio.iho`](https://semantic.farm/gfbio.iho)                 | IHO World Seas                                                       |                                                                                   |
 | [`gfbio.kingdom`](https://semantic.farm/gfbio.kingdom)         | Kingdom Ontology                                                     | CC0-1.0                                                                           |
 | [`gfbio.top`](https://semantic.farm/gfbio.top)                 | Thesaurus of Plant Characteristics                                   |                                                                                   |
-| [`iadopt`](https://semantic.farm/iadopt)                       | I-ADOPT Framework ontology                                           | CC-BY-4.0                                                                         |
+| [`iadopt`](https://semantic.farm/iadopt)                       | I-ADOPT Framework Ontology                                           | CC-BY-4.0                                                                         |
 | [`inbio`](https://semantic.farm/inbio)                         | Invasion Biology Ontology                                            | CC BY-NC-SA 4.0                                                                   |
 | [`iso.3166`](https://semantic.farm/iso.3166)                   | ISO 3166-1 Country Code                                              |                                                                                   |
 | [`itis`](https://semantic.farm/itis)                           | Integrated Taxonomic Information System                              | CC0-1.0                                                                           |
@@ -94,8 +94,8 @@ members appropriate for maintaining this collection.
 
 ## Colophon
 
-This page was automatically generated on 2026-04-27 using
-[Semantic Farm v0.13.44](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.44)
+This page was automatically generated on 2026-04-27 using Semantic Farm
+([v0.13.45](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.45))
 by running the following commands:
 
 ```console

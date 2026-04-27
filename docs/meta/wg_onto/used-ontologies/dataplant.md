@@ -11,13 +11,11 @@ title: DataPLANT
 
 ## Description
 
-A placeholder collection of ontologies, controlled vocabularies, and schemas
-relevant for the DataPLANT Consortium seeded from corresponding the
+A collection of ontologies, controlled vocabularies, and schemas relevant for
+the DataPLANT Consortium seeded from corresponding the
 [TIB OLS collection](https://service.tib.eu/terminology/collections/dataplant).
-The
-[NFDI Section Metadata WG Ontology Harmonization and Mapping](https://github.com/nfdi-de/section-metadata-wg-onto/)
-is in the process of identifying DataPLANT Consortium members appropriate for
-maintaining this collection.
+See also a [recent review](https://doi.org/10.3389/fpls.2023.1279694) on
+ontologies for plant research data.
 
 ## Maintainers
 
@@ -66,12 +64,13 @@ maintaining this collection.
 | [`STATO`](https://semantic.farm/stato)                               | The Statistical Methods Ontology           | CC-BY-3.0    |
 | [`SWO`](https://semantic.farm/swo)                                   | Software ontology                          | CC-BY-4.0    |
 | [`TO`](https://semantic.farm/to)                                     | Plant Trait Ontology                       | CC-BY-4.0    |
+| [`UBERON`](https://semantic.farm/uberon)                             | Uber Anatomy Ontology                      | CC-BY-3.0    |
 | [`UO`](https://semantic.farm/uo)                                     | Units of measurement ontology              | CC-BY-3.0    |
 
 ## Colophon
 
-This page was automatically generated on 2026-04-27 using
-[Semantic Farm v0.13.44](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.44)
+This page was automatically generated on 2026-04-27 using Semantic Farm
+([v0.13.45](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.45))
 by running the following commands:
 
 ```console
