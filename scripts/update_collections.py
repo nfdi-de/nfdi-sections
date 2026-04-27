@@ -39,8 +39,6 @@ def main() -> None:
     for collection in bioregistry.read_collections().values():
         if not collection.has_organization_with_ror(NFDI_ROR):
             continue
-        if len(collection.resources) < 2:
-            continue
 
         name = collection.name.removesuffix(" Collection").strip()
         key = RENAMES.get(name.lower(), name.lower())
@@ -51,19 +49,27 @@ def main() -> None:
         ---
         title: {name}
         ---
-
-        This page was automatically generated on {today} using Semantic Farm v{bioregistry.version.get_version()}.
-        See this collection in the [Semantic Farm](https://semantic.farm/collection/{collection.identifier}).
-
-        Suggest a new addition to this collection [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection={collection.identifier}&title=Add%20prefix%20X%20to%20collection%20{collection.identifier}).
         """)
-        text += "\n\n"
+
+
+        if len(collection.resources) < 2:
+            text += "This consortia has not yet created an ontology list.\n"
+        else:
+            text += dedent(f"""\
+            This page was automatically generated on {today} using Semantic Farm v{bioregistry.version.get_version()}.
+            See this collection in the [Semantic Farm](https://semantic.farm/collection/{collection.identifier}).
+    
+            Suggest a new addition to this collection [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection={collection.identifier}&title=Add%20prefix%20X%20to%20collection%20{collection.identifier}).
+
+            """)
 
         if collection.maintainers:
             text += "This collection is maintained by:\n\n"
             for maintainer in collection.maintainers:
                 text += f"- [{maintainer.name.strip()}](https://semantic.farm/orcid:{maintainer.orcid})\n"
             text += "\n"
+        else:
+            text += "This collection does not yet have maintainers.\n\n"
 
         rows = []
 
@@ -71,27 +77,30 @@ def main() -> None:
             annotation.comment for annotation in collection.get_annotated_prefixes()
         )
 
-        for annotation in collection.get_annotated_prefixes():
-            resource = bioregistry.get_resource(annotation.prefix, strict=True)
+        if len(collection.resources) > 2:
+            for annotation in collection.get_annotated_prefixes():
+                resource = bioregistry.get_resource(annotation.prefix, strict=True)
 
-            license = resource.get_license()
-            if license and license.startswith("http"):
-                license = f"[Custom]({license})"
+                license = resource.get_license()
+                if license and license.startswith("http"):
+                    license = f"[Custom]({license})"
 
-            parts = [
-                f"[`{resource.get_preferred_prefix() or resource.prefix}`](https://semantic.farm/{resource.prefix})",
-                resource.get_name(),
-                license,
-            ]
+                parts = [
+                    f"[`{resource.get_preferred_prefix() or resource.prefix}`](https://semantic.farm/{resource.prefix})",
+                    resource.get_name(),
+                    license,
+                ]
+                if has_comments:
+                    parts.append(annotation.comment)
+                rows.append(tuple(parts))
+
+            headers = ["Prefix", "Name", "License"]
             if has_comments:
-                parts.append(annotation.comment)
-            rows.append(tuple(parts))
+                headers.append("Comment")
+            text += "\n"
+            text += tabulate(rows, headers=headers, tablefmt="github")
+            text += "\n"
 
-        headers = ["Prefix", "Name", "License"]
-        if has_comments:
-            headers.append("Comment")
-        text += tabulate(rows, headers=headers, tablefmt="github")
-        text += "\n"
         path.write_text(text)
 
         index_rows.append(

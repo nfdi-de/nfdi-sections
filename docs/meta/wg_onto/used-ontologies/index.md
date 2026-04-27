@@ -8,6 +8,7 @@ at https://semantic.farm/collection/?ror=05qj6w324.
 | Consortium                                                                   | # Ontologies | Collection Maintainers                                   |
 | ---------------------------------------------------------------------------- | ------------ | -------------------------------------------------------- |
 | [BERD@NFDI](/docs/meta/wg_onto/used-ontologies/berd-nfdi.md)                 | 3            | Atif Latif, Fidan Limani                                 |
+| [DAPHNE4NFDI](/docs/meta/wg_onto/used-ontologies/daphne4nfdi.md)             | 1            |                                                          |
 | [DataPLANT](/docs/meta/wg_onto/used-ontologies/dataplant.md)                 | 38           | Angela Kranz, Hannah Dörpholz, Kathryn Dumschott         |
 | [FAIRagro](/docs/meta/wg_onto/used-ontologies/fairagro.md)                   | 23           | Gabriel Schneider                                        |
 | [FAIRmat](/docs/meta/wg_onto/used-ontologies/fairmat.md)                     | 4            |                                                          |
@@ -23,9 +24,14 @@ at https://semantic.farm/collection/?ror=05qj6w324.
 | [NFDI4DataScience](/docs/meta/wg_onto/used-ontologies/nfdi4datascience.md)   | 3            |                                                          |
 | [NFDI4Earth](/docs/meta/wg_onto/used-ontologies/nfdi4earth.md)               | 27           | Auriol Degbelo                                           |
 | [NFDI4Energy](/docs/meta/wg_onto/used-ontologies/nfdi4energy.md)             | 17           | Amanda Wein                                              |
+| [NFDI4Health](/docs/meta/wg_onto/used-ontologies/nfdi4health.md)             | 1            | Matthias Löbe                                            |
+| [NFDI4Immuno](/docs/meta/wg_onto/used-ontologies/nfdi4immuno.md)             | 1            | Sebastian Böhm, Ulrik Stervbo                            |
 | [NFDI4Ing](/docs/meta/wg_onto/used-ontologies/nfdi4ing.md)                   | 102          | Dorothea Iglezakis, Giacomo Lanza, Susanne Arndt         |
 | [NFDI4Memory](/docs/meta/wg_onto/used-ontologies/nfdi4memory.md)             | 21           | Tabea Tietz                                              |
+| [NFDI4Microbiota](/docs/meta/wg_onto/used-ontologies/nfdi4microbiota.md)     | 1            | Anandhi Iyappan, Maja Magel, Noriko Cassman              |
 | [NFDI4Objects](/docs/meta/wg_onto/used-ontologies/nfdi4objects.md)           | 47           | Anja Gerber, Florian Thiery, Jakob Voß, Kristina Fischer |
+| [NFDIxCS](/docs/meta/wg_onto/used-ontologies/nfdixcs.md)                     | 1            | Fabian Huch                                              |
+| [PUNCH4NFDI](/docs/meta/wg_onto/used-ontologies/punch4nfdi.md)               | 1            |                                                          |
 | [Text+](/docs/meta/wg_onto/used-ontologies/text-plus.md)                     | 15           | Thorsten Trippel                                         |
 
 Update collections with the newest content from the

@@ -9,6 +9,8 @@ v0.13.44. See this collection in the
 Suggest a new addition to this collection
 [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000024&title=Add%20prefix%20X%20to%20collection%200000024).
 
+This collection does not yet have maintainers.
+
 | Prefix                                     | Name                                       | License   |
 | ------------------------------------------ | ------------------------------------------ | --------- |
 | [`BFO`](https://semantic.farm/bfo)         | Basic Formal Ontology                      | CC-BY-4.0 |
