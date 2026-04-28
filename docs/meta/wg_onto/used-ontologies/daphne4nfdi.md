@@ -19,7 +19,8 @@ members appropriate for maintaining this collection.
 
 ## Maintainers
 
-This collection does not yet have maintainers.
+- [Heike Görzig](https://semantic.farm/orcid:0000-0001-9121-8643)
+- [Rolf Krahl](https://semantic.farm/orcid:0000-0002-1266-3819)
 
 ## Ontologies
 
@@ -29,8 +30,8 @@ This collection does not yet have maintainers.
 
 ## Colophon
 
-This page was automatically generated on 2026-04-27 using Semantic Farm
-([v0.13.45](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.45))
+This page was automatically generated on 2026-04-28 using Semantic Farm
+([v0.13.46-dev](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.46-dev))
 by running the following commands:
 
 ```console

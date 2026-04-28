@@ -33,8 +33,8 @@ the NFDI-MatWerk Consortium created in cooperation with the
 
 ## Colophon
 
-This page was automatically generated on 2026-04-27 using Semantic Farm
-([v0.13.45](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.45))
+This page was automatically generated on 2026-04-28 using Semantic Farm
+([v0.13.46-dev](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.46-dev))
 by running the following commands:
 
 ```console
