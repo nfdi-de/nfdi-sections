@@ -2,15 +2,6 @@
 title: NFDI4Culture
 ---
 
-## Important Links
-
-- See this collection in the
-  [Semantic Farm](https://semantic.farm/collection/0000025).
-- Suggest a new addition to this collection
-  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000025&title=Add%20prefix%20X%20to%20collection%200000025).
-
-## Description
-
 A placeholder collection of ontologies, controlled vocabularies, and schemas
 relevant for the NFDI4Culture Consortium seeded from corresponding the
 [TIB OLS collection](https://service.tib.eu/terminology/collections/nfdi4culture).
@@ -23,7 +14,15 @@ maintaining this collection.
 
 - [Tabea Tietz](https://semantic.farm/orcid:0000-0002-1648-1684)
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000025&title=Add%20prefix%20X%20to%20collection%200000025).
+
 ## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000025`](https://semantic.farm/collection/0000025), which is automatically
+synced from the TIB Terminology Service collection
+[`nfdi4culture`](https://service.tib.eu/terminology/collections/nfdi4culture).
 
 | Prefix                                                       | Name                                                                                | License    |
 | ------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ---------- |

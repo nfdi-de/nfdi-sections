@@ -9,6 +9,9 @@ This consortia has not yet created an ontology list.
 - [Ulrik Stervbo](https://semantic.farm/orcid:0000-0002-2831-8868)
 - [Sebastian Böhm](https://semantic.farm/orcid:0009-0006-4599-6309)
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000043&title=Add%20prefix%20X%20to%20collection%200000043).
+
 ## Colophon
 
 This page was automatically generated on 2026-04-28 using Semantic Farm

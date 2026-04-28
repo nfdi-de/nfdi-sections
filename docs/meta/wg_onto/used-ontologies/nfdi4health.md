@@ -8,6 +8,9 @@ This consortia has not yet created an ontology list.
 
 - [Matthias Löbe](https://semantic.farm/orcid:0000-0002-2344-0426)
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000041&title=Add%20prefix%20X%20to%20collection%200000041).
+
 ## Colophon
 
 This page was automatically generated on 2026-04-28 using Semantic Farm

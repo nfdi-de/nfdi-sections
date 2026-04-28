@@ -2,22 +2,21 @@
 title: NFDI4Energy
 ---
 
-## Important Links
-
-- See this collection in the
-  [Semantic Farm](https://semantic.farm/collection/0000021).
-- Suggest a new addition to this collection
-  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000021&title=Add%20prefix%20X%20to%20collection%200000021).
-
-## Description
-
 Prefixes for ontologies relevant for the NFDI4Energy
 
 ## Maintainers
 
 - [Amanda Wein](https://semantic.farm/orcid:0009-0009-2960-3474)
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000021&title=Add%20prefix%20X%20to%20collection%200000021).
+
 ## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000021`](https://semantic.farm/collection/0000021), which is automatically
+synced from the TIB Terminology Service collection
+[`nfdi4energy`](https://service.tib.eu/terminology/collections/nfdi4energy).
 
 | Prefix                                                                           | Name                                                               | License      |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------ |

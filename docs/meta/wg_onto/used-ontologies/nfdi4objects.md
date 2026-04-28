@@ -2,15 +2,6 @@
 title: NFDI4Objects
 ---
 
-## Important Links
-
-- See this collection in the
-  [Semantic Farm](https://semantic.farm/collection/0000036).
-- Suggest a new addition to this collection
-  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000036&title=Add%20prefix%20X%20to%20collection%200000036).
-
-## Description
-
 A collection of ontologies, controlled vocabularies, and schemas relevant for
 the NFDI4Objects Consortium imported from the consortium's official BARTOC
 record [https://bartoc.org/en/node/18961](https://bartoc.org/en/node/18961).
@@ -26,7 +17,15 @@ Semantic Farm.
 - [Florian Thiery](https://semantic.farm/orcid:0000-0002-3246-3531)
 - [Kristina Fischer](https://semantic.farm/orcid:0009-0005-3991-1025)
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000036&title=Add%20prefix%20X%20to%20collection%200000036).
+
 ## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000036`](https://semantic.farm/collection/0000036), which is automatically
+synced from the BARTOC collection
+[`18961`](https://bartoc.org/vocabularies/?sort=relevance&order=desc&limit=10&filter=in%3Ahttp%3A%2F%2Fbartoc.org%2Fen%2Fnode%2F18961).
 
 | Prefix                                                                             | Name                                                                              | License                               |
 | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------- |

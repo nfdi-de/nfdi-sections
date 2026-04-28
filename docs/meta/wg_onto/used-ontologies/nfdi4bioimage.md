@@ -2,15 +2,6 @@
 title: NFDI4BIOIMAGE
 ---
 
-## Important Links
-
-- See this collection in the
-  [Semantic Farm](https://semantic.farm/collection/0000034).
-- Suggest a new addition to this collection
-  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000034&title=Add%20prefix%20X%20to%20collection%200000034).
-
-## Description
-
 A collection of ontologies, controlled vocabularies, database, and schemas
 relevant for NFDI4BIOIMAGE
 
@@ -18,7 +9,13 @@ relevant for NFDI4BIOIMAGE
 
 - [Damien Goutte-Gattat](https://semantic.farm/orcid:0000-0002-6095-8718)
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000034&title=Add%20prefix%20X%20to%20collection%200000034).
+
 ## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000034`](https://semantic.farm/collection/0000034).
 
 | Prefix                                             | Name                                     | License                                                                                                                     |
 | -------------------------------------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |

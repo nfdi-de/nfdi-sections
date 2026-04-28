@@ -2,15 +2,6 @@
 title: NFDI4Biodiversity
 ---
 
-## Important Links
-
-- See this collection in the
-  [Semantic Farm](https://semantic.farm/collection/0000040).
-- Suggest a new addition to this collection
-  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000040&title=Add%20prefix%20X%20to%20collection%200000040).
-
-## Description
-
 A placeholder collection of ontologies, controlled vocabularies, and schemas
 relevant for the NFDI4Biodiversity Consortium created by the
 [NFDI Section Metadata WG Ontology Harmonization and Mapping](https://github.com/nfdi-de/section-metadata-wg-onto/).
@@ -22,7 +13,13 @@ members appropriate for maintaining this collection.
 - [Naouel Karam](https://semantic.farm/orcid:0000-0002-6762-6417)
 - [Ralph Schäfermeier](https://semantic.farm/orcid:0000-0002-4349-6726)
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000040&title=Add%20prefix%20X%20to%20collection%200000040).
+
 ## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000040`](https://semantic.farm/collection/0000040).
 
 | Prefix                                                         | Name                                                                 | License                                                                           |
 | -------------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------- |

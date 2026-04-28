@@ -10,6 +10,9 @@ This consortia has not yet created an ontology list.
 - [Noriko Cassman](https://semantic.farm/orcid:0000-0003-1655-0931)
 - [Maja Magel](https://semantic.farm/orcid:0009-0004-2517-0791)
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000042&title=Add%20prefix%20X%20to%20collection%200000042).
+
 ## Colophon
 
 This page was automatically generated on 2026-04-28 using Semantic Farm

@@ -29,7 +29,7 @@ VERSION = bioregistry.version.get_version()
 V_LINK = f"Semantic Farm ([v{VERSION}](https://github.com/biopragmatics/bioregistry/releases/tag/v{VERSION}))"
 
 RENAMES = {"text+": "text-plus", "berd@nfdi": "berd-nfdi"}
-COLOPHON = f"""\
+COLOPHON = f"""
 ## Colophon
 
 This page was automatically generated on {TODAY} using {V_LINK} by running the following commands:
@@ -105,18 +105,7 @@ def get_collection_text(collection: bioregistry.Collection, name: str) -> str:
     """)
 
     if collection_not_stub(collection):
-        text += dedent(f"""\
-
-            ## Important Links
-
-            - See this collection in the [Semantic Farm](https://semantic.farm/collection/{collection.identifier}).
-            - Suggest a new addition to this collection [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection={collection.identifier}&title=Add%20prefix%20X%20to%20collection%20{collection.identifier}).
-
-            ## Description
-
-        """)
-        text += collection.description
-        text += "\n"
+        text += collection.description + "\n"
     else:
         text += "This consortia has not yet created an ontology list.\n"
 
@@ -127,6 +116,9 @@ def get_collection_text(collection: bioregistry.Collection, name: str) -> str:
         text += "\n"
     else:
         text += "## Maintainers\n\nThis collection does not yet have maintainers.\n\n"
+    text += (f"\nSuggest a new addition to this collection [here](https://github.com/biopragmatics/bioregistry/"
+             f"issues/new?template=add-collection-prefix.yml&collection={collection.identifier}&title=Add%20prefix"
+             f"%20X%20to%20collection%20{collection.identifier}).\n\n")
 
     rows = []
 
@@ -153,9 +145,30 @@ def get_collection_text(collection: bioregistry.Collection, name: str) -> str:
         headers = ["Prefix", "Name", "License"]
         if has_comments:
             headers.append("Comment")
-        text += "\n## Ontologies\n\n"
-        text += tabulate(rows, headers=headers, tablefmt="github")
-        text += "\n"
+        text += dedent(f"""
+            ## Ontologies
+
+            The following table comes from Semantic Farm collection
+            [`{collection.identifier}`](https://semantic.farm/collection/{collection.identifier})
+        """).rstrip()
+        references = {
+            r.prefix: r.identifier
+            for r in collection.mappings or []
+        }
+        if tib_collection := references.get("tib.collection"):
+            text += dedent(f"""\
+                , which is automatically synced from the TIB Terminology Service
+                collection [`{tib_collection}`](https://service.tib.eu/terminology/collections/{tib_collection}).
+            """)
+        elif bartoc_collection := references.get("bartoc"):
+            text += dedent(f"""\
+                , which is automatically synced from the BARTOC
+                collection [`{bartoc_collection}`](https://bartoc.org/vocabularies/?sort=relevance&order=desc&limit=10&filter=in%3Ahttp%3A%2F%2Fbartoc.org%2Fen%2Fnode%2F{bartoc_collection}).
+            """)
+        else:
+            text += "."
+
+        text += "\n\n" + tabulate(rows, headers=headers, tablefmt="github") + "\n"
 
     # TODO add a "how to edit" section that either
     #  says to make a suggestion on Semantic Farm or to update

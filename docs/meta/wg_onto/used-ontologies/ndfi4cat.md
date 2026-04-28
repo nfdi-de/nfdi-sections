@@ -2,15 +2,6 @@
 title: NDFI4Cat
 ---
 
-## Important Links
-
-- See this collection in the
-  [Semantic Farm](https://semantic.farm/collection/0000011).
-- Suggest a new addition to this collection
-  [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000011&title=Add%20prefix%20X%20to%20collection%200000011).
-
-## Description
-
 A collection of ontologies, controlled vocabularies, and schemas relevant for
 the NDFI4Cat Consortium.
 
@@ -29,7 +20,15 @@ added in the future if additional metadata can be found.
 - [Alexander Behr](https://semantic.farm/orcid:0000-0003-4620-8248)
 - [David Linke](https://semantic.farm/orcid:0000-0002-5898-1820)
 
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000011&title=Add%20prefix%20X%20to%20collection%200000011).
+
 ## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000011`](https://semantic.farm/collection/0000011), which is automatically
+synced from the TIB Terminology Service collection
+[`nfdi4cat`](https://service.tib.eu/terminology/collections/nfdi4cat).
 
 | Prefix                                                               | Name                                                          | License                                             |
 | -------------------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------- |
