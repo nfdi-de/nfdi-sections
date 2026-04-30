@@ -1,9 +1,9 @@
 ---
-title: WG Surveying the European and International Landscape
+title: WG Landscaping and Outreach
 sidebar_position: 2
 ---
 
-# Working Group Surveying the European and International Landscape
+# Working Group for for Landscaping and Outreach
 
 This working group systematically maps the existing and aspirational interactions between the NFDI — at the level of individual researchers, organisations, and consortia — and relevant European and international entities. These entities include working groups, projects, organisations, funders, research infrastructures, and other stakeholders in the international research data landscape.
 
@@ -23,4 +23,11 @@ The resulting landscape overview will serve as a shared resource for all NFDI co
 
 ## Mailing List
 
-- Subscribe / Archive: [section-int.lists.nfdi.de](https://lists.nfdi.de/postorius/lists/section-int.lists.nfdi.de/)
+- [RocketChat](https://go.rocket.chat/invite?host=all-chat.nfdi.de&path=invite%2FsJ8Gdy)
+- [Working Group Mailing List](https://lists.nfdi.de/postorius/lists/section-int-wg-landscape.lists.nfdi.de)
+
+## Coordinators
+
+| Name                | Affiliation            | Email                          |
+|---------------------|------------------------|--------------------------------|
+| Charles Tapley Hoyt | RWTH Aachen University | charles.hoyt@ac.rwth-aachen.de |
