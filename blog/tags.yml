@@ -3,4 +3,42 @@ Meta:
   permalink: /metadata
   description: Section Metadata, Terminologies, Provenance
 
+metadata:
+  label: Metadata
+  permalink: /metadata-tag
+  description: Topics related to metadata standards and schemas
 
+nfdi:
+  label: NFDI
+  permalink: /nfdi
+  description: National Research Data Infrastructure
+
+re3data:
+  label: re3data
+  permalink: /re3data
+  description: Registry of Research Data Repositories
+
+repositories:
+  label: Repositories
+  permalink: /repositories
+  description: Research data repositories
+
+taskforce-metadata:
+  label: Taskforce Metadata
+  permalink: /taskforce-metadata
+  description: Taskforce Metadata of the NFDI Section Metadata, Terminologies, Provenance
+
+recommendation:
+  label: Recommendation
+  permalink: /recommendation
+  description: Official recommendations and standards
+
+workshop:
+  label: Workshop
+  permalink: /workshop
+  description: Workshop reports and outcomes
+
+nfdi-metadata-profile:
+  label: NFDI Metadata Profile
+  permalink: /nfdi-metadata-profile
+  description: NFDI Core Metadata Profile development
