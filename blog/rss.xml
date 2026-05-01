@@ -4,10 +4,54 @@
         <title>NFDI Sections Blog</title>
         <link>https://nfdi-de.github.io/nfdi-sections/blog</link>
         <description>NFDI Sections Blog</description>
-        <lastBuildDate>Fri, 06 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Report on the 2nd NFDI Metadata Workshop Now Published on Zenodo]]></title>
+            <link>https://nfdi-de.github.io/nfdi-sections/blog/2nd-nfdi-metadata-workshop-report</link>
+            <guid>https://nfdi-de.github.io/nfdi-sections/blog/2nd-nfdi-metadata-workshop-report</guid>
+            <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The report on the 2nd NFDI Metadata Workshop has been published on Zenodo. It documents the outcomes of a three-day workshop held on June 25–27, 2025, in Hannover, organized by the Taskforce Metadata of the NFDI Section Metadata, Terminologies, Provenance.]]></description>
+            <content:encoded><![CDATA[<p>The report on the <a href="https://doi.org/10.5281/zenodo.19709639" target="_blank" rel="noopener noreferrer">2nd NFDI Metadata Workshop</a> has been published on Zenodo. It documents the outcomes of a three-day workshop held on June 25–27, 2025, in Hannover, organized by the Taskforce Metadata of the NFDI Section Metadata, Terminologies, Provenance.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-a-workshop-series-on-metadata">Why a Workshop Series on Metadata?<a href="https://nfdi-de.github.io/nfdi-sections/blog/2nd-nfdi-metadata-workshop-report#why-a-workshop-series-on-metadata" class="hash-link" aria-label="Direct link to Why a Workshop Series on Metadata?" title="Direct link to Why a Workshop Series on Metadata?" translate="no">​</a></h2>
+<p>Metadata standardisation is one of the core cross-cutting challenges of the NFDI. The <em>Bund-Länder-Vereinbarung (BLV)</em>, the foundational agreement between the German federal and state governments establishing the NFDI, explicitly mandates that consortia adhere to established metadata standards. The NFDI Strategy 2025/2026 reinforces this by calling for the harmonisation of diverse metadata formats across scientific disciplines to enhance the efficiency and interoperability of the entire research data ecosystem.</p>
+<p>To address this mandate, the Taskforce Metadata — embedded in the NFDI Section Metadata, Terminologies, Provenance — was established with the goal of promoting the adoption of cross-disciplinary terminologies and metadata schemas across all NFDI consortia. The Taskforce identified three generic metadata standards as primary candidates: the <strong>Data Catalog Vocabulary Application Profile (DCAT-AP)</strong>, the <strong>DataCite Metadata Schema</strong>, and <strong>Schema.org</strong>. Rather than imposing a single schema, the strategy follows a three-stage approach: identify and evaluate existing schemas, encourage harmonised adoption, and facilitate the integration of modular, domain-specific extensions.</p>
+<p>The workshop series is the central instrument for advancing this agenda through broad community participation.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="from-schema-selection-to-practical-implementation">From Schema Selection to Practical Implementation<a href="https://nfdi-de.github.io/nfdi-sections/blog/2nd-nfdi-metadata-workshop-report#from-schema-selection-to-practical-implementation" class="hash-link" aria-label="Direct link to From Schema Selection to Practical Implementation" title="Direct link to From Schema Selection to Practical Implementation" translate="no">​</a></h2>
+<p>The <strong>1st NFDI Metadata Workshop</strong> (January 14–15, 2025, Dresden) brought together approximately 50 metadata experts representing all 26 NFDI consortia. It established that a single, uniform metadata schema is not feasible across the full breadth of NFDI disciplines, but that a shared set of core fields — covering aspects like identifier, title, creator, and license — could form the basis for cross-consortia interoperability. The report is available on Zenodo: <a href="https://doi.org/10.5281/zenodo.15227235" target="_blank" rel="noopener noreferrer">https://doi.org/10.5281/zenodo.15227235.</a>.</p>
+<p>The <strong>2nd NFDI Metadata Workshop</strong> shifted the focus from schema selection to the challenges of practical implementation. The central outcome is a first formulation of a <strong>NFDI Core Metadata Profile</strong>: a schema-agnostic baseline defining a minimal set of required metadata fields that must be populated regardless of the underlying technical format. A number of elements were discussed and afterwards catgorized as <strong>mandatory</strong>, <strong>recommended</strong>, and <strong>optional</strong>
+The workshop also addressed the inherent limitations of schema mapping (all cross-schema mappings are lossy and use-case specific), presented domain-specific metadata extensions from five NFDI communities, and advanced a <strong>layered metadata model</strong> combining a shared core with discipline-specific extensions.</p>
+<p>A third metadata workshop is already in planning to continue developing the NFDI Core Metadata Profile and to advance discussions on discipline-specific metadata layers.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference<a href="https://nfdi-de.github.io/nfdi-sections/blog/2nd-nfdi-metadata-workshop-report#reference" class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference" translate="no">​</a></h2>
+<p>Henzen, C., Neidiger, C., Söding, E., &amp; Trippel, T. (2025). Report on the first NFDI Metadata Workshop. Zenodo. <a href="https://doi.org/10.5281/zenodo.15227235" target="_blank" rel="noopener noreferrer">https://doi.org/10.5281/zenodo.15227235</a></p>
+<p>Fliegl, H., Henzen, C., Koepler, O., Stervbo, U., Söding, E., &amp; Trippel, T. (2025). <em>Report on the 2nd NFDI Metadata Workshop</em>. Zenodo. <a href="https://doi.org/10.5281/zenodo.19709639" target="_blank" rel="noopener noreferrer">https://doi.org/10.5281/zenodo.19709639</a></p>]]></content:encoded>
+            <category>Section Metadata</category>
+            <category>Metadata</category>
+            <category>Taskforce Metadata</category>
+            <category>NFDI Metadata Profile</category>
+        </item>
+        <item>
+            <title><![CDATA[Recommendation on Registering NFDI Repositories in re3data Now Published]]></title>
+            <link>https://nfdi-de.github.io/nfdi-sections/blog/re3data-recommendation-nfdi-repositories</link>
+            <guid>https://nfdi-de.github.io/nfdi-sections/blog/re3data-recommendation-nfdi-repositories</guid>
+            <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Taskforce Metadata of the NFDI Section Metadata, Terminologies, Provenance has published the draft of a recommendation for registering and curating NFDI research data repositories in re3data — the registry of research data repositories.]]></description>
+            <content:encoded><![CDATA[<p>The Taskforce Metadata of the NFDI Section Metadata, Terminologies, Provenance has published the draft of a recommendation for registering and curating NFDI research data repositories in <a href="https://www.re3data.org/" target="_blank" rel="noopener noreferrer">re3data</a> — the registry of research data repositories.</p>
+<p>The recommendation document is now open for comments by the NFDI community and should be published as a NFDI standard in the future.</p>
+<p>The recommendation addresses NFDI consortia and members who operate or are responsible for research data repositories. Its two central objectives are to increase the <strong>findability and visibility</strong> of NFDI-relevant repositories, and to ensure <strong>sustainable, quality-assured descriptions</strong> of those repositories within re3data, including up-to-date information on implemented metadata standards.</p>
+<p>Beyond registration, NFDI repositories are to be labelled within re3data, supporting the long-term goal of establishing an NFDI-endorsed quality mark for trusted repositories. re3data is defined as the <strong>minimum standard</strong> for repository registration across NFDI; consortia remain free to additionally register in domain-specific or other relevant registries such as FAIRsharing.</p>
+<p>The document was developed through a community consensus process within the Taskforce and the Section, drawing on discussions from both NFDI Metadata Workshops (Dresden 2025, Hannover 2025). It was endorsed by the Section on 31 March 2026 and published on Zenodo on 14 April 2026, opening a community comment phase open until 18 May 2026.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="on-the-path-to-an-official-nfdi-standard">On the Path to an Official NFDI Standard<a href="https://nfdi-de.github.io/nfdi-sections/blog/re3data-recommendation-nfdi-repositories#on-the-path-to-an-official-nfdi-standard" class="hash-link" aria-label="Direct link to On the Path to an Official NFDI Standard" title="Direct link to On the Path to an Official NFDI Standard" translate="no">​</a></h2>
+<p>The recommendation is explicitly designed to become a NFDI Standard. The process builds upon the current draft of Leitfaden zur Entwicklung von NFDI Standards and includes a structured governance roadmap: after the community comment phase closes in May, a revised draft will go to a vote by official Section members, followed by a presentation and vote at the Konsortialversammlung in. Final approval as an official NFDI Standard is targeted for autumn 2026 by the scientific senate.</p>
+<p><strong>Reference:</strong> Castro, L. J., Fliegl, H., Henzen, C., Löbe, M., Koepler, O., Neidiger, C., Söding, E., Trippel, T., Stervbo, U., &amp; Wiljes, C. (2026). <em>Empfehlung an die Konsortien und Mitglieder des Vereins Nationale Forschungsdateninfrastruktur (NFDI) e.V. zum Nachweis von NFDI-Datenrepositorien in re3data.</em> Zenodo. <a href="https://doi.org/10.5281/zenodo.19565419" target="_blank" rel="noopener noreferrer">https://doi.org/10.5281/zenodo.19565419</a></p>]]></content:encoded>
+            <category>Section Metadata</category>
+            <category>Metadata</category>
+            <category>re3data</category>
+            <category>Repositories</category>
+            <category>Taskforce Metadata</category>
+        </item>
         <item>
             <title><![CDATA[Invitation: Section Meta Meeting – 31 March 2026]]></title>
             <link>https://nfdi-de.github.io/nfdi-sections/blog/section-meta-meeting-march-2026</link>

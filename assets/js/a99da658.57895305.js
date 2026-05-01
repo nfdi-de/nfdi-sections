@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknfdi_sections=self.webpackChunknfdi_sections||[]).push([[7200],{6711:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/nfdi-sections/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

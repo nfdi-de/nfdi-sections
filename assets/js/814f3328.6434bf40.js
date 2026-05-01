@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknfdi_sections=self.webpackChunknfdi_sections||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Invitation: Section Meta Meeting \u2013 31 March 2026","permalink":"/nfdi-sections/blog/section-meta-meeting-march-2026","unlisted":false,"date":"2026-03-06T00:00:00.000Z"}]}')}}]);
