@@ -1,20 +1,10 @@
 ### Title
 
-Meeting Section Working Group Coordinators
-
-### Date (YYYY-MM-DD)
-
-2026-04-24
-Seaction Meeting EduTrain
-
-### Date (YYYY-MM-DD)
-
-2026-04-30
 Section Meeting Common Infrastructures
 
 ### Date (YYYY-MM-DD)
 
-2026-04-15
+2026-05-06
 
 ### Start time (HH:MM)
 
@@ -22,7 +12,6 @@ Section Meeting Common Infrastructures
 
 ### End time (HH:MM)
 
-11:00
 12:00
 
 ### All day event?
@@ -32,7 +21,6 @@ false
 ### Location
 
 Online
-hybrid
 
 ### Link (optional)
 
@@ -44,7 +32,7 @@ _No response_
 
 ### Type
 
-WG
+_No response_
 
 ### Organiser
 
