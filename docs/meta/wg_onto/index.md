@@ -39,6 +39,3 @@ The working group coordinates this work, which is essential for linking research
 Browse per-consortium ontology usage tables extracted from the consolidated spreadsheet.
 
 - View index: [Used Ontologies](/docs/meta/wg_onto/used-ontologies)
-
-Collections of ontologies, terminologies, and related resources are being ported to 
-the [Semantic Farm](https://semantic.farm/collection/?ror=05qj6w324) in Q2/3 in 2026.

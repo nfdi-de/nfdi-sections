@@ -2,9 +2,40 @@
 title: NFDI4DataScience
 ---
 
-Source: `/files/meta/Used_Ontologies_at_NFDI.xlsx` (sheet: NFDI4DataScience)
+A placeholder collection of ontologies, controlled vocabularies, and schemas
+relevant for the NFDI4DataScience Consortium created by the
+[NFDI Section Metadata WG Ontology Harmonization and Mapping](https://github.com/nfdi-de/section-metadata-wg-onto/).
+The working group is in the process of identifying NFDI4DataScience Consortium
+members appropriate for maintaining this collection.
 
-|Ontology ID|Domain|License|Modularity|Format|developed / reused / only indexed / only evaluated|Used in|
-|---|---|---|---|---|---|---|
-|SCHEMA|General|CC BY-SA 3.0||rdf|reused|Portal (under construction)|
-|NFDICO|Research information for NFDI Consortia|CC BY 4.0|imports SCHEMA, maps_to: "DCAT, DOAP, FOAF, FABIO, SD, VCARD, VIVO, SWO, WIKIDATA, ORG, FRAPO, MODSCI, DBO, SCHEMA, DCTERMS, IAO, OBI"|owl|reused|NFDI4CUlture, NFDI-MatWerk, NFDI4Memory|
+## Maintainers
+
+- [Benjamin Zapilko](https://semantic.farm/orcid:0000-0001-9495-040X)
+
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000029&title=Add%20prefix%20X%20to%20collection%200000029).
+
+## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000029`](https://semantic.farm/collection/0000029).
+
+| Prefix                                         | Name                      | License |
+| ---------------------------------------------- | ------------------------- | ------- |
+| [`nfdi.core`](https://semantic.farm/nfdi.core) | NFDI Core Ontology        | CC0-1.0 |
+| [`nfdi4dso`](https://semantic.farm/nfdi4dso)   | NFDI4DataScience Ontology |         |
+| [`schema`](https://semantic.farm/schema)       | Schema.org                |         |
+
+## Colophon
+
+This page was automatically generated on 2026-05-07 using Semantic Farm
+([v0.13.50](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.50))
+by running the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```
