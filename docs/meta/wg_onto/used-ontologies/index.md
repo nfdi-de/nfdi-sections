@@ -40,7 +40,7 @@ See source data at https://semantic.farm/collection/?ror=05qj6w324.
 | [GHGA](/docs/meta/wg_onto/used-ontologies/ghga.md)                           | 12  | Karoline Mauer                                           |
 | [KonsortSWD](/docs/meta/wg_onto/used-ontologies/konsortswd.md)               | 37  | Noemi Betancort                                          |
 | [MaRDI](/docs/meta/wg_onto/used-ontologies/mardi.md)                         | 8   | Björn Schembera                                          |
-| [NDFI4Cat](/docs/meta/wg_onto/used-ontologies/ndfi4cat.md)                   | 26  | Hendrik Borgelt, Alexander Behr, David Linke             |
+| [NDFI4Cat](/docs/meta/wg_onto/used-ontologies/nfdi4cat.md)                   | 26  | Hendrik Borgelt, Alexander Behr, David Linke             |
 | [NFDI-MatWerk](/docs/meta/wg_onto/used-ontologies/nfdi-matwerk.md)           | 6   | Ebrahim Nourouzi, Heike Fliegl                           |
 | [NFDI4BIOIMAGE](/docs/meta/wg_onto/used-ontologies/nfdi4bioimage.md)         | 22  | Damien Goutte-Gattat                                     |
 | [NFDI4Biodiversity](/docs/meta/wg_onto/used-ontologies/nfdi4biodiversity.md) | 65  | Naouel Karam, Ralph Schäfermeier                         |

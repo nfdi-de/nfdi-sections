@@ -28,7 +28,7 @@ TODAY = datetime.date.today().strftime("%Y-%m-%d")
 VERSION = bioregistry.version.get_version()
 V_LINK = f"Semantic Farm ([v{VERSION}](https://github.com/biopragmatics/bioregistry/releases/tag/v{VERSION}))"
 
-RENAMES = {"text+": "text-plus", "berd@nfdi": "berd-nfdi"}
+RENAMES = {"text+": "text-plus", "berd@nfdi": "berd-nfdi", "ndfi4cat": "nfdi4cat"}
 COLOPHON = f"""
 ## Colophon
 
