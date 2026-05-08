@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.14"
 # dependencies = [
-#     "bioregistry>=0.13.50",
+#     "bioregistry>=0.13.51",
 #     "click>=8.3.2",
 #     "tabulate>=0.10.0",
 # ]
@@ -28,7 +28,7 @@ TODAY = datetime.date.today().strftime("%Y-%m-%d")
 VERSION = bioregistry.version.get_version()
 V_LINK = f"Semantic Farm ([v{VERSION}](https://github.com/biopragmatics/bioregistry/releases/tag/v{VERSION}))"
 
-RENAMES = {"text+": "text-plus", "berd@nfdi": "berd-nfdi", "ndfi4cat": "nfdi4cat"}
+RENAMES = {"text+": "text-plus", "berd@nfdi": "berd-nfdi"}
 COLOPHON = f"""
 ## Colophon
 
@@ -75,7 +75,7 @@ def main() -> None:
     The NFDI Section Metadata Working Group on Ontology Harmonization and Mapping
     has generated an overview of the ontologies, terminologies, controlled vocabularies,
     and related semantic artifacts used by each consortium.
-    
+
     We first partnered with members of each consortium to collaboratively construct their
     respective collections in the [Semantic Farm](https://semantic.farm), a comprehensive
     registry of ontologies, terminologies, controlled vocabularies, and related semantic

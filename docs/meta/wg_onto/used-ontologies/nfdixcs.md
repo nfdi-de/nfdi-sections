@@ -2,7 +2,8 @@
 title: NFDIxCS
 ---
 
-This consortia has not yet created an ontology list.
+A collection of ontologies, controlled vocabularies, and schemas relevant for
+the NFDIxCS Consortium.
 
 ## Maintainers
 
@@ -11,10 +12,38 @@ This consortia has not yet created an ontology list.
 Suggest a new addition to this collection
 [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000035&title=Add%20prefix%20X%20to%20collection%200000035).
 
+## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000035`](https://semantic.farm/collection/0000035), which is automatically
+synced from the TIB Terminology Service collection
+[`nfdixcs`](https://service.tib.eu/terminology/collections/nfdixcs).
+
+| Prefix                                             | Name                                                           | License    |
+| -------------------------------------------------- | -------------------------------------------------------------- | ---------- |
+| [`amv`](https://semantic.farm/amv)                 | Algorithm Metadata Vocabulary                                  | CC0-1.0    |
+| [`BFO`](https://semantic.farm/bfo)                 | Basic Formal Ontology                                          | CC-BY-4.0  |
+| [`CiTO`](https://semantic.farm/cito)               | Citation Typing Ontology                                       | CC-BY-4.0  |
+| [`cso`](https://semantic.farm/cso)                 | Computer Science Ontology                                      |            |
+| [`DataCite`](https://semantic.farm/datacite)       | DataCite Ontology                                              |            |
+| [`dblp.schema`](https://semantic.farm/dblp.schema) | DBLP Schema                                                    |            |
+| [`dcterms`](https://semantic.farm/dcterms)         | Dublin Core Metadata Initiative Terms                          |            |
+| [`doap`](https://semantic.farm/doap)               | Description of a Project                                       | Apache-2.0 |
+| [`fabio`](https://semantic.farm/fabio)             | FaBiO, the FRBR-aligned Bibliographic Ontology                 | CC-BY-4.0  |
+| [`gufo`](https://semantic.farm/gufo)               | Unified Foundational Ontology                                  | CC-BY-4.0  |
+| [`hpc`](https://semantic.farm/hpc)                 | High-Performance Computing Ontology                            | CC-BY-4.0  |
+| [`IAO`](https://semantic.farm/iao)                 | Information Artifact Ontology                                  | CC-BY-4.0  |
+| [`infosecsos`](https://semantic.farm/infosecsos)   | InfoSecSoS Ontology                                            |            |
+| [`iotlite`](https://semantic.farm/iotlite)         | IoT lite Ontology                                              | CC-BY-3.0  |
+| [`mathmoddb`](https://semantic.farm/mathmoddb)     | MathModDB Ontology and Knowledge Graph for Mathematical Models | CC-BY-4.0  |
+| [`schema`](https://semantic.farm/schema)           | Schema.org                                                     |            |
+| [`seon`](https://semantic.farm/seon)               | Software Engineering Ontology Network                          |            |
+| [`SWO`](https://semantic.farm/swo)                 | Software Ontology                                              | CC-BY-4.0  |
+
 ## Colophon
 
-This page was automatically generated on 2026-05-07 using Semantic Farm
-([v0.13.50](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.50))
+This page was automatically generated on 2026-05-08 using Semantic Farm
+([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
 by running the following commands:
 
 ```console

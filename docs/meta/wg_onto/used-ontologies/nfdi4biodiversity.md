@@ -79,7 +79,7 @@ The following table comes from Semantic Farm collection
 | [`sosa`](https://semantic.farm/sosa)                           | Sensor, Observation, Sample, and Actuator Ontology                   | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
 | [`sumso`](https://semantic.farm/sumso)                         | Sustainable Meat Systems Ontology                                    | CC-BY-4.0                                                                         |
 | [`sweet`](https://semantic.farm/sweet)                         | Semantic Web for Earth and Environment Technology Ontology           | CC0-1.0                                                                           |
-| [`SWO`](https://semantic.farm/swo)                             | Software ontology                                                    | CC-BY-4.0                                                                         |
+| [`SWO`](https://semantic.farm/swo)                             | Software Ontology                                                    | CC-BY-4.0                                                                         |
 | [`taxonconcept`](https://semantic.farm/taxonconcept)           | TaxonConcept Ontology                                                |                                                                                   |
 | [`TAXRANK`](https://semantic.farm/taxrank)                     | Taxonomic rank vocabulary                                            | CC0-1.0                                                                           |
 | [`tib.bk`](https://semantic.farm/tib.bk)                       | Basic Classification                                                 | CC0-1.0                                                                           |
@@ -91,8 +91,8 @@ The following table comes from Semantic Farm collection
 
 ## Colophon
 
-This page was automatically generated on 2026-05-07 using Semantic Farm
-([v0.13.50](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.50))
+This page was automatically generated on 2026-05-08 using Semantic Farm
+([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
 by running the following commands:
 
 ```console

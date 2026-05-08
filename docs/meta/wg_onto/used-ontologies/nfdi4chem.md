@@ -69,7 +69,7 @@ synced from the TIB Terminology Service collection
 | [`sosa`](https://semantic.farm/sosa)                                 | Sensor, Observation, Sample, and Actuator Ontology                                   | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |                                                                       |
 | [`ssn`](https://semantic.farm/ssn)                                   | Semantic Sensor Network Ontology                                                     | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |                                                                       |
 | [`ssn.system`](https://semantic.farm/ssn.system)                     | System capabilities, operating ranges, and survival ranges ontology                  | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |                                                                       |
-| [`SWO`](https://semantic.farm/swo)                                   | Software ontology                                                                    | CC-BY-4.0                                                                         |                                                                       |
+| [`SWO`](https://semantic.farm/swo)                                   | Software Ontology                                                                    | CC-BY-4.0                                                                         |                                                                       |
 | [`time`](https://semantic.farm/time)                                 | Time Ontology in OWL                                                                 | CC-BY-4.0                                                                         |                                                                       |
 | [`UO`](https://semantic.farm/uo)                                     | Units of measurement ontology                                                        | CC-BY-3.0                                                                         |                                                                       |
 | [`vibso`](https://semantic.farm/vibso)                               | Vibrational Spectroscopy Ontology                                                    | CC-BY-4.0                                                                         |                                                                       |
@@ -80,8 +80,8 @@ synced from the TIB Terminology Service collection
 
 ## Colophon
 
-This page was automatically generated on 2026-05-07 using Semantic Farm
-([v0.13.50](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.50))
+This page was automatically generated on 2026-05-08 using Semantic Farm
+([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
 by running the following commands:
 
 ```console

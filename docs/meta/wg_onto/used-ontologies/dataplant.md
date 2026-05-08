@@ -61,15 +61,15 @@ synced from the TIB Terminology Service collection
 | [`PSO`](https://semantic.farm/pso)                                   | Plant Stress Ontology                      | CC-BY-4.0    |
 | [`RO`](https://semantic.farm/ro)                                     | Relation Ontology                          | CC0-1.0      |
 | [`STATO`](https://semantic.farm/stato)                               | The Statistical Methods Ontology           | CC-BY-3.0    |
-| [`SWO`](https://semantic.farm/swo)                                   | Software ontology                          | CC-BY-4.0    |
+| [`SWO`](https://semantic.farm/swo)                                   | Software Ontology                          | CC-BY-4.0    |
 | [`TO`](https://semantic.farm/to)                                     | Plant Trait Ontology                       | CC-BY-4.0    |
 | [`UBERON`](https://semantic.farm/uberon)                             | Uber Anatomy Ontology                      | CC-BY-3.0    |
 | [`UO`](https://semantic.farm/uo)                                     | Units of measurement ontology              | CC-BY-3.0    |
 
 ## Colophon
 
-This page was automatically generated on 2026-05-07 using Semantic Farm
-([v0.13.50](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.50))
+This page was automatically generated on 2026-05-08 using Semantic Farm
+([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
 by running the following commands:
 
 ```console

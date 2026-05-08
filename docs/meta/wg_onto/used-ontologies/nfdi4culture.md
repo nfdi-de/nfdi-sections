@@ -32,7 +32,7 @@ synced from the TIB Terminology Service collection
 | [`dbo`](https://semantic.farm/dbo)                           | DBPedia Ontology                                                                    |            |
 | [`dcat`](https://semantic.farm/dcat)                         | Data Catalog                                                                        | CC-BY-4.0  |
 | [`dcterms`](https://semantic.farm/dcterms)                   | Dublin Core Metadata Initiative Terms                                               |            |
-| [`doap`](https://semantic.farm/doap)                         | Description of a Project                                                            |            |
+| [`doap`](https://semantic.farm/doap)                         | Description of a Project                                                            | Apache-2.0 |
 | [`fabio`](https://semantic.farm/fabio)                       | FaBiO, the FRBR-aligned Bibliographic Ontology                                      | CC-BY-4.0  |
 | [`foaf`](https://semantic.farm/foaf)                         | Friend of a Friend                                                                  | CC-BY-1.0  |
 | [`FRAPO`](https://semantic.farm/frapo)                       | Funding, Research Administration and Projects Ontology                              |            |
@@ -51,7 +51,7 @@ synced from the TIB Terminology Service collection
 | [`premis`](https://semantic.farm/premis)                     | PREMIS 3 Ontology                                                                   |            |
 | [`schema`](https://semantic.farm/schema)                     | Schema.org                                                                          |            |
 | [`skos`](https://semantic.farm/skos)                         | Simple Knowledge Organization System                                                |            |
-| [`SWO`](https://semantic.farm/swo)                           | Software ontology                                                                   | CC-BY-4.0  |
+| [`SWO`](https://semantic.farm/swo)                           | Software Ontology                                                                   | CC-BY-4.0  |
 | [`vcard`](https://semantic.farm/vcard)                       | Virtual Contact File                                                                |            |
 | [`viaf`](https://semantic.farm/viaf)                         | Virtual International Authority File                                                | ODC-By-1.0 |
 | [`vivo`](https://semantic.farm/vivo)                         | VIVO Ontology                                                                       | Unlicense  |
@@ -59,8 +59,8 @@ synced from the TIB Terminology Service collection
 
 ## Colophon
 
-This page was automatically generated on 2026-05-07 using Semantic Farm
-([v0.13.50](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.50))
+This page was automatically generated on 2026-05-08 using Semantic Farm
+([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
 by running the following commands:
 
 ```console

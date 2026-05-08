@@ -55,7 +55,7 @@ synced from the TIB Terminology Service collection
 | [`findex.bau`](https://semantic.farm/findex.bau)                                       | FINDEX Bau as a SKOS Thesaurus - Facetted Indexing System for Civil Engineering            |                                                                                   |
 | [`findex.raum`](https://semantic.farm/findex.raum)                                     | FINDEX Raum                                                                                |                                                                                   |
 | [`ftonto`](https://semantic.farm/ftonto)                                               | Fischertechnik Ontology                                                                    |                                                                                   |
-| [`geosparql`](https://semantic.farm/geosparql)                                         | GeoSPARQL                                                                                  | [Custom](https://www.ogc.org/license)                                             |
+| [`geosparql`](https://semantic.farm/geosparql)                                         | GeoSPARQL                                                                                  | [Custom](http://purl.org/NET/rdflicense/:APACHE2.0)                               |
 | [`gist`](https://semantic.farm/gist)                                                   | gist                                                                                       | CC-BY-4.0                                                                         |
 | [`IAO`](https://semantic.farm/iao)                                                     | Information Artifact Ontology                                                              | CC-BY-4.0                                                                         |
 | [`idsa`](https://semantic.farm/idsa)                                                   | International Data Spaces Information Model                                                |                                                                                   |
@@ -72,6 +72,7 @@ synced from the TIB Terminology Service collection
 | [`mathmoddb`](https://semantic.farm/mathmoddb)                                         | MathModDB Ontology and Knowledge Graph for Mathematical Models                             | CC-BY-4.0                                                                         |
 | [`mobivoc`](https://semantic.farm/mobivoc)                                             | MobiVoc Open Mobility Vocabulary 1.1.4                                                     |                                                                                   |
 | [`modsci`](https://semantic.farm/modsci)                                               | Modern Science Ontology                                                                    |                                                                                   |
+| [`mwo`](https://semantic.farm/mwo)                                                     | NFDI MatWerk Ontology                                                                      | CC0-1.0                                                                           |
 | [`OEO`](https://semantic.farm/oeo)                                                     | Open Energy Ontology                                                                       | CC0-1.0                                                                           |
 | [`okn.sd`](https://semantic.farm/okn.sd)                                               | The Software Description Ontology                                                          |                                                                                   |
 | [`om`](https://semantic.farm/om)                                                       | Ontology of units of Measure                                                               | CC-BY-4.0                                                                         |
@@ -101,7 +102,7 @@ synced from the TIB Terminology Service collection
 | [`ssn`](https://semantic.farm/ssn)                                                     | Semantic Sensor Network Ontology                                                           | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
 | [`ssn.system`](https://semantic.farm/ssn.system)                                       | System capabilities, operating ranges, and survival ranges ontology                        | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
 | [`sweet`](https://semantic.farm/sweet)                                                 | Semantic Web for Earth and Environment Technology Ontology                                 | CC0-1.0                                                                           |
-| [`SWO`](https://semantic.farm/swo)                                                     | Software ontology                                                                          | CC-BY-4.0                                                                         |
+| [`SWO`](https://semantic.farm/swo)                                                     | Software Ontology                                                                          | CC-BY-4.0                                                                         |
 | [`T4FS`](https://semantic.farm/t4fs)                                                   | terms4FAIRskills                                                                           | CC-BY-4.0                                                                         |
 | [`tib.bk`](https://semantic.farm/tib.bk)                                               | Basic Classification                                                                       | CC0-1.0                                                                           |
 | [`tib.bo`](https://semantic.farm/tib.bo)                                               | Base Ontology                                                                              |                                                                                   |
@@ -130,8 +131,8 @@ synced from the TIB Terminology Service collection
 
 ## Colophon
 
-This page was automatically generated on 2026-05-07 using Semantic Farm
-([v0.13.50](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.50))
+This page was automatically generated on 2026-05-08 using Semantic Farm
+([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
 by running the following commands:
 
 ```console
