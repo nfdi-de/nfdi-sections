@@ -22,7 +22,7 @@ The following table comes from Semantic Farm collection
 
 | Prefix                                                       | Name                                                                                | License    |
 | ------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ---------- |
-| [`cidoc.crm`](https://semantic.farm/cidoc.crm)               | CIDOC Conceptual Reference Model                                                    |            |
+| [`cidoc.crm`](https://semantic.farm/cidoc.crm)               | CIDOC Conceptual Reference Model                                                    | CC-BY-4.0  |
 | [`edm`](https://semantic.farm/edm)                           | Europeana Data Model vocabulary                                                     |            |
 | [`factgrid`](https://semantic.farm/factgrid)                 | FactGrid                                                                            |            |
 | [`geonames`](https://semantic.farm/geonames)                 | GeoNames                                                                            | CC-BY-4.0  |
@@ -39,15 +39,15 @@ The following table comes from Semantic Farm collection
 | [`lido`](https://semantic.farm/lido)                         | Lightweight Information Describing Objects                                          | CC-BY-4.0  |
 | [`nfdi.core`](https://semantic.farm/nfdi.core)               | NFDI Core Ontology                                                                  | CC0-1.0    |
 | [`nfdi4culture.cto`](https://semantic.farm/nfdi4culture.cto) | NFDI4Culture Ontology                                                               | CC0-1.0    |
-| [`ohdab`](https://semantic.farm/ohdab)                       | Ontology of the historical German-language nomenclature for offices and professions |            |
+| [`ohdab`](https://semantic.farm/ohdab)                       | Ontology of the historical German-language nomenclature for offices and professions | CC-BY-4.0  |
 | [`ontome`](https://semantic.farm/ontome)                     | Ontology Management Environment                                                     | CC-BY-4.0  |
 | [`tadirah`](https://semantic.farm/tadirah)                   | Taxonomy of Digital Research Activities in the Humanities                           | CC0-1.0    |
 | [`wikidata`](https://semantic.farm/wikidata)                 | Wikidata                                                                            | CC0-1.0    |
 
 ## Colophon
 
-This page was automatically generated on 2026-05-08 using Semantic Farm
-([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
+This page was automatically generated on 2026-05-22 using Semantic Farm
+([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
 by running the following commands:
 
 ```console

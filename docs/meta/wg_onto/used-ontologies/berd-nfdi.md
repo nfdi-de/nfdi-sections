@@ -2,11 +2,9 @@
 title: BERD@NFDI
 ---
 
-A placeholder collection of ontologies, controlled vocabularies, and schemas
-relevant for the BERD@NFDI Consortium created by the
+A collection of ontologies, controlled vocabularies, and schemas relevant for
+the BERD@NFDI Consortium created by the
 [NFDI Section Metadata WG Ontology Harmonization and Mapping](https://github.com/nfdi-de/section-metadata-wg-onto/).
-The working group is in the process of identifying BERD@NFDI Consortium members
-appropriate for maintaining this collection.
 
 ## Maintainers
 
@@ -25,12 +23,12 @@ The following table comes from Semantic Farm collection
 | ------------------------------------------ | -------------------------------------------------------- | --------- |
 | [`dfg.fo`](https://semantic.farm/dfg.fo)   | DFG Classification of Subject Areas Ontology - 2020-2024 | CC-BY-4.0 |
 | [`jel`](https://semantic.farm/jel)         | Journal of Economic Literature Classification System     |           |
-| [`zbw.stw`](https://semantic.farm/zbw.stw) | Standard-Thesaurus Wirtschaft                            |           |
+| [`zbw.stw`](https://semantic.farm/zbw.stw) | Standard-Thesaurus Wirtschaft                            | CC-BY-4.0 |
 
 ## Colophon
 
-This page was automatically generated on 2026-05-08 using Semantic Farm
-([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
+This page was automatically generated on 2026-05-22 using Semantic Farm
+([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
 by running the following commands:
 
 ```console

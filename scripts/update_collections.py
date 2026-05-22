@@ -87,12 +87,21 @@ def main() -> None:
     :::note
 
     Some consortia use external systems for curating their ontology lists.
-    For example, NFDI4Chem curates their collection directly in the TIB-TS,
-    NFDI4Biodiversity has their own OntoPortal instance for which all
-    loaded ontologies comprise their collection, and NFDI4Objects curates
-    their collection in BARTOC. In these cases, the collections are synced
-    into the Semantic Farm. Each consortia's collection page gives additional
-    context if it is maintained on an external system.
+    For example:
+
+    - NFDI4Chem curates their collection directly in the TIB-TS.
+    - NFDI4Biodiversity has their own OntoPortal instance for which all
+      loaded ontologies comprise their collection.
+    - NFDI4Objects curates their collection in BARTOC.
+
+    In each of these cases, the collections are synced from the external
+    system into the Semantic Farm. This is beneficial because the Semantic
+    Farm gives important additional context not available in the external
+    systems. Semantic Farm also allows for adding additional resources that
+    would not be indexed in the external system. For example, UniProt isn't
+    an ontology and therefore won't get indexed by the TIB-TS, but might be
+    an important addition to the DataPLANT collection, which could be captured
+    in Semantic Farm.
 
     :::
 

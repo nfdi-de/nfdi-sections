@@ -42,7 +42,7 @@ synced from the TIB Terminology Service collection
 | [`dolce`](https://semantic.farm/dolce)                               | Descriptive Ontology for Linguistic and Cognitive Engineering |                                                     |
 | [`edam`](https://semantic.farm/edam)                                 | EDAM Ontology                                                 | CC-BY-SA-4.0                                        |
 | [`emmo`](https://semantic.farm/emmo)                                 | Elementary Multiperspective Material Ontology                 | CC-BY-4.0                                           |
-| [`emmo.cif`](https://semantic.farm/emmo.cif)                         | Crystallographic Information Framework                        |                                                     |
+| [`emmo.cif`](https://semantic.farm/emmo.cif)                         | Crystallographic Information Framework                        | CC-BY-4.0                                           |
 | [`ENVO`](https://semantic.farm/envo)                                 | Environment Ontology                                          | CC0-1.0                                             |
 | [`iso15926`](https://semantic.farm/iso15926)                         | ISO 15926-14                                                  |                                                     |
 | [`m4i`](https://semantic.farm/m4i)                                   | Metadata4Ing                                                  | CC-BY-4.0                                           |
@@ -56,13 +56,13 @@ synced from the TIB Terminology Service collection
 | [`RXNO`](https://semantic.farm/rxno)                                 | Name Reaction Ontology                                        | CC-BY-4.0                                           |
 | [`SBO`](https://semantic.farm/sbo)                                   | Systems Biology Ontology                                      | Artistic-2.0                                        |
 | [`voc4cat`](https://semantic.farm/voc4cat)                           | A vocabulary for the catalysis disciplines                    | CC0-1.0                                             |
-| [`worldavatar.compchem`](https://semantic.farm/worldavatar.compchem) | Computational Chemistry Ontology                              |                                                     |
-| [`worldavatar.kin`](https://semantic.farm/worldavatar.kin)           | Ontology for Chemical Kinetic Reaction Mechanisms             |                                                     |
+| [`worldavatar.compchem`](https://semantic.farm/worldavatar.compchem) | Computational Chemistry Ontology                              | MIT                                                 |
+| [`worldavatar.kin`](https://semantic.farm/worldavatar.kin)           | Ontology for Chemical Kinetic Reaction Mechanisms             | MIT                                                 |
 
 ## Colophon
 
-This page was automatically generated on 2026-05-08 using Semantic Farm
-([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
+This page was automatically generated on 2026-05-22 using Semantic Farm
+([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
 by running the following commands:
 
 ```console

@@ -2,13 +2,9 @@
 title: FAIRmat
 ---
 
-A placeholder collection of ontologies, controlled vocabularies, and schemas
-relevant for the FAIRmat Consortium seeded from corresponding the
+A collection of ontologies, controlled vocabularies, and schemas relevant for
+the FAIRmat Consortium seeded from corresponding the
 [TIB OLS collection](https://service.tib.eu/terminology/collections/fairmat).
-The
-[NFDI Section Metadata WG Ontology Harmonization and Mapping](https://github.com/nfdi-de/section-metadata-wg-onto/)
-is in the process of identifying FAIRmat Consortium members appropriate for
-maintaining this collection.
 
 ## Maintainers
 
@@ -27,14 +23,14 @@ synced from the TIB Terminology Service collection
 | Prefix                                     | Name                                       | License   |
 | ------------------------------------------ | ------------------------------------------ | --------- |
 | [`BFO`](https://semantic.farm/bfo)         | Basic Formal Ontology                      | CC-BY-4.0 |
-| [`nexus`](https://semantic.farm/nexus)     | NeXusOntology                              |           |
-| [`tfsco`](https://semantic.farm/tfsco)     | Thin-film Solar Cells Ontology             |           |
+| [`nexus`](https://semantic.farm/nexus)     | NeXusOntology                              | GFDL-1.3  |
+| [`tfsco`](https://semantic.farm/tfsco)     | Thin-film Solar Cells Ontology             | CC-BY-4.0 |
 | [`voc4cat`](https://semantic.farm/voc4cat) | A vocabulary for the catalysis disciplines | CC0-1.0   |
 
 ## Colophon
 
-This page was automatically generated on 2026-05-08 using Semantic Farm
-([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
+This page was automatically generated on 2026-05-22 using Semantic Farm
+([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
 by running the following commands:
 
 ```console

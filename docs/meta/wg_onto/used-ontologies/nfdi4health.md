@@ -30,9 +30,9 @@ The following table comes from Semantic Farm collection
 | [`CHEBI`](https://semantic.farm/chebi)         | Chemical Entities of Biological Interest                                       | CC-BY-4.0                                                                                                          |
 | [`CLO`](https://semantic.farm/clo)             | Cell Line Ontology                                                             | CC-BY-3.0                                                                                                          |
 | [`cmpo`](https://semantic.farm/cmpo)           | Cellular Microscopy Phenotype Ontology                                         |                                                                                                                    |
-| [`DataCite`](https://semantic.farm/datacite)   | DataCite Ontology                                                              |                                                                                                                    |
+| [`DataCite`](https://semantic.farm/datacite)   | DataCite Ontology                                                              | CC-BY-4.0                                                                                                          |
 | [`dbsnp`](https://semantic.farm/dbsnp)         | dbSNP                                                                          |                                                                                                                    |
-| [`dcterms`](https://semantic.farm/dcterms)     | Dublin Core Metadata Initiative Terms                                          |                                                                                                                    |
+| [`dcterms`](https://semantic.farm/dcterms)     | Dublin Core Metadata Initiative Terms                                          | CC-BY-4.0                                                                                                          |
 | [`DOID`](https://semantic.farm/doid)           | Human Disease Ontology                                                         | CC0-1.0                                                                                                            |
 | [`EFO`](https://semantic.farm/efo)             | Experimental Factor Ontology                                                   | Apache-2.0                                                                                                         |
 | [`foodex2`](https://semantic.farm/foodex2)     | Food Classification and Description System (from FSA Food Type identifiers)    |                                                                                                                    |
@@ -48,7 +48,7 @@ The following table comes from Semantic Farm collection
 | [`meddra`](https://semantic.farm/meddra)       | Medical Dictionary for Regulatory Activities Terminology                       |                                                                                                                    |
 | [`mesh`](https://semantic.farm/mesh)           | Medical Subject Headings                                                       | CC0-1.0                                                                                                            |
 | [`MGI`](https://semantic.farm/mgi)             | Mouse Genome Informatics                                                       | CC-BY-4.0                                                                                                          |
-| [`mirbase`](https://semantic.farm/mirbase)     | miRBase pre-miRNA                                                              | public domain                                                                                                      |
+| [`mirbase`](https://semantic.farm/mirbase)     | miRBase pre-miRNA                                                              | public-domain                                                                                                      |
 | [`NCBIGene`](https://semantic.farm/ncbigene)   | NCBI Gene                                                                      |                                                                                                                    |
 | [`NCBITaxon`](https://semantic.farm/ncbitaxon) | NCBI Taxonomy                                                                  | CC0-1.0                                                                                                            |
 | [`NCIT`](https://semantic.farm/ncit)           | NCI Thesaurus                                                                  | CC-BY-4.0                                                                                                          |
@@ -63,8 +63,8 @@ The following table comes from Semantic Farm collection
 
 ## Colophon
 
-This page was automatically generated on 2026-05-08 using Semantic Farm
-([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
+This page was automatically generated on 2026-05-22 using Semantic Farm
+([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
 by running the following commands:
 
 ```console

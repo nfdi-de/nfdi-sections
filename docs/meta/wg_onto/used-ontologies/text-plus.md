@@ -24,7 +24,7 @@ The following table comes from Semantic Farm collection
 | -------------------------------------------------------------------------------- | --------------------------------------------------------- | ---------- |
 | [`bibframe`](https://semantic.farm/bibframe)                                     | Bibliographic Framework Initiative Vocabulary             | CC0-1.0    |
 | [`cessda.topicclassification`](https://semantic.farm/cessda.topicclassification) | CESSDA Topic Classification                               | CC-BY-4.0  |
-| [`cidoc.crm`](https://semantic.farm/cidoc.crm)                                   | CIDOC Conceptual Reference Model                          |            |
+| [`cidoc.crm`](https://semantic.farm/cidoc.crm)                                   | CIDOC Conceptual Reference Model                          | CC-BY-4.0  |
 | [`geonames`](https://semantic.farm/geonames)                                     | GeoNames                                                  | CC-BY-4.0  |
 | [`getty.att`](https://semantic.farm/getty.att)                                   | Art and Architecture Thesaurus                            | ODC-By-1.0 |
 | [`getty.cona`](https://semantic.farm/getty.cona)                                 | Cultural Objects Names Authority                          | ODC-By-1.0 |
@@ -40,8 +40,8 @@ The following table comes from Semantic Farm collection
 
 ## Colophon
 
-This page was automatically generated on 2026-05-08 using Semantic Farm
-([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
+This page was automatically generated on 2026-05-22 using Semantic Farm
+([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
 by running the following commands:
 
 ```console

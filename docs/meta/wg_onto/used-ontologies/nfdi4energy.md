@@ -20,28 +20,28 @@ synced from the TIB Terminology Service collection
 
 | Prefix                                                                           | Name                                                               | License      |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------ |
-| [`bonsai`](https://semantic.farm/bonsai)                                         | Big Open Network of Sustainability Assessment Information Ontology |              |
-| [`brick`](https://semantic.farm/brick)                                           | Brick Ontology                                                     |              |
+| [`bonsai`](https://semantic.farm/bonsai)                                         | Big Open Network of Sustainability Assessment Information Ontology | CC-BY-3.0    |
+| [`brick`](https://semantic.farm/brick)                                           | Brick Ontology                                                     | BSD-3-Clause |
 | [`cim`](https://semantic.farm/cim)                                               | Common Information Model Ontology                                  |              |
-| [`digitalconstruction.energy`](https://semantic.farm/digitalconstruction.energy) | Digital Construction Energy Ontology                               |              |
-| [`docbias`](https://semantic.farm/docbias)                                       | Doc-Bias Ontology                                                  |              |
-| [`dogont`](https://semantic.farm/dogont)                                         | Ontology Modeling for Intelligent Domotic Environments             |              |
-| [`energymarketroles`](https://semantic.farm/energymarketroles)                   | Energy Market Roles ontology                                       |              |
+| [`digitalconstruction.energy`](https://semantic.farm/digitalconstruction.energy) | Digital Construction Energy Ontology                               | CC-BY-4.0    |
+| [`docbias`](https://semantic.farm/docbias)                                       | Doc-Bias Ontology                                                  | CC-BY-4.0    |
+| [`dogont`](https://semantic.farm/dogont)                                         | Ontology Modeling for Intelligent Domotic Environments             | Apache-2.0   |
+| [`energymarketroles`](https://semantic.farm/energymarketroles)                   | Energy Market Roles ontology                                       | CC-BY-NC-4.0 |
 | [`meno`](https://semantic.farm/meno)                                             | Mid-level Energy Ontology                                          | CC-BY-4.0    |
 | [`OEO`](https://semantic.farm/oeo)                                               | Open Energy Ontology                                               | CC0-1.0      |
-| [`openadr`](https://semantic.farm/openadr)                                       | OpenADR ontology                                                   |              |
-| [`saref.ener`](https://semantic.farm/saref.ener)                                 | SAREF4EE: the EEbus/Energy@home extension of SAREF                 |              |
-| [`saref.grid`](https://semantic.farm/saref.grid)                                 | SAREF4GRID: an extension of SAREF for the Smart Grid domain        |              |
-| [`sargon`](https://semantic.farm/sargon)                                         | Smart Energy Domain Ontology                                       |              |
+| [`openadr`](https://semantic.farm/openadr)                                       | OpenADR ontology                                                   | CC-BY-4.0    |
+| [`saref.ener`](https://semantic.farm/saref.ener)                                 | SAREF4EE: the EEbus/Energy@home extension of SAREF                 | BSD-3-Clause |
+| [`saref.grid`](https://semantic.farm/saref.grid)                                 | SAREF4GRID: an extension of SAREF for the Smart Grid domain        | BSD-3-Clause |
+| [`sargon`](https://semantic.farm/sargon)                                         | Smart Energy Domain Ontology                                       | CC-BY-4.0    |
 | [`tib.re`](https://semantic.farm/tib.re)                                         | Retail Energy Market of Great Britain                              | CC-BY-SA-3.0 |
-| [`udsaes.fmi`](https://semantic.farm/udsaes.fmi)                                 | Functional Mock-up Interface Ontology                              |              |
-| [`udsaes.sms`](https://semantic.farm/udsaes.sms)                                 | Systems, Models, and Simulation Ontology                           |              |
-| [`zbw.stw`](https://semantic.farm/zbw.stw)                                       | Standard-Thesaurus Wirtschaft                                      |              |
+| [`udsaes.fmi`](https://semantic.farm/udsaes.fmi)                                 | Functional Mock-up Interface Ontology                              | MIT          |
+| [`udsaes.sms`](https://semantic.farm/udsaes.sms)                                 | Systems, Models, and Simulation Ontology                           | MIT          |
+| [`zbw.stw`](https://semantic.farm/zbw.stw)                                       | Standard-Thesaurus Wirtschaft                                      | CC-BY-4.0    |
 
 ## Colophon
 
-This page was automatically generated on 2026-05-08 using Semantic Farm
-([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
+This page was automatically generated on 2026-05-22 using Semantic Farm
+([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
 by running the following commands:
 
 ```console

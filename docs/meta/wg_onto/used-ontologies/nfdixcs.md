@@ -19,31 +19,31 @@ The following table comes from Semantic Farm collection
 synced from the TIB Terminology Service collection
 [`nfdixcs`](https://service.tib.eu/terminology/collections/nfdixcs).
 
-| Prefix                                             | Name                                                           | License    |
-| -------------------------------------------------- | -------------------------------------------------------------- | ---------- |
-| [`amv`](https://semantic.farm/amv)                 | Algorithm Metadata Vocabulary                                  | CC0-1.0    |
-| [`BFO`](https://semantic.farm/bfo)                 | Basic Formal Ontology                                          | CC-BY-4.0  |
-| [`CiTO`](https://semantic.farm/cito)               | Citation Typing Ontology                                       | CC-BY-4.0  |
-| [`cso`](https://semantic.farm/cso)                 | Computer Science Ontology                                      |            |
-| [`DataCite`](https://semantic.farm/datacite)       | DataCite Ontology                                              |            |
-| [`dblp.schema`](https://semantic.farm/dblp.schema) | DBLP Schema                                                    |            |
-| [`dcterms`](https://semantic.farm/dcterms)         | Dublin Core Metadata Initiative Terms                          |            |
-| [`doap`](https://semantic.farm/doap)               | Description of a Project                                       | Apache-2.0 |
-| [`fabio`](https://semantic.farm/fabio)             | FaBiO, the FRBR-aligned Bibliographic Ontology                 | CC-BY-4.0  |
-| [`gufo`](https://semantic.farm/gufo)               | Unified Foundational Ontology                                  | CC-BY-4.0  |
-| [`hpc`](https://semantic.farm/hpc)                 | High-Performance Computing Ontology                            | CC-BY-4.0  |
-| [`IAO`](https://semantic.farm/iao)                 | Information Artifact Ontology                                  | CC-BY-4.0  |
-| [`infosecsos`](https://semantic.farm/infosecsos)   | InfoSecSoS Ontology                                            |            |
-| [`iotlite`](https://semantic.farm/iotlite)         | IoT lite Ontology                                              | CC-BY-3.0  |
-| [`mathmoddb`](https://semantic.farm/mathmoddb)     | MathModDB Ontology and Knowledge Graph for Mathematical Models | CC-BY-4.0  |
-| [`schema`](https://semantic.farm/schema)           | Schema.org                                                     |            |
-| [`seon`](https://semantic.farm/seon)               | Software Engineering Ontology Network                          |            |
-| [`SWO`](https://semantic.farm/swo)                 | Software Ontology                                              | CC-BY-4.0  |
+| Prefix                                             | Name                                                           | License      |
+| -------------------------------------------------- | -------------------------------------------------------------- | ------------ |
+| [`amv`](https://semantic.farm/amv)                 | Algorithm Metadata Vocabulary                                  | CC0-1.0      |
+| [`BFO`](https://semantic.farm/bfo)                 | Basic Formal Ontology                                          | CC-BY-4.0    |
+| [`CiTO`](https://semantic.farm/cito)               | Citation Typing Ontology                                       | CC-BY-4.0    |
+| [`cso`](https://semantic.farm/cso)                 | Computer Science Ontology                                      | CC-BY-4.0    |
+| [`DataCite`](https://semantic.farm/datacite)       | DataCite Ontology                                              | CC-BY-4.0    |
+| [`dblp.schema`](https://semantic.farm/dblp.schema) | DBLP Schema                                                    | CC0-1.0      |
+| [`dcterms`](https://semantic.farm/dcterms)         | Dublin Core Metadata Initiative Terms                          | CC-BY-4.0    |
+| [`doap`](https://semantic.farm/doap)               | Description of a Project                                       | Apache-2.0   |
+| [`fabio`](https://semantic.farm/fabio)             | FaBiO, the FRBR-aligned Bibliographic Ontology                 | CC-BY-4.0    |
+| [`gufo`](https://semantic.farm/gufo)               | Unified Foundational Ontology                                  | CC-BY-4.0    |
+| [`hpc`](https://semantic.farm/hpc)                 | High-Performance Computing Ontology                            | CC-BY-4.0    |
+| [`IAO`](https://semantic.farm/iao)                 | Information Artifact Ontology                                  | CC-BY-4.0    |
+| [`infosecsos`](https://semantic.farm/infosecsos)   | InfoSecSoS Ontology                                            | CC-BY-4.0    |
+| [`iotlite`](https://semantic.farm/iotlite)         | IoT lite Ontology                                              | CC-BY-3.0    |
+| [`mathmoddb`](https://semantic.farm/mathmoddb)     | MathModDB Ontology and Knowledge Graph for Mathematical Models | CC-BY-4.0    |
+| [`schema`](https://semantic.farm/schema)           | Schema.org                                                     | CC-BY-SA-3.0 |
+| [`seon`](https://semantic.farm/seon)               | Software Engineering Ontology Network                          |              |
+| [`SWO`](https://semantic.farm/swo)                 | Software Ontology                                              | CC-BY-4.0    |
 
 ## Colophon
 
-This page was automatically generated on 2026-05-08 using Semantic Farm
-([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
+This page was automatically generated on 2026-05-22 using Semantic Farm
+([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
 by running the following commands:
 
 ```console

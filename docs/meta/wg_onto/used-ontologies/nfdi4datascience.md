@@ -5,8 +5,6 @@ title: NFDI4DataScience
 A placeholder collection of ontologies, controlled vocabularies, and schemas
 relevant for the NFDI4DataScience Consortium created by the
 [NFDI Section Metadata WG Ontology Harmonization and Mapping](https://github.com/nfdi-de/section-metadata-wg-onto/).
-The working group is in the process of identifying NFDI4DataScience Consortium
-members appropriate for maintaining this collection.
 
 ## Maintainers
 
@@ -20,16 +18,16 @@ Suggest a new addition to this collection
 The following table comes from Semantic Farm collection
 [`0000029`](https://semantic.farm/collection/0000029).
 
-| Prefix                                         | Name                      | License |
-| ---------------------------------------------- | ------------------------- | ------- |
-| [`nfdi.core`](https://semantic.farm/nfdi.core) | NFDI Core Ontology        | CC0-1.0 |
-| [`nfdi4dso`](https://semantic.farm/nfdi4dso)   | NFDI4DataScience Ontology |         |
-| [`schema`](https://semantic.farm/schema)       | Schema.org                |         |
+| Prefix                                         | Name                      | License      |
+| ---------------------------------------------- | ------------------------- | ------------ |
+| [`nfdi.core`](https://semantic.farm/nfdi.core) | NFDI Core Ontology        | CC0-1.0      |
+| [`nfdi4dso`](https://semantic.farm/nfdi4dso)   | NFDI4DataScience Ontology |              |
+| [`schema`](https://semantic.farm/schema)       | Schema.org                | CC-BY-SA-3.0 |
 
 ## Colophon
 
-This page was automatically generated on 2026-05-08 using Semantic Farm
-([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
+This page was automatically generated on 2026-05-22 using Semantic Farm
+([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
 by running the following commands:
 
 ```console

@@ -72,10 +72,10 @@ The following table comes from Semantic Farm collection
 | [`PATO`](https://semantic.farm/pato)                           | Phenotype And Trait Ontology                                         | CC-BY-3.0                                                                         |
 | [`PCO`](https://semantic.farm/pco)                             | Population and Community Ontology                                    | CC0-1.0                                                                           |
 | [`PO`](https://semantic.farm/po)                               | Plant Ontology                                                       | CC-BY-4.0                                                                         |
-| [`prov`](https://semantic.farm/prov)                           | PROV Namespace                                                       |                                                                                   |
+| [`prov`](https://semantic.farm/prov)                           | PROV Namespace                                                       | W3C-20150513                                                                      |
 | [`qudt`](https://semantic.farm/qudt)                           | Quantities, Units, Dimensions, and Types Ontology                    | CC-BY-4.0                                                                         |
 | [`RO`](https://semantic.farm/ro)                               | Relation Ontology                                                    | CC0-1.0                                                                           |
-| [`schema`](https://semantic.farm/schema)                       | Schema.org                                                           |                                                                                   |
+| [`schema`](https://semantic.farm/schema)                       | Schema.org                                                           | CC-BY-SA-3.0                                                                      |
 | [`sosa`](https://semantic.farm/sosa)                           | Sensor, Observation, Sample, and Actuator Ontology                   | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
 | [`sumso`](https://semantic.farm/sumso)                         | Sustainable Meat Systems Ontology                                    | CC-BY-4.0                                                                         |
 | [`sweet`](https://semantic.farm/sweet)                         | Semantic Web for Earth and Environment Technology Ontology           | CC0-1.0                                                                           |
@@ -91,8 +91,8 @@ The following table comes from Semantic Farm collection
 
 ## Colophon
 
-This page was automatically generated on 2026-05-08 using Semantic Farm
-([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
+This page was automatically generated on 2026-05-22 using Semantic Farm
+([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
 by running the following commands:
 
 ```console

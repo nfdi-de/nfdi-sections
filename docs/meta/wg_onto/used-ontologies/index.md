@@ -17,12 +17,20 @@ issue on the Semantic Farm's issue tracker, or by editing the underlying
 :::note
 
 Some consortia use external systems for curating their ontology lists. For
-example, NFDI4Chem curates their collection directly in the TIB-TS,
-NFDI4Biodiversity has their own OntoPortal instance for which all loaded
-ontologies comprise their collection, and NFDI4Objects curates their collection
-in BARTOC. In these cases, the collections are synced into the Semantic Farm.
-Each consortia's collection page gives additional context if it is maintained on
-an external system.
+example:
+
+- NFDI4Chem curates their collection directly in the TIB-TS.
+- NFDI4Biodiversity has their own OntoPortal instance for which all loaded
+  ontologies comprise their collection.
+- NFDI4Objects curates their collection in BARTOC.
+
+In each of these cases, the collections are synced from the external system into
+the Semantic Farm. This is beneficial because the Semantic Farm gives important
+additional context not available in the external systems. Semantic Farm also
+allows for adding additional resources that would not be indexed in the external
+system. For example, UniProt isn't an ontology and therefore won't get indexed
+by the TIB-TS, but might be an important addition to the DataPLANT collection,
+which could be captured in Semantic Farm.
 
 :::
 
@@ -33,7 +41,7 @@ See source data at https://semantic.farm/collection/?ror=05qj6w324.
 | Consortium                                                                   | #   | Collection Maintainers                                   |
 | ---------------------------------------------------------------------------- | --- | -------------------------------------------------------- |
 | [BERD@NFDI](/docs/meta/wg_onto/used-ontologies/berd-nfdi.md)                 | 3   | Atif Latif, Fidan Limani                                 |
-| [DAPHNE4NFDI](/docs/meta/wg_onto/used-ontologies/daphne4nfdi.md)             | 1   | Heike Görzig, Rolf Krahl                                 |
+| [DAPHNE4NFDI](/docs/meta/wg_onto/used-ontologies/daphne4nfdi.md)             | 2   | Heike Görzig, Paul Millar, Rolf Krahl                    |
 | [DataPLANT](/docs/meta/wg_onto/used-ontologies/dataplant.md)                 | 39  | Angela Kranz, Hannah Dörpholz, Kathryn Dumschott         |
 | [FAIRagro](/docs/meta/wg_onto/used-ontologies/fairagro.md)                   | 23  | Gabriel Schneider                                        |
 | [FAIRmat](/docs/meta/wg_onto/used-ontologies/fairmat.md)                     | 4   | Markus Kühbach                                           |
@@ -44,7 +52,7 @@ See source data at https://semantic.farm/collection/?ror=05qj6w324.
 | [NFDI4BIOIMAGE](/docs/meta/wg_onto/used-ontologies/nfdi4bioimage.md)         | 22  | Damien Goutte-Gattat                                     |
 | [NFDI4Biodiversity](/docs/meta/wg_onto/used-ontologies/nfdi4biodiversity.md) | 65  | Naouel Karam, Ralph Schäfermeier                         |
 | [NFDI4Cat](/docs/meta/wg_onto/used-ontologies/nfdi4cat.md)                   | 26  | Hendrik Borgelt, Alexander Behr, David Linke             |
-| [NFDI4Chem](/docs/meta/wg_onto/used-ontologies/nfdi4chem.md)                 | 46  | Philip Strömert                                          |
+| [NFDI4Chem](/docs/meta/wg_onto/used-ontologies/nfdi4chem.md)                 | 47  | Philip Strömert                                          |
 | [NFDI4Culture](/docs/meta/wg_onto/used-ontologies/nfdi4culture.md)           | 30  | Tabea Tietz                                              |
 | [NFDI4DataScience](/docs/meta/wg_onto/used-ontologies/nfdi4datascience.md)   | 3   | Benjamin Zapilko                                         |
 | [NFDI4Earth](/docs/meta/wg_onto/used-ontologies/nfdi4earth.md)               | 27  | Auriol Degbelo                                           |
@@ -61,8 +69,8 @@ See source data at https://semantic.farm/collection/?ror=05qj6w324.
 
 ## Colophon
 
-This page was automatically generated on 2026-05-08 using Semantic Farm
-([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
+This page was automatically generated on 2026-05-22 using Semantic Farm
+([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
 by running the following commands:
 
 ```console

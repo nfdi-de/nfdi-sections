@@ -12,6 +12,7 @@ members appropriate for maintaining this collection.
 
 - [Heike Görzig](https://semantic.farm/orcid:0000-0001-9121-8643)
 - [Rolf Krahl](https://semantic.farm/orcid:0000-0002-1266-3819)
+- [Paul Millar](https://semantic.farm/orcid:0000-0002-3957-1279)
 
 Suggest a new addition to this collection
 [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000026&title=Add%20prefix%20X%20to%20collection%200000026).
@@ -21,14 +22,15 @@ Suggest a new addition to this collection
 The following table comes from Semantic Farm collection
 [`0000026`](https://semantic.farm/collection/0000026).
 
-| Prefix                             | Name                         | License   |
-| ---------------------------------- | ---------------------------- | --------- |
-| [`emg`](https://semantic.farm/emg) | Electron Microscopy Glossary | CC-BY-4.0 |
+| Prefix                                 | Name                                                | License   |
+| -------------------------------------- | --------------------------------------------------- | --------- |
+| [`nexus`](https://semantic.farm/nexus) | NeXusOntology                                       | GFDL-1.3  |
+| [`panet`](https://semantic.farm/panet) | Photon and Neutron Experimental Techniques Ontology | CC-BY-4.0 |
 
 ## Colophon
 
-This page was automatically generated on 2026-05-08 using Semantic Farm
-([v0.13.51](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.51))
+This page was automatically generated on 2026-05-22 using Semantic Farm
+([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
 by running the following commands:
 
 ```console
