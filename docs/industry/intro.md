@@ -32,6 +32,6 @@ The Industry Engagement section therefore deals with the overarching design of c
 | [Benefits, Costs, and Risks in Research Cooperations](./wg_benefits_costs_risks) | Chris Eberl | Needs analysis, benefit-risk balancing, legal frameworks |
 | [Cooperation Models and Agreements](./wg_cooperation_models) | — | Model contracts, white papers, stakeholder analysis |
 | [Data Spaces & Interoperability](./wg_data_spaces) | — | Secure data exchange concepts, IP protection, legal compliance |
-| [Knowledge Transfer and Impact](./wg_knowledge_transfer) | Florian Stahl | Translating research into industrial practice, measuring success |
+| [Knowledge Transfer and Impact](./wg_knowledge_transfer) | Florian Stahl | Translating research into industrial practice and measuring success |
 | [Industrial Advisory Board](./industrial_advisory_board) | Florian Stahl, Chris Eberl, Andreas Förster | Industry representation from DAX companies, SMEs, and startups |
 
