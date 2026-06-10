@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.14"
 # dependencies = [
-#     "bioregistry>=0.13.51",
+#     "bioregistry>=0.13.59",
 #     "click>=8.3.2",
 #     "tabulate>=0.10.0",
 # ]
@@ -79,29 +79,41 @@ def main() -> None:
     We first partnered with members of each consortium to collaboratively construct their
     respective collections in the [Semantic Farm](https://semantic.farm), a comprehensive
     registry of ontologies, terminologies, controlled vocabularies, and related semantic
-    artifacts. These collections can be iteratively extended by following the "suggestion"
-    link on one of the following pages, by making
-    an issue on the Semantic Farm's issue tracker, or by editing the underlying
-    [single source of truth JSON file](https://github.com/biopragmatics/bioregistry/blob/main/src/bioregistry/data/collections.json).
+    artifacts. These collections can be iteratively extended several ways:
+    
+    1. by following the _suggestion_ link on one of the following pages
+    2. by making an issue on the Semantic Farm's [issue tracker](https://github.com/biopragmatics/bioregistry/issues/new)
+    3. by editing the underlying
+       single source of truth [JSON file](https://github.com/biopragmatics/bioregistry/edit/main/src/bioregistry/data/collections.json)
+       on the Semantic Farm's version control system.
+    4. in the case where the collection is maintained in a system external to the Semantic
+       Farm, by following the link to the external definition and following the external
+       system's instructions (see note below)
 
     :::note
 
-    Some consortia use external systems for curating their ontology lists.
-    For example:
+    Some consortia use systems that are external to the Semantic Farm for defining,
+    curating, and maintaining their respective ontology collections. For example:
 
-    - NFDI4Chem curates their collection directly in the TIB-TS.
-    - NFDI4Biodiversity has their own OntoPortal instance for which all
+    - NFDI4Chem curates their collection in the [TIB-TS](https://terminology.tib.eu/ts/collections/nfdi4chem).
+    - NFDI4Biodiversity has their own [OntoPortal instance](https://biodivportal.gfbio.org/) for which all
       loaded ontologies comprise their collection.
-    - NFDI4Objects curates their collection in BARTOC.
+    - NFDI4Objects curates their collection in [BARTOC](https://bartoc.org/en/node/18961).
 
-    In each of these cases, the collections are synced from the external
-    system into the Semantic Farm. This is beneficial because the Semantic
-    Farm gives important additional context not available in the external
-    systems. Semantic Farm also allows for adding additional resources that
-    would not be indexed in the external system. For example, UniProt isn't
-    an ontology and therefore won't get indexed by the TIB-TS, but might be
-    an important addition to the DataPLANT collection, which could be captured
-    in Semantic Farm.
+    In each of these (and similar) cases, the collections are synced from the
+    external system into the Semantic Farm. This is beneficial for users
+    because the Semantic Farm provides a centralized access point for _all_
+    consortia's collections, and the Semantic Farm enriches the collections
+    with additional context about the resources contained therein that is not
+    available in the external systems. However, for these consortia, the
+    external system's definition remains the _single source of truth_.
+
+    The Semantic Farm also enables adding additional resources that would not
+    be indexed in the system that are external to the Semantic Farm. For
+    example, UniProt isn't an ontology and therefore won't get indexed by the
+    TIB-TS, but might be an important addition to the DataPLANT collection,
+    which could be captured in the corresponding collection in the Semantic
+    Farm.
 
     :::
 
