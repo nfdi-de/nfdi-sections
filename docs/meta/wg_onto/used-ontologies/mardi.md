@@ -26,17 +26,19 @@ synced from the TIB Terminology Service collection
 | ------------------------------------------------ | -------------------------------------------------------------- | --------------- |
 | [`amv`](https://semantic.farm/amv)               | Algorithm Metadata Vocabulary                                  | CC0-1.0         |
 | [`codemeta`](https://semantic.farm/codemeta)     | CodeMeta                                                       | Apache-2.0      |
+| [`factgrid`](https://semantic.farm/factgrid)     | FactGrid                                                       |                 |
 | [`mathalgodb`](https://semantic.farm/mathalgodb) | Algorithm Knowledge Graph Ontology                             | CC-BY-4.0       |
 | [`mathmoddb`](https://semantic.farm/mathmoddb)   | MathModDB Ontology and Knowledge Graph for Mathematical Models | CC-BY-4.0       |
 | [`msc`](https://semantic.farm/msc)               | Mathematics Subject Classification                             | CC-BY-NC-SA-3.0 |
 | [`physh`](https://semantic.farm/physh)           | Physics Subject Headings                                       | CC0-1.0         |
 | [`qudt`](https://semantic.farm/qudt)             | Quantities, Units, Dimensions, and Types Ontology              | CC-BY-4.0       |
 | [`tib.bk`](https://semantic.farm/tib.bk)         | Basic Classification                                           | CC0-1.0         |
+| [`wikidata`](https://semantic.farm/wikidata)     | Wikidata                                                       | CC0-1.0         |
 
 ## Colophon
 
-This page was automatically generated on 2026-05-22 using Semantic Farm
-([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
+This page was automatically generated on 2026-06-10 using Semantic Farm
+([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
 by running the following commands:
 
 ```console

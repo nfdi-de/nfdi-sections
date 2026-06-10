@@ -34,7 +34,7 @@ synced from the TIB Terminology Service collection
 | [`hpc`](https://semantic.farm/hpc)                 | High-Performance Computing Ontology                            | CC-BY-4.0    |
 | [`IAO`](https://semantic.farm/iao)                 | Information Artifact Ontology                                  | CC-BY-4.0    |
 | [`infosecsos`](https://semantic.farm/infosecsos)   | InfoSecSoS Ontology                                            | CC-BY-4.0    |
-| [`iotlite`](https://semantic.farm/iotlite)         | IoT lite Ontology                                              | CC-BY-3.0    |
+| [`iotlite`](https://semantic.farm/iotlite)         | IoT-lite Ontology                                              | CC-BY-3.0    |
 | [`mathmoddb`](https://semantic.farm/mathmoddb)     | MathModDB Ontology and Knowledge Graph for Mathematical Models | CC-BY-4.0    |
 | [`schema`](https://semantic.farm/schema)           | Schema.org                                                     | CC-BY-SA-3.0 |
 | [`seon`](https://semantic.farm/seon)               | Software Engineering Ontology Network                          |              |
@@ -42,8 +42,8 @@ synced from the TIB Terminology Service collection
 
 ## Colophon
 
-This page was automatically generated on 2026-05-22 using Semantic Farm
-([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
+This page was automatically generated on 2026-06-10 using Semantic Farm
+([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
 by running the following commands:
 
 ```console

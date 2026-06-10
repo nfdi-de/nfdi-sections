@@ -44,8 +44,8 @@ The following table comes from Semantic Farm collection
 
 ## Colophon
 
-This page was automatically generated on 2026-05-22 using Semantic Farm
-([v0.13.56](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.56))
+This page was automatically generated on 2026-06-10 using Semantic Farm
+([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
 by running the following commands:
 
 ```console
