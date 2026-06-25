@@ -26,4 +26,4 @@ The Industrial Advisory Board ensures that the perspectives and interests of ind
 | Christine Regitz | — |
 | Dr. Corinna Hehlmann | — |
 | Saskia Kress | — |
-| Thomas Dauser | — |
+| Thomas Dauser | Südwestrundfunk (SWR) |
