@@ -23,7 +23,7 @@ The Industrial Advisory Board ensures that the perspectives and interests of ind
 | Dr. Sicco Lehmann-Brauns | Freudenberg (FTI) |
 | Dr. Stefan Schmid | Interactive Media Foundation gGmbH |
 | Dr. Ina Sebastian | Südwestrundfunk (SWR) |
-| Christine Regitz | — |
+| Christine Regitz | SAP |
 | Dr. Corinna Hehlmann | — |
 | Saskia Kress | — |
 | Thomas Dauser | Südwestrundfunk (SWR) |
