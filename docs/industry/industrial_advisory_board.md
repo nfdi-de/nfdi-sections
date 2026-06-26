@@ -25,5 +25,5 @@ The Industrial Advisory Board ensures that the perspectives and interests of ind
 | Dr. Ina Sebastian | Südwestrundfunk (SWR) |
 | Christine Regitz | SAP |
 | Dr. Corinna Hehlmann | — |
-| Saskia Kress | — |
+| Saskia Kress | Interactive Media Foundation gGmbH |
 | Thomas Dauser | Südwestrundfunk (SWR) |
