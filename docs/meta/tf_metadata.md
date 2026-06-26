@@ -25,3 +25,4 @@ The TF Metadata aims to promote the use and adoption of existing and developed (
 
 - Henzen, C., Neidiger, C., Söding, E., & Trippel, T. (2025). Report on the first NFDI Metadata Workshop (14–15 January 2025, Dresden). Zenodo. [https://doi.org/10.5281/zenodo.17043517](https://doi.org/10.5281/zenodo.17043517)
 - Building Bridges through Metadata within the NFDI — Second NFDI Metadata Workshop (25–27 June 2025, Hannover). Zenodo. [https://zenodo.org/records/16735956](https://zenodo.org/records/16735956)
+- Castro, L. J., Fliegl, H., Henzen, C., Löbe, M., Koepler, O., Neidiger, C., Söding, E., Trippel, T., Stervbo, U., & Wiljes, C. (2026). Empfehlung an die Konsortien und Mitglieder des Vereins Nationale Forschungsdateninfrastruktur (NFDI) e.V. zum Nachweis von NFDI-Datenrepositorien in re3data. Zenodo. https://doi.org/10.5281/zenodo.19565419
