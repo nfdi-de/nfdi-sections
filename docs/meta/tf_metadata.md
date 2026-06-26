@@ -19,6 +19,7 @@ The TF Metadata aims to promote the use and adoption of existing and developed (
 ## Resources
 
 - Task Force page: [https://www.nfdi.de/section-metadata/task-force-metadata/](https://www.nfdi.de/section-metadata/task-force-metadata/)
+- Page on Wikidata: https://www.helloworld.de
 
 
 ## Publications and Outreach
