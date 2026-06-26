@@ -2,56 +2,143 @@
 title: NFDI4Ing
 ---
 
-Source: `/files/meta/Used_Ontologies_at_NFDI.xlsx` (sheet: NFDI4Ing)
+A collection of ontologies, controlled vocabularies, and schemas relevant for
+engineering and the [NFDI4Ing Consortium](https://nfdi4ing.de). Ontologies are
+chronologically imported from the corresponding
+[TIB Terminology Service collection](https://service.tib.eu/terminology/collections/nfdi4ing).
 
-|Ontology ID|Ontology name|Domain|License|Modularity|Format|Used in|Comment|developed / reused / only indexed / only evaluated|
-|---|---|---|---|---|---|---|---|---|
-|BFO|Basic Formal Ontology|top-level ontology|CC BY 4.0|2.0 classes only OBO backbone|owl|~300 ontologies & ~50 organizations, PubChem, indexed by NFDI4Ing Terminology Service||reused|
-|IAO|Information Artefact Ontology|Information artifacts|CC BY 4.0|BFO aligned, OBO based|owl|OBO Foundry, Allotrope™, PubChem, ISA tools, indexed by NFDI4Ing Terminology Service||reused|
-|EMMO|Elementary Multiperspective Material Ontology (EMMO)|top-level ontology|CC BY 4.0||owl|indexed by NFDI4Ing Terminology Service||reused|
-|PROV-O|The PROV Ontology|provenance information|W3C License|W3C_based|owl|indexed by NFDI4Ing Terminology Service||reused|
-|DCTERMS|DCMI Metadata Terms|General|CC BY 4.0||rdf|indexed by NFDI4Ing Terminology Service||reused|
-|SHACL|W3C Shapes Constraint Language (SHACL) Vocabulary|information technology|W3C Document License/ Copyright © 2017 W3C® (MIT, ERCIM, Keio, Beihang). W3C liability, trademark and document use rules apply.|||indexed by NFDI4Ing Terminology Service||only indexed|
-|TEMA|Thesaurus Technology and Management (TEMA)|Engineering, Management|Proprietary||owl|indexed by NFDI4Ing Terminology Service||reused|
-|PhySH|Physics Subject Headings|Physics|CC0 1.0||owl|indexed by NFDI4Ing Terminology Service||reused|
-|FINDEX Bau|FINDEX Bau als SKOS-Thesaurus. Facettenartiges Indexierungssystem für das Bauwesen|Civil Engineering|CC BY-NC-SA 4.0||skos|indexed by NFDI4Ing Terminology Service||reused|
-|FINDEX Raum|FINDEX Raum als SKOS-Thesaurus. Facettenartiges Indexierungssystem für Raumordnung, Städtebau, Wohnungswesen|Regional Planning/Spatial Planning|CC BY-NC-SA 4.0||skos|indexed by NFDI4Ing Terminology Service||reused|
-|listdb|ListDB-Ontologie|Traffic Engineering|CC BY 4.0||owl|indexed by NFDI4Ing Terminology Service||developed|
-|QUDT|Quantities, Units, Dimensions and Types&lt;br/&gt;(QUDT)|units of measure, quantity kind, dimensions and data types|CC BY 4.0||owl|used by m4i and AIMS||reused|
-|pims-ii|PIMS interoperability infrastructure (PIMS-II)|cognitive processes, epistemic metadata, mid/top level|LGPL 3.0||owl|used by m4i||reused|
-|SciMesh||empirical science|CC BY-NC-SA 4.0|||||developed|
-|SEPIO||Scientific Evidence and Provenance Information|CC BY 4.0|BFO aligned, OBO based (imports from OBI, RO, IAO, COB, PATO, STATO), partial PROV-O alignement (e.g. Agent & Activity)|owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|OEO|Open Energy Ontology|Energy System Modelling|CC 0|BFO, IAO, RO, UO|owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|DUO|Data Use Ontology|data management|CC BY 4.0|BFO aligned, OBO based|owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|UO|Unit Ontology|General, Physics, Life Sciences, biology, Earth sciences|CC BY 2.0|OBO_based|owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|MV|MobiVoc Open Mobility Vocabulary 1.1.4|traffic engineering|CC BY 4.0||owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|SIO|Semanticscience Integrated Ontology (SIO)|General|CC BY 4.0|BFO alignment possible|owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|SWO|Software Ontology|software products|CC BY 4.0|BFO aligned, OBO based|owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|PREMIS3|PREMIS OWL Ontology|culture, digital preservation|CC BY 4.0||owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|OM|Ontology of units of Measure (OM)|measurements, metrology|CC BY 4.0||owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|SOSA|Sensor, Observation, Sample, and Actuator (SOSA) Ontology|measurement technology|W3C License|W3C_based, DUL aligned, OBOE_aligned, PROV-O_aligned, O&M_aligned|owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|SOSA|Semantic Sensor Network Ontology|measurement technology|W3C License|W3C_based, DUL aligned, OBOE_aligned, PROV-O_aligned, O&M_aligned|owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|SSN-SYSTEM|System capabilities, operating ranges, and survival ranges ontology|measurement technology|W3C License|W3C_based, DUL aligned, OBOE_aligned, PROV-O_aligned, O&M_aligned|owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|BattINFO|Battery Interface Ontology (BattINFO) 0.3.0|electrical engineering|CC BY 4.0||owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|IIRDS-CORE|IIRDS CORE Ontology|technical documentation, information management|CC BY-ND 4.0||owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|IIRDS-Machinery|IIRDS Machinery Ontology|technical documentation, information management|CC BY-ND 4.0||owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|IIRDS-Software|IIRDS Software Ontology|technical documentation, information management|CC BY-ND 4.0||owl|indexed by NFDI4Ing Terminology Service||only indexed|
-|MDO|Materials Design Ontology|Material Science|MIT License|||indexed by NFDI4Ing Terminology Service||only indexed|
-|SD|The Software Description Ontology|Computer Science|CC BY 2.0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|Basisklassifikation|Basisklassifikation|General (Subject Classification)|CC 0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|CC-REL|Describing Copyright in RDF - Creative Commons Rights Expression Language|Law|CC BY 4.0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|PaNET|The Photon and Neutron Experimental Techniques Ontology|physics|CC BY 4.0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|OAI-ORE|The OAI ORE terms vocabulary|information technology|CC BY-SA|||indexed by NFDI4Ing Terminology Service||only indexed|
-|Digital Reference||semiconductors|GNU General Public License v3.0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|VSSo Core: Vehicle Signal Specification Core Ontology. W3C First Public Working Draft 03 March 2022||Traffic Engineering|CC BY 4.0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|FID BAUdigital Subject Headings||Civil Engineering, Architecture|CC BY 4.0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|Unified Astronomy Thesaurus (UAT)||Astronomy|Creative Commons Attribution-ShareAlike 3.0 Unported License|||indexed by NFDI4Ing Terminology Service||only indexed|
-|Interdisziplinäre Forschungsfeldklassifikation||General (Subject Classification)|CC BY-SA 4.0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|Building Topology Ontology||Civil Engineering|CC BY 1.0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|Digital Construction Energy (dices)||Civil Engineering|CC BY 4.0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|Digital Construction Lifecycle (dicl)||Civil Engineering|CC BY 4.0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|Digital Construction Occupancy||Civil Engineering|CC BY 4.0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|Data Privacy Vocabulary (DPV)||Law|W3C Community Contributor License Agreement (CLA)|||indexed by NFDI4Ing Terminology Service||only indexed|
-|FAIR Vocabulary||General|CC BY 4.0|||indexed by NFDI4Ing Terminology Service||only indexed|
-|M4I||mid-level ontology|CC BY 4.0|partial BFO, PROV, DCAT, FOAF and SCHEMA alignment|owl|indexed by NFDI4Ing Terminology Service|developed by NFDI4Ing|developed|
-|EDAM||Life-sciences & data management|CC BY 4.0|OBO mapping possible|owl|EMBOSS, Bio-jETI, indexed by NFDI4Ing Terminology Service||reused|
+## Maintainers
+
+- [Dorothea Iglezakis](https://semantic.farm/orcid:0000-0002-8524-0569)
+- [Giacomo Lanza](https://semantic.farm/orcid:0000-0002-2239-3955)
+- [Susanne Arndt](https://semantic.farm/orcid:0000-0002-1019-9151)
+
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000022&title=Add%20prefix%20X%20to%20collection%200000022).
+
+## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000022`](https://semantic.farm/collection/0000022), which is automatically
+synced from the TIB Terminology Service collection
+[`nfdi4ing`](https://service.tib.eu/terminology/collections/nfdi4ing).
+
+| Prefix                                                                                 | Name                                                                                       | License                                                                           |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
+| [`afo`](https://semantic.farm/afo)                                                     | Allotrope Merged Ontology Suite                                                            | [Custom](http://purl.allotrope.org/voc/copyright)                                 |
+| [`atomistic`](https://semantic.farm/atomistic)                                         | Atomistic                                                                                  | CC-BY-4.0                                                                         |
+| [`battinfo`](https://semantic.farm/battinfo)                                           | Battery Interface Ontology                                                                 | CC-BY-4.0                                                                         |
+| [`BFO`](https://semantic.farm/bfo)                                                     | Basic Formal Ontology                                                                      | CC-BY-4.0                                                                         |
+| [`bonsai`](https://semantic.farm/bonsai)                                               | Big Open Network of Sustainability Assessment Information Ontology                         | CC-BY-3.0                                                                         |
+| [`bot`](https://semantic.farm/bot)                                                     | Building Topology Ontology                                                                 | CC                                                                                |
+| [`brick`](https://semantic.farm/brick)                                                 | Brick Ontology                                                                             | BSD-3-Clause                                                                      |
+| [`building`](https://semantic.farm/building)                                           | Building Ontology                                                                          | CC-BY-4.0                                                                         |
+| [`cc`](https://semantic.farm/cc)                                                       | Creative Commons Rights Expression Language                                                | CC0-1.0                                                                           |
+| [`commoncoreontology`](https://semantic.farm/commoncoreontology)                       | Common Core Ontologies                                                                     | CC-BY-4.0                                                                         |
+| [`condo`](https://semantic.farm/condo)                                                 | The COnCEPT upper-level Design Ontology                                                    | Apache-2.0                                                                        |
+| [`cora`](https://semantic.farm/cora)                                                   | Core Ontology for Robotics and Automation                                                  | CC-BY-4.0                                                                         |
+| [`credit`](https://semantic.farm/credit)                                               | Contributor Roles Taxonomy                                                                 | CC-BY-4.0                                                                         |
+| [`dcterms`](https://semantic.farm/dcterms)                                             | Dublin Core Metadata Initiative Terms                                                      | CC-BY-4.0                                                                         |
+| [`dfg.fo`](https://semantic.farm/dfg.fo)                                               | DFG Classification of Subject Areas Ontology - 2020-2024                                   | CC-BY-4.0                                                                         |
+| [`digitalconstruction.energy`](https://semantic.farm/digitalconstruction.energy)       | Digital Construction Energy Ontology                                                       | CC-BY-4.0                                                                         |
+| [`digitalconstruction.lifecycle`](https://semantic.farm/digitalconstruction.lifecycle) | Digital Construction Lifecycle (dicl)                                                      | CC-BY-4.0                                                                         |
+| [`digitalconstruction.occupancy`](https://semantic.farm/digitalconstruction.occupancy) | Digital Construction Occupancy                                                             | CC-BY-4.0                                                                         |
+| [`dogont`](https://semantic.farm/dogont)                                               | Ontology Modeling for Intelligent Domotic Environments                                     | Apache-2.0                                                                        |
+| [`dpvocab`](https://semantic.farm/dpvocab)                                             | Data Privacy Vocabulary                                                                    | W3C-20150513                                                                      |
+| [`DUO`](https://semantic.farm/duo)                                                     | Data Use Ontology                                                                          | CC-BY-4.0                                                                         |
+| [`edam`](https://semantic.farm/edam)                                                   | EDAM Ontology                                                                              | CC-BY-SA-4.0                                                                      |
+| [`emmo`](https://semantic.farm/emmo)                                                   | Elementary Multiperspective Material Ontology                                              | CC-BY-4.0                                                                         |
+| [`fabio`](https://semantic.farm/fabio)                                                 | FaBiO, the FRBR-aligned Bibliographic Ontology                                             | CC-BY-4.0                                                                         |
+| [`fair`](https://semantic.farm/fair)                                                   | FAIR Vocabulary                                                                            | CC-BY-4.0                                                                         |
+| [`fidbaudigital.subject`](https://semantic.farm/fidbaudigital.subject)                 | FID BAUdigital Subject Headings                                                            | CC-BY-4.0                                                                         |
+| [`fiesta.iot`](https://semantic.farm/fiesta.iot)                                       | FIESTA-IoT Ontology                                                                        | CC-BY-4.0                                                                         |
+| [`findex.bau`](https://semantic.farm/findex.bau)                                       | FINDEX Bau as a SKOS Thesaurus - Facetted Indexing System for Civil Engineering            | CC-BY-SA-4.0                                                                      |
+| [`findex.raum`](https://semantic.farm/findex.raum)                                     | FINDEX Raum                                                                                | CC-BY-SA-4.0                                                                      |
+| [`ftonto`](https://semantic.farm/ftonto)                                               | Fischertechnik Ontology                                                                    | CC                                                                                |
+| [`geosparql`](https://semantic.farm/geosparql)                                         | GeoSPARQL                                                                                  | Apache-2.0                                                                        |
+| [`gist`](https://semantic.farm/gist)                                                   | gist                                                                                       | CC-BY-4.0                                                                         |
+| [`IAO`](https://semantic.farm/iao)                                                     | Information Artifact Ontology                                                              | CC-BY-4.0                                                                         |
+| [`idsa`](https://semantic.farm/idsa)                                                   | International Data Spaces Information Model                                                | Apache-2.0                                                                        |
+| [`iirds.core`](https://semantic.farm/iirds.core)                                       | International Standard for Intelligent Information Request and Delivery Core Ontology      | CC-BY-ND-4.0                                                                      |
+| [`iirds.mch`](https://semantic.farm/iirds.mch)                                         | International Standard for Intelligent Information Request and Delivery Machinery Ontology | CC-BY-ND-4.0                                                                      |
+| [`iirds.sft`](https://semantic.farm/iirds.sft)                                         | International Standard for Intelligent Information Request and Delivery Software Ontology  | CC-BY-ND-4.0                                                                      |
+| [`infosecsos`](https://semantic.farm/infosecsos)                                       | InfoSecSoS Ontology                                                                        | CC-BY-4.0                                                                         |
+| [`iofcore`](https://semantic.farm/iofcore)                                             | Industrial Ontology Foundry (IOF) Core Ontology                                            | MIT                                                                               |
+| [`kdsf.ffk`](https://semantic.farm/kdsf.ffk)                                           | Interdisziplinäre Forschungsfeldklassifikation                                             | CC-BY-SA-4.0                                                                      |
+| [`kit.mtxx`](https://semantic.farm/kit.mtxx)                                           | Vocabulary of Materials Tribology Lab at KIT                                               | CC-BY-4.0                                                                         |
+| [`kpio`](https://semantic.farm/kpio)                                                   | Key Performance Indicator ontology                                                         | CC-BY-4.0                                                                         |
+| [`listdb.onto`](https://semantic.farm/listdb.onto)                                     | ListDB Ontology                                                                            | CC-BY-4.0                                                                         |
+| [`m4i`](https://semantic.farm/m4i)                                                     | Metadata4Ing                                                                               | CC-BY-4.0                                                                         |
+| [`mathmoddb`](https://semantic.farm/mathmoddb)                                         | MathModDB Ontology and Knowledge Graph for Mathematical Models                             | CC-BY-4.0                                                                         |
+| [`mobivoc`](https://semantic.farm/mobivoc)                                             | MobiVoc Open Mobility Vocabulary 1.1.4                                                     | CC-BY-4.0                                                                         |
+| [`modsci`](https://semantic.farm/modsci)                                               | Modern Science Ontology                                                                    | CC-BY-3.0                                                                         |
+| [`mwo`](https://semantic.farm/mwo)                                                     | NFDI MatWerk Ontology                                                                      | CC0-1.0                                                                           |
+| [`OEO`](https://semantic.farm/oeo)                                                     | Open Energy Ontology                                                                       | CC0-1.0                                                                           |
+| [`okn.sd`](https://semantic.farm/okn.sd)                                               | The Software Description Ontology                                                          | CC-BY-2.0                                                                         |
+| [`om`](https://semantic.farm/om)                                                       | Ontology of units of Measure                                                               | CC-BY-4.0                                                                         |
+| [`panet`](https://semantic.farm/panet)                                                 | Photon and Neutron Experimental Techniques Ontology                                        | CC-BY-4.0                                                                         |
+| [`physh`](https://semantic.farm/physh)                                                 | Physics Subject Headings                                                                   | CC0-1.0                                                                           |
+| [`pmdco`](https://semantic.farm/pmdco)                                                 | Platform Material Digital Core Ontology                                                    | CC-BY-4.0                                                                         |
+| [`polymat`](https://semantic.farm/polymat)                                             | PolyMat Ontology                                                                           | CC-BY-4.0                                                                         |
+| [`pror`](https://semantic.farm/pror)                                                   | PRO Research: An ontology for describing RDM-Policies in a structured way                  | CC-BY-4.0                                                                         |
+| [`prov`](https://semantic.farm/prov)                                                   | PROV Namespace                                                                             | W3C-20150513                                                                      |
+| [`rosetta`](https://semantic.farm/rosetta)                                             | The ROSETTA ontology of industrial robotics devices and robotic skills.                    | CC-BY-3.0                                                                         |
+| [`saref`](https://semantic.farm/saref)                                                 | Smart Applications Reference ontology                                                      | [Custom](https://forge.etsi.org/etsi-software-license)                            |
+| [`saref.auto`](https://semantic.farm/saref.auto)                                       | SAREF4AUTO: an extension of SAREF for the automotive domain                                | BSD-3-Clause                                                                      |
+| [`saref.building`](https://semantic.farm/saref.building)                               | SAREF extension for building devices                                                       | BSD-3-Clause                                                                      |
+| [`saref.ehaw`](https://semantic.farm/saref.ehaw)                                       | SAREF4EHAW: an extension of SAREF for eHealth Ageing Well domain                           | [Custom](https://forge.etsi.org/etsi-software-license)                            |
+| [`saref.ener`](https://semantic.farm/saref.ener)                                       | SAREF4EE: the EEbus/Energy@home extension of SAREF                                         | BSD-3-Clause                                                                      |
+| [`saref.environment`](https://semantic.farm/saref.environment)                         | SAREF extension for environment                                                            | BSD-3-Clause                                                                      |
+| [`saref.industry`](https://semantic.farm/saref.industry)                               | SAREF4INMA: an extension of SAREF for the industry and manufacturing domain                | BSD-3-Clause                                                                      |
+| [`saref.lift`](https://semantic.farm/saref.lift)                                       | SAREF4LIFT: an extension of SAREF for the Smart Lifts domain                               | BSD-3-Clause                                                                      |
+| [`saref.system`](https://semantic.farm/saref.system)                                   | SAREF4SYST: an extension of SAREF for typology of systems and their inter-connections      | BSD-3-Clause                                                                      |
+| [`saref.water`](https://semantic.farm/saref.water)                                     | SAREF extension for water                                                                  | BSD-3-Clause                                                                      |
+| [`saref.wearable`](https://semantic.farm/saref.wearable)                               | SAREF4WEAR: an extension of SAREF for Wearables                                            | BSD-3-Clause                                                                      |
+| [`SEPIO`](https://semantic.farm/sepio)                                                 | Scientific Evidence and Provenance Information Ontology                                    | CC-BY-3.0                                                                         |
+| [`sh`](https://semantic.farm/sh)                                                       | Shapes Constraint Language                                                                 | W3C-20150513                                                                      |
+| [`si`](https://semantic.farm/si)                                                       | International System of Units Reference Point                                              | CC-BY-3.0-IGO                                                                     |
+| [`SIO`](https://semantic.farm/sio)                                                     | Semanticscience Integrated Ontology                                                        | CC-BY-4.0                                                                         |
+| [`sosa`](https://semantic.farm/sosa)                                                   | Sensor, Observation, Sample, and Actuator Ontology                                         | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
+| [`ssn`](https://semantic.farm/ssn)                                                     | Semantic Sensor Network Ontology                                                           | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
+| [`ssn.system`](https://semantic.farm/ssn.system)                                       | System capabilities, operating ranges, and survival ranges ontology                        | [Custom](http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document) |
+| [`sweet`](https://semantic.farm/sweet)                                                 | Semantic Web for Earth and Environment Technology Ontology                                 | CC0-1.0                                                                           |
+| [`SWO`](https://semantic.farm/swo)                                                     | Software Ontology                                                                          | CC-BY-4.0                                                                         |
+| [`T4FS`](https://semantic.farm/t4fs)                                                   | terms4FAIRskills                                                                           | CC-BY-4.0                                                                         |
+| [`tib.bk`](https://semantic.farm/tib.bk)                                               | Basic Classification                                                                       | CC0-1.0                                                                           |
+| [`tib.bo`](https://semantic.farm/tib.bo)                                               | Base Ontology                                                                              |                                                                                   |
+| [`tib.dot`](https://semantic.farm/tib.dot)                                             | Damage Topology Ontology                                                                   | CC-BY-1.0                                                                         |
+| [`tib.dr`](https://semantic.farm/tib.dr)                                               | Digital Reference                                                                          | GPL-3.0-only                                                                      |
+| [`tib.gpo`](https://semantic.farm/tib.gpo)                                             | General Process Ontology                                                                   | CC-BY-4.0                                                                         |
+| [`tib.hpont`](https://semantic.farm/tib.hpont)                                         | Heat Pump Ontology                                                                         | CC-BY-NC-4.0                                                                      |
+| [`tib.ifc`](https://semantic.farm/tib.ifc)                                             | Industrial Foundational Classes                                                            | CC-BY-3.0                                                                         |
+| [`tib.io`](https://semantic.farm/tib.io)                                               | Information Objects Ontology                                                               | CC-BY-4.0                                                                         |
+| [`tib.ioc`](https://semantic.farm/tib.ioc)                                             | IOC: Internet of Construction Ontology                                                     | CC-BY-2.0                                                                         |
+| [`tib.lis`](https://semantic.farm/tib.lis)                                             | Industrial Data Ontology                                                                   | CC-BY-SA-4.0                                                                      |
+| [`tib.mat`](https://semantic.farm/tib.mat)                                             | Material properties ontology                                                               | CC-BY-4.0                                                                         |
+| [`tib.mdo`](https://semantic.farm/tib.mdo)                                             | Materials Design Ontology - Full                                                           | MIT                                                                               |
+| [`tib.mdv`](https://semantic.farm/tib.mdv)                                             | Simple Knowledge Organization System (SKOS) version of Materials Data Vocabulary           |                                                                                   |
+| [`tib.mt`](https://semantic.farm/tib.mt)                                               | Mobility Theme                                                                             | CC-BY-4.0                                                                         |
+| [`tib.n0`](https://semantic.farm/tib.n0)                                               | The Audio Commons Ontology                                                                 | CC0-1.0                                                                           |
+| [`tib.ofm`](https://semantic.farm/tib.ofm)                                             | Ontology for manufacturing and logistics                                                   |                                                                                   |
+| [`tib.sto`](https://semantic.farm/tib.sto)                                             | Standards Ontology                                                                         | CC-BY-NC-SA-3.0                                                                   |
+| [`tib.tso`](https://semantic.farm/tib.tso)                                             | TUBES system ontology                                                                      | CC-BY-4.0                                                                         |
+| [`tribain`](https://semantic.farm/tribain)                                             | Tribology Ontology for Artificial Intelligence                                             | CC-BY-4.0                                                                         |
+| [`uat`](https://semantic.farm/uat)                                                     | Unified Astronomy Thesaurus                                                                | CC-BY-SA-3.0                                                                      |
+| [`UO`](https://semantic.farm/uo)                                                       | Units of measurement ontology                                                              | CC-BY-3.0                                                                         |
+| [`vssocore`](https://semantic.farm/vssocore)                                           | Vehicle Signal Specification Core Ontology                                                 | CC-BY-4.0                                                                         |
+| [`woc.ontology`](https://semantic.farm/woc.ontology)                                   | Code Ontology                                                                              | GPL-3.0-only                                                                      |
+| [`wot.td`](https://semantic.farm/wot.td)                                               | Thing Description Ontology                                                                 | CC-BY-4.0                                                                         |
+
+## Colophon
+
+This page was automatically generated on 2026-06-10 using Semantic Farm
+([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+by running the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```

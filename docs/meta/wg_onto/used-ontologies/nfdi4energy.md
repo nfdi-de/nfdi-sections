@@ -2,8 +2,52 @@
 title: NFDI4Energy
 ---
 
-Source: `/files/meta/Used_Ontologies_at_NFDI.xlsx` (sheet: NFDI4Energy)
+Prefixes for ontologies relevant for the NFDI4Energy
 
-| |Domain|License|Modularity|Format|developed / reused / only indexed / only evaluated|Used in|
-|---|---|---|---|---|---|---|
-|Ontology ID|Energy Systems|CC0 1.0|BFO|owl|reused|Open Energy Family & OEP|
+## Maintainers
+
+- [Amanda Wein](https://semantic.farm/orcid:0009-0009-2960-3474)
+
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000021&title=Add%20prefix%20X%20to%20collection%200000021).
+
+## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000021`](https://semantic.farm/collection/0000021), which is automatically
+synced from the TIB Terminology Service collection
+[`nfdi4energy`](https://service.tib.eu/terminology/collections/nfdi4energy).
+
+| Prefix                                                                           | Name                                                               | License      |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------ |
+| [`bonsai`](https://semantic.farm/bonsai)                                         | Big Open Network of Sustainability Assessment Information Ontology | CC-BY-3.0    |
+| [`brick`](https://semantic.farm/brick)                                           | Brick Ontology                                                     | BSD-3-Clause |
+| [`cim`](https://semantic.farm/cim)                                               | Common Information Model Ontology                                  |              |
+| [`digitalconstruction.energy`](https://semantic.farm/digitalconstruction.energy) | Digital Construction Energy Ontology                               | CC-BY-4.0    |
+| [`docbias`](https://semantic.farm/docbias)                                       | Doc-Bias Ontology                                                  | CC-BY-4.0    |
+| [`dogont`](https://semantic.farm/dogont)                                         | Ontology Modeling for Intelligent Domotic Environments             | Apache-2.0   |
+| [`energymarketroles`](https://semantic.farm/energymarketroles)                   | Energy Market Roles ontology                                       | CC-BY-NC-4.0 |
+| [`meno`](https://semantic.farm/meno)                                             | Mid-level Energy Ontology                                          | CC-BY-4.0    |
+| [`OEO`](https://semantic.farm/oeo)                                               | Open Energy Ontology                                               | CC0-1.0      |
+| [`openadr`](https://semantic.farm/openadr)                                       | OpenADR ontology                                                   | CC-BY-4.0    |
+| [`saref.ener`](https://semantic.farm/saref.ener)                                 | SAREF4EE: the EEbus/Energy@home extension of SAREF                 | BSD-3-Clause |
+| [`saref.grid`](https://semantic.farm/saref.grid)                                 | SAREF4GRID: an extension of SAREF for the Smart Grid domain        | BSD-3-Clause |
+| [`sargon`](https://semantic.farm/sargon)                                         | Smart Energy Domain Ontology                                       | CC-BY-4.0    |
+| [`tib.re`](https://semantic.farm/tib.re)                                         | Retail Energy Market of Great Britain                              | CC-BY-SA-3.0 |
+| [`udsaes.fmi`](https://semantic.farm/udsaes.fmi)                                 | Functional Mock-up Interface Ontology                              | MIT          |
+| [`udsaes.sms`](https://semantic.farm/udsaes.sms)                                 | Systems, Models, and Simulation Ontology                           | MIT          |
+| [`zbw.stw`](https://semantic.farm/zbw.stw)                                       | Standard-Thesaurus Wirtschaft                                      | CC-BY-4.0    |
+
+## Colophon
+
+This page was automatically generated on 2026-06-10 using Semantic Farm
+([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+by running the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```
