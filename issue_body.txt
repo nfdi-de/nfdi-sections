@@ -1,14 +1,14 @@
 ### Title
 
-Meeting of Section Common Infrastructures
+Section Int WG Landscape Monthly Meeting
 
 ### Date (YYYY-MM-DD)
 
-2026-06-24
+2026-07-01
 
 ### Start time (HH:MM)
 
-10:00
+11:00
 
 ### End time (HH:MM)
 
@@ -20,11 +20,11 @@ false
 
 ### Location
 
-_No response_
+Online
 
 ### Link (optional)
 
-_No response_
+https://desy.zoom.us/j/66839511286
 
 ### event.website (optional)
 
@@ -32,12 +32,12 @@ _No response_
 
 ### Type
 
-_No response_
+WG
 
 ### Organiser
 
-NFDI
+WG Landscape Survey (Section International)
 
 ### Description
 
-_No response_
+See our rolling [agenda](https://docs.google.com/document/d/1kvNkhYTdnMuBjMOZS5RcwXZa1xCi57heHeRf9VbQIbw/edit?tab=t.0)

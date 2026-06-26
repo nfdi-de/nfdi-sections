@@ -441,6 +441,20 @@
     "createdBy": "Wiljes"
   },
   {
+    "title": "Section Int WG Landscape Monthly Meeting",
+    "start": "2026-07-01T11:00:00+02:00",
+    "end": "2026-07-01T12:00:00+02:00",
+    "allDay": false,
+    "location": "Online",
+    "url": "https://desy.zoom.us/j/66839511286",
+    "type": "WG",
+    "organiser": "WG Landscape Survey (Section International)",
+    "category": "section-international",
+    "color": "#4CAF50",
+    "description": "See our rolling [agenda](https://docs.google.com/document/d/1kvNkhYTdnMuBjMOZS5RcwXZa1xCi57heHeRf9VbQIbw/edit?tab=t.0)",
+    "createdBy": "cthoyt"
+  },
+  {
     "title": "Life Sciences 4 NFDI Bioinformatics Workshop",
     "start": "2026-09-02",
     "end": "2026-09-04",
