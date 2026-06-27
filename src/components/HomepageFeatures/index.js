@@ -53,7 +53,7 @@ const secondRow = [
     alt: 'Section International Engagement',
     description:
       'Alignment with international initiatives and best practices.',
-    link: '/docs/internationalisation/intro',
+    link: '/docs/int/intro',
   },
 ];
 
