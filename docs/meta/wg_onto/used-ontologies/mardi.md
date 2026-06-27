@@ -2,15 +2,49 @@
 title: MaRDI
 ---
 
-Source: `/files/meta/Used_Ontologies_at_NFDI.xlsx` (sheet: MaRDI)
+A placeholder collection of ontologies, controlled vocabularies, and schemas
+relevant for the MaRDI Consortium created by the
+[NFDI Section Metadata WG Ontology Harmonization and Mapping](https://github.com/nfdi-de/section-metadata-wg-onto/).
+The working group is in the process of identifying MaRDI Consortium members
+appropriate for maintaining this collection.
 
-|Ontology ID|Ontology name|Domain|License|Modularity|Format|developed / reused / only indexed / only evaluated|Used in|Comments|NFDI contributions|
-|---|---|---|---|---|---|---|---|---|---|
-|AlgoData|Algorithm Knowledge Graph Ontology|Ontology of mathematicals algorithms|||owl|developed|AlgoData|wip||
-|MathModDB|Ontology for Mathematical Models|Ontology of mathematical models|||owl|developed|Knowledge Graph for mathematical models|wip||
-|QUDT|Quantities, Units, Dimensons, Types|Quantities||||reused|MathModDB|||
-|MSC|Mathematical Subject Classification|Application Domain|||skos|only evaluated|MathModDB|||
-|PhysSH|Physical Subject Classification|Application Domain||||only evaluated|MathModDB|||
-|Basisklassifikation||Application Domain||||only evaluated|MathModDB|||
-|CodeMeta||Software||||only evaluated||||
-|AMV|Algorithms Metadata Vocabulary|||||only evaluated||||
+## Maintainers
+
+- [Björn Schembera](https://semantic.farm/orcid:0000-0003-2860-6621)
+
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000027&title=Add%20prefix%20X%20to%20collection%200000027).
+
+## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000027`](https://semantic.farm/collection/0000027), which is automatically
+synced from the TIB Terminology Service collection
+[`mardi`](https://service.tib.eu/terminology/collections/mardi).
+
+| Prefix                                           | Name                                                           | License         |
+| ------------------------------------------------ | -------------------------------------------------------------- | --------------- |
+| [`amv`](https://semantic.farm/amv)               | Algorithm Metadata Vocabulary                                  | CC0-1.0         |
+| [`codemeta`](https://semantic.farm/codemeta)     | CodeMeta                                                       | Apache-2.0      |
+| [`factgrid`](https://semantic.farm/factgrid)     | FactGrid                                                       |                 |
+| [`mathalgodb`](https://semantic.farm/mathalgodb) | Algorithm Knowledge Graph Ontology                             | CC-BY-4.0       |
+| [`mathmoddb`](https://semantic.farm/mathmoddb)   | MathModDB Ontology and Knowledge Graph for Mathematical Models | CC-BY-4.0       |
+| [`msc`](https://semantic.farm/msc)               | Mathematics Subject Classification                             | CC-BY-NC-SA-3.0 |
+| [`physh`](https://semantic.farm/physh)           | Physics Subject Headings                                       | CC0-1.0         |
+| [`qudt`](https://semantic.farm/qudt)             | Quantities, Units, Dimensions, and Types Ontology              | CC-BY-4.0       |
+| [`tib.bk`](https://semantic.farm/tib.bk)         | Basic Classification                                           | CC0-1.0         |
+| [`wikidata`](https://semantic.farm/wikidata)     | Wikidata                                                       | CC0-1.0         |
+
+## Colophon
+
+This page was automatically generated on 2026-06-10 using Semantic Farm
+([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+by running the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```

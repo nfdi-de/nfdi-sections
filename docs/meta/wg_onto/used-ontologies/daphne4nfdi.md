@@ -1,0 +1,42 @@
+---
+title: DAPHNE4NFDI
+---
+
+A placeholder collection of ontologies, controlled vocabularies, and schemas
+relevant for the DAPHNE4NFDI Consortium created by the
+[NFDI Section Metadata WG Ontology Harmonization and Mapping](https://github.com/nfdi-de/section-metadata-wg-onto/).
+The working group is in the process of identifying DAPHNE4NFDI Consortium
+members appropriate for maintaining this collection.
+
+## Maintainers
+
+- [Heike Görzig](https://semantic.farm/orcid:0000-0001-9121-8643)
+- [Rolf Krahl](https://semantic.farm/orcid:0000-0002-1266-3819)
+- [Paul Millar](https://semantic.farm/orcid:0000-0002-3957-1279)
+
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000026&title=Add%20prefix%20X%20to%20collection%200000026).
+
+## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000026`](https://semantic.farm/collection/0000026).
+
+| Prefix                                 | Name                                                | License   |
+| -------------------------------------- | --------------------------------------------------- | --------- |
+| [`nexus`](https://semantic.farm/nexus) | NeXusOntology                                       | GFDL-1.3  |
+| [`panet`](https://semantic.farm/panet) | Photon and Neutron Experimental Techniques Ontology | CC-BY-4.0 |
+
+## Colophon
+
+This page was automatically generated on 2026-06-10 using Semantic Farm
+([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+by running the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```

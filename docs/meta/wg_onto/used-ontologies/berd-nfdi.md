@@ -2,9 +2,39 @@
 title: BERD@NFDI
 ---
 
-Source: `/files/meta/Used_Ontologies_at_NFDI.xlsx` (sheet: BERD@NFDI)
+A collection of ontologies, controlled vocabularies, and schemas relevant for
+the BERD@NFDI Consortium created by the
+[NFDI Section Metadata WG Ontology Harmonization and Mapping](https://github.com/nfdi-de/section-metadata-wg-onto/).
 
-|BARTOC URI|Ontology ID|Domain|License|Modularity|Format|developed / reused / only indexed / only evaluated|Used in|Comments|
-|---|---|---|---|---|---|---|---|---|
-|http://bartoc.org/en/node/313|STW|Economics|CC BY 4.0|maps_to: "GND, WIKIDATA, DBPEDIA, EuroVoc, TheSoz, AGROVOC, WKD, JEL, SDMX" , in RDF/XML and RDF/Turtle + RDFa for web page|skos|reused|ZBW - Leibniz Information Centre for Economics : portal for economics EconBiz|vocabulary on any economic subject|
-|http://bartoc.org/en/node/485|JEL|Economics|CC BY 3.0|maps_to: "STW"|skos|reused|ZBW - Leibniz Information Centre for Economics : portal for economics EconBiz. ZBW in cooperation with KU Leuven has published translations of the original (English) version as Linked Open Data at http://zbw.eu/beta/external_identifiers/jel|The Journal of Economic Literature Classification Scheme (JEL) was created and is maintained by the American Economic Association. The AEA provides this widely used resource freely for scholarly purposes.|
+## Maintainers
+
+- [Fidan Limani](https://semantic.farm/orcid:0000-0002-5835-2784)
+- [Atif Latif](https://semantic.farm/orcid:0000-0003-3085-3031)
+
+Suggest a new addition to this collection
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000028&title=Add%20prefix%20X%20to%20collection%200000028).
+
+## Ontologies
+
+The following table comes from Semantic Farm collection
+[`0000028`](https://semantic.farm/collection/0000028).
+
+| Prefix                                     | Name                                                     | License   |
+| ------------------------------------------ | -------------------------------------------------------- | --------- |
+| [`dfg.fo`](https://semantic.farm/dfg.fo)   | DFG Classification of Subject Areas Ontology - 2020-2024 | CC-BY-4.0 |
+| [`jel`](https://semantic.farm/jel)         | Journal of Economic Literature Classification System     |           |
+| [`zbw.stw`](https://semantic.farm/zbw.stw) | Standard-Thesaurus Wirtschaft                            | CC-BY-4.0 |
+
+## Colophon
+
+This page was automatically generated on 2026-06-10 using Semantic Farm
+([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+by running the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```

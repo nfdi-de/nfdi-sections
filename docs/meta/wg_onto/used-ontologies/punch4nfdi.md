@@ -1,17 +1,15 @@
 ---
-title: NFDI4Microbiota
+title: PUNCH4NFDI
 ---
 
 This consortia has not yet created an ontology list.
 
 ## Maintainers
 
-- [Anandhi Iyappan](https://semantic.farm/orcid:0000-0002-5571-4962)
-- [Noriko Cassman](https://semantic.farm/orcid:0000-0003-1655-0931)
-- [Maja Magel](https://semantic.farm/orcid:0009-0004-2517-0791)
+- [Harry Enke](https://semantic.farm/orcid:0000-0002-2366-8316)
 
 Suggest a new addition to this collection
-[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000042&title=Add%20prefix%20X%20to%20collection%200000042).
+[here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000032&title=Add%20prefix%20X%20to%20collection%200000032).
 
 ## Colophon
 

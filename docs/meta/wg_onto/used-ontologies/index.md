@@ -2,30 +2,98 @@
 title: Used Ontologies
 ---
 
-This section lists per-consortium ontology tables currently available in this folder.
+The NFDI Section Metadata Working Group on Ontology Harmonization and Mapping
+has generated an overview of the ontologies, terminologies, controlled
+vocabularies, and related semantic artifacts used by each consortium.
 
-Pages:
-- [BERD@NFDI](/docs/meta/wg_onto/used-ontologies/berd-nfdi)
-- [common TLO concepts](/docs/meta/wg_onto/used-ontologies/common-tlo-concepts)
-- [DataPLANT](/docs/meta/wg_onto/used-ontologies/dataplant)
-- [FAIRagro](/docs/meta/wg_onto/used-ontologies/fairagro)
-- [GHGA](/docs/meta/wg_onto/used-ontologies/ghga)
-- [KonsortSWD](/docs/meta/wg_onto/used-ontologies/konsortswd)
-- [MaRDI](/docs/meta/wg_onto/used-ontologies/mardi)
-- [NFDI-MatWerk](/docs/meta/wg_onto/used-ontologies/nfdi-matwerk)
-- [NFDI4Biodiversity](/docs/meta/wg_onto/used-ontologies/nfdi4biodiversity)
-- [NFDI4BIOIMAGE](/docs/meta/wg_onto/used-ontologies/nfdi4bioimage)
-- [NFDI4Cat](/docs/meta/wg_onto/used-ontologies/nfdi4cat)
-- [NFDI4Chem](/docs/meta/wg_onto/used-ontologies/nfdi4chem)
-- [NFDI4Culture](/docs/meta/wg_onto/used-ontologies/nfdi4culture)
-- [NFDI4DataScience](/docs/meta/wg_onto/used-ontologies/nfdi4datascience)
-- [NFDI4Earth](/docs/meta/wg_onto/used-ontologies/nfdi4earth)
-- [NFDI4Energy](/docs/meta/wg_onto/used-ontologies/nfdi4energy)
-- [NFDI4Health](/docs/meta/wg_onto/used-ontologies/nfdi4health)
-- [NFDI4Immuno](/docs/meta/wg_onto/used-ontologies/nfdi4immuno)
-- [NFDI4Ing](/docs/meta/wg_onto/used-ontologies/nfdi4ing)
-- [NFDI4Memory](/docs/meta/wg_onto/used-ontologies/nfdi4memory)
-- [NFDI4Microbiota](/docs/meta/wg_onto/used-ontologies/nfdi4microbiota)
-- [NFDI4Objects](/docs/meta/wg_onto/used-ontologies/nfdi4objects)
-- [NFDIxCS](/docs/meta/wg_onto/used-ontologies/nfdixcs)
-- [Text+](/docs/meta/wg_onto/used-ontologies/text-plus)
+We first partnered with members of each consortium to collaboratively construct
+their respective collections in the [Semantic Farm](https://semantic.farm), a
+comprehensive registry of ontologies, terminologies, controlled vocabularies,
+and related semantic artifacts. These collections can be iteratively extended
+several ways:
+
+1. by following the _suggestion_ link on one of the following pages
+2. by making an issue on the Semantic Farm's
+   [issue tracker](https://github.com/biopragmatics/bioregistry/issues/new)
+3. by editing the underlying single source of truth
+   [JSON file](https://github.com/biopragmatics/bioregistry/edit/main/src/bioregistry/data/collections.json)
+   on the Semantic Farm's version control system.
+4. in the case where the collection is maintained in a system external to the
+   Semantic Farm, by following the link to the external definition and following
+   the external system's instructions (see note below)
+
+:::note
+
+Some consortia use systems that are external to the Semantic Farm for defining,
+curating, and maintaining their respective ontology collections. For example:
+
+- NFDI4Chem curates their collection in the
+  [TIB-TS](https://terminology.tib.eu/ts/collections/nfdi4chem).
+- NFDI4Biodiversity has their own
+  [OntoPortal instance](https://biodivportal.gfbio.org/) for which all loaded
+  ontologies comprise their collection.
+- NFDI4Objects curates their collection in
+  [BARTOC](https://bartoc.org/en/node/18961).
+
+In each of these (and similar) cases, the collections are synced from the
+external system into the Semantic Farm. This is beneficial for users because the
+Semantic Farm provides a centralized access point for _all_ consortia's
+collections, and the Semantic Farm enriches the collections with additional
+context about the resources contained therein that is not available in the
+external systems. However, for these consortia, the external system's definition
+remains the _single source of truth_.
+
+The Semantic Farm also enables adding additional resources that would not be
+indexed in the system that are external to the Semantic Farm. For example,
+UniProt isn't an ontology and therefore won't get indexed by the TIB-TS, but
+might be an important addition to the DataPLANT collection, which could be
+captured in the corresponding collection in the Semantic Farm.
+
+:::
+
+See source data at https://semantic.farm/collection/?ror=05qj6w324.
+
+## Consortia
+
+| Consortium                                                                   | #   | Collection Maintainers                                   |
+| ---------------------------------------------------------------------------- | --- | -------------------------------------------------------- |
+| [BERD@NFDI](/docs/meta/wg_onto/used-ontologies/berd-nfdi.md)                 | 3   | Atif Latif, Fidan Limani                                 |
+| [DAPHNE4NFDI](/docs/meta/wg_onto/used-ontologies/daphne4nfdi.md)             | 2   | Heike Görzig, Paul Millar, Rolf Krahl                    |
+| [DataPLANT](/docs/meta/wg_onto/used-ontologies/dataplant.md)                 | 39  | Angela Kranz, Hannah Dörpholz, Kathryn Dumschott         |
+| [FAIRagro](/docs/meta/wg_onto/used-ontologies/fairagro.md)                   | 23  | Gabriel Schneider                                        |
+| [FAIRmat](/docs/meta/wg_onto/used-ontologies/fairmat.md)                     | 4   | Markus Kühbach                                           |
+| [GHGA](/docs/meta/wg_onto/used-ontologies/ghga.md)                           | 12  | Karoline Mauer                                           |
+| [KonsortSWD](/docs/meta/wg_onto/used-ontologies/konsortswd.md)               | 41  | Noemi Betancort Cabrera                                  |
+| [MaRDI](/docs/meta/wg_onto/used-ontologies/mardi.md)                         | 10  | Björn Schembera                                          |
+| [NFDI-MatWerk](/docs/meta/wg_onto/used-ontologies/nfdi-matwerk.md)           | 6   | Ebrahim Nourouzi, Heike Fliegl                           |
+| [NFDI4BIOIMAGE](/docs/meta/wg_onto/used-ontologies/nfdi4bioimage.md)         | 22  | Damien Goutte-Gattat                                     |
+| [NFDI4Biodiversity](/docs/meta/wg_onto/used-ontologies/nfdi4biodiversity.md) | 65  | Naouel Karam, Ralph Schäfermeier                         |
+| [NFDI4Cat](/docs/meta/wg_onto/used-ontologies/nfdi4cat.md)                   | 26  | Hendrik Borgelt, Alexander Behr, David Linke             |
+| [NFDI4Chem](/docs/meta/wg_onto/used-ontologies/nfdi4chem.md)                 | 47  | Philip Strömert                                          |
+| [NFDI4Culture](/docs/meta/wg_onto/used-ontologies/nfdi4culture.md)           | 30  | Tabea Tietz                                              |
+| [NFDI4DataScience](/docs/meta/wg_onto/used-ontologies/nfdi4datascience.md)   | 3   | Benjamin Zapilko                                         |
+| [NFDI4Earth](/docs/meta/wg_onto/used-ontologies/nfdi4earth.md)               | 27  | Auriol Degbelo                                           |
+| [NFDI4Energy](/docs/meta/wg_onto/used-ontologies/nfdi4energy.md)             | 17  | Amanda Wein                                              |
+| [NFDI4Health](/docs/meta/wg_onto/used-ontologies/nfdi4health.md)             | 38  | Matthias Löbe                                            |
+| [NFDI4Immuno](/docs/meta/wg_onto/used-ontologies/nfdi4immuno.md)             |     | Sebastian Böhm, Ulrik Stervbo                            |
+| [NFDI4Ing](/docs/meta/wg_onto/used-ontologies/nfdi4ing.md)                   | 103 | Dorothea Iglezakis, Giacomo Lanza, Susanne Arndt         |
+| [NFDI4Memory](/docs/meta/wg_onto/used-ontologies/nfdi4memory.md)             | 21  | Tabea Tietz                                              |
+| [NFDI4Microbiota](/docs/meta/wg_onto/used-ontologies/nfdi4microbiota.md)     |     | Anandhi Iyappan, Maja Magel, Noriko Cassman              |
+| [NFDI4Objects](/docs/meta/wg_onto/used-ontologies/nfdi4objects.md)           | 47  | Anja Gerber, Florian Thiery, Jakob Voß, Kristina Fischer |
+| [NFDIxCS](/docs/meta/wg_onto/used-ontologies/nfdixcs.md)                     | 18  | Fabian Huch                                              |
+| [PUNCH4NFDI](/docs/meta/wg_onto/used-ontologies/punch4nfdi.md)               |     | Harry Enke                                               |
+| [Text+](/docs/meta/wg_onto/used-ontologies/text-plus.md)                     | 15  | Thorsten Trippel                                         |
+
+## Colophon
+
+This page was automatically generated on 2026-06-10 using Semantic Farm
+([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+by running the following commands:
+
+```console
+$ git clone https://github.com/nfdi-de/nfdi-sections
+$ cd nfdi-sections
+$ uv run scripts/update_collections.py
+$ git commit -am "Update WG Onto collections"
+$ git push
+```
