@@ -28,8 +28,7 @@ activities.
 
 ## Resources
 
-- Section Concept:
-  [zenodo.org/records/18459748](https://zenodo.org/records/18459748)
+- [Charter](https://doi.org/10.5281/zenodo.21420211)
 - Code and WG website:
   [https://github.com/nfdi-de/section-int-wg-landscape](https://github.com/nfdi-de/section-int-wg-landscape)
 
