@@ -30,6 +30,8 @@ activities.
 
 - Section Concept:
   [zenodo.org/records/18459748](https://zenodo.org/records/18459748)
+- Code and WG website:
+  [https://github.com/nfdi-de/section-int-wg-landscape](https://github.com/nfdi-de/section-int-wg-landscape)
 
 ## Mailing List
 
