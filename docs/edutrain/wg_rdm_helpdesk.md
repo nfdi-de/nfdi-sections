@@ -23,7 +23,7 @@ NFDI helpdesks support both researchers and staff at RDM service points with que
 - Marcus Schmidt (FAIRagro, ZALF) — marcus.schmidt[AT]zalf.de
 - Judith Engel (NFDI4Biodiversity, Universität Bremen) — judith.engel[AT]uni-bremen.de
 - Marina Lemaire (NFDI4Memory, Universität Trier) — marina.lemaire[AT]uni-trier.de
-- Kilian Hensen (Text+, AWK NRW / Universität Köln) — Kilian.Hensen[AT]uni-koeln.de
+- Kilian Hensen (Text+, AWK NRW / Universität zu Köln) — Kilian.Hensen[AT]uni-koeln.de
 
 ## Mailing List
 
