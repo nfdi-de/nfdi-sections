@@ -17,13 +17,11 @@ The Industrial Advisory Board ensures that the perspectives and interests of ind
 |------|-------------|
 | Martina Fiddrich | Cornelsen Verlag GmbH |
 | Dr. Michael Dose | Bundesverband der Deutschen Industrie (BDI) e.V. |
-| Dr. Katrin Friese | Bundesverband der Deutschen Industrie (BDI) e.V. |
-| Dr. Julia Göhringer | Robert Bosch Corporate Research |
-| Dr. Thomas Koenen | Infineon Technologies AG |
-| Dr. Sicco Lehmann-Brauns | Freudenberg (FTI) |
-| Dr. Stefan Schmid | Interactive Media Foundation gGmbH |
-| Dr. Ina Sebastian | Südwestrundfunk (SWR) |
-| Christine Regitz | SAP |
-| Dr. Corinna Hehlmann | — |
-| Saskia Kress | — |
+| Dr. Thomas Koenen | Bundesverband der Deutschen Industrie (BDI) e.V. |
+| Dr. Julia Göhringer | Allianz SE |
+| Dr. Ina Sebastian | Infineon Technologies AG |
+| Dr. Corinna Hehlmann | Freudenberg (FTI) |
+| Saskia Kress | Interactive Media Foundation gGmbH |
+| Christine Regitz | SAP SE |
 | Thomas Dauser | Südwestrundfunk (SWR) |
+| Dr. Sicco Lehmann-Brauns | Siemens AG |
