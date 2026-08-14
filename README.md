@@ -6,9 +6,11 @@ This website is built using [Docusaurus](https://docusaurus.io/).
 The knowledge base is maintained by section spokespersons, section working groups, and section liaison officers. Any contributions from sections members are welcome.
 
 ## Adding calendar entries for sections, working group meetings, workshop
-Use the Issue Template "New Calendar Event" add all relevant information. A pull request will be created to add your event automatically.
+Use the Issue Template "New Calendar Event" add all relevant information. A pull request will be created to add your event automatically. However, please do not enter any dial-in information for your respective meetings into the calendar. 
 
 ## Contributing to the content
+
+The sections and their working groups have the opportunity to transparently present their work-in-progress and current projects here in the NFDI Section Knowledge Base. However, please do not post links to documents in the NFDI Section Knowledge Base that grant write access.
 
 If you only need to tweak text or front matter in Markdown/MDX files and do not plan to run Docusaurus locally:
 
