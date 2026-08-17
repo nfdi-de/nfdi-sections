@@ -5,4 +5,4 @@ sidebar_position: 1
 
 Hallo Welt
 
-![Test Image](testbild.jpg)
+![Test Image](images/testbild.jpg)
