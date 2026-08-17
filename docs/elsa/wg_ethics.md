@@ -19,7 +19,6 @@ Participation in the WGE and its study groups is open to all NFDI members, regar
 - Regularity: Every 2 months (general sessions) + regular study group meetings
 - Language: English
 - Contact: Thomas Richter — thomas.richter(at)hs-fulda.de
-- Hallo Welt! 
 :::
 
 ## Mailing List
