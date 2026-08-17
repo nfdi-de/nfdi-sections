@@ -455,18 +455,6 @@
     "createdBy": "cthoyt"
   },
   {
-    "title": "Hallo Welt 2",
-    "start": "2026-08-14T16:30:00+02:00",
-    "end": "2026-08-14T17:30:00+02:00",
-    "allDay": false,
-    "url": "https://www.nfdi.de",
-    "type": "Event",
-    "organiser": "NFDI",
-    "category": "nfdi",
-    "color": "#003764",
-    "createdBy": "ste-fu"
-  },
-  {
     "title": "Life Sciences 4 NFDI Bioinformatics Workshop",
     "start": "2026-09-02",
     "end": "2026-09-04",
