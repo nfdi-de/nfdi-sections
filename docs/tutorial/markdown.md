@@ -6,10 +6,11 @@ sidebar_position: 100
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Showcases on formatting options with Docusarus
+# Formatting Content
 
+## GitHub Markdown Syntax
 
----
+You can use [GitHub MarkDown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to format your content.
 
 ## Formatting Examples (Docusaurus)
 
