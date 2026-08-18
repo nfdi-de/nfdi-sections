@@ -1,18 +1,18 @@
 ### Title
 
-Hallo Welt
+Section Meeting of Section Ethical, Legal and Social Aspects
 
 ### Date (YYYY-MM-DD)
 
-2026-08-14
+2026-09-17
 
 ### Start time (HH:MM)
 
-16:30
+09:00
 
 ### End time (HH:MM)
 
-17:30
+11:00
 
 ### All day event?
 
@@ -24,7 +24,7 @@ _No response_
 
 ### Link (optional)
 
-https://www.nfdi.de
+_No response_
 
 ### event.website (optional)
 
@@ -32,11 +32,11 @@ _No response_
 
 ### Type
 
-_No response_
+section-ELSA
 
 ### Organiser
 
-NFDI
+Section ELSA
 
 ### Description
 
