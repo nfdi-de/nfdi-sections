@@ -481,6 +481,17 @@
     "createdBy": "okoepler"
   },
   {
+    "title": "Section Meeting of Section Ethical, Legal and Social Aspects",
+    "start": "2026-09-17T09:00:00+02:00",
+    "end": "2026-09-17T11:00:00+02:00",
+    "allDay": false,
+    "type": "section-ELSA",
+    "organiser": "Section ELSA",
+    "category": "section-elsa",
+    "color": "#7B2D8B",
+    "createdBy": "Wiljes"
+  },
+  {
     "title": "NFDI4Immuno Annual All-Hands Meeting",
     "start": "2026-09-22",
     "end": "2026-09-26",
