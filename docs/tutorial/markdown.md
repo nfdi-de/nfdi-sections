@@ -1,5 +1,5 @@
 ---
-title: Markdown
+title: Formatting Content
 sidebar_position: 100
 ---
 
