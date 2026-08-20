@@ -27,4 +27,4 @@ sidebar_position: 9
 * Enter a commit message
 * Click button "Propose Changes"
 * Click button "Create Pull Request"
-* Wait for your page to be reviewed (For more info, see [Revire Process](./review-process.md))
+* Wait for your page to be reviewed (For more info, see [Review Process](./review-process.md))
