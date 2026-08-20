@@ -27,7 +27,7 @@ NFDI helpdesks support both researchers and staff at RDM service points with que
 
 ## Mailing List
 
-- Subscribe: [section-edutrain-wg-helpdesk@lists.nfdi.de](https://lists.nfdi.de/postorius/lists/section-edutrain-wg-helpdesk.lists.nfdi.de/)
+- Subscribe: [section-edutrain-wg-helpdesk@lists.nfdi.de](https://lists.nfdi.de/postorius/lists/section-edutrain-wg-helpdesk.lists.nfdi.de/)   
 
 ## Resources
 
