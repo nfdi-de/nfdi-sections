@@ -16,4 +16,5 @@ To create a new entry in the [Calendar](https://nfdi-de.github.io/nfdi-sections/
 
 
 # Delete or Change a Calendar Entry
-To delete or change a calendar entry, you can edit the file https://github.com/nfdi-de/nfdi-sections/edit/main/static/calendar.json Attention: This file contains all calendar entries. When editing it, please be careful to keep the syntax intact.   
+To delete or change a calendar entry, you can edit the file https://github.com/nfdi-de/nfdi-sections/edit/main/static/calendar.json 
+**Attention**: This file contains all calendar entries. When editing it, please be careful to keep the syntax intact.   
