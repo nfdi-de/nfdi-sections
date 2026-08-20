@@ -27,10 +27,10 @@ NFDI helpdesks support both researchers and staff at RDM service points with que
 
 ## Mailing List
 
-- Subscribe: [section-edutrain-wg-helpdesk.lists.nfdi.de](https://lists.nfdi.de/postorius/lists/section-edutrain-wg-helpdesk.lists.nfdi.de/)
+- Subscribe: [section-edutrain-wg-helpdesk@lists.nfdi.de](https://lists.nfdi.de/postorius/lists/section-edutrain-wg-helpdesk.lists.nfdi.de/)
 
 ## Resources
 
-- Working Group Charter: [https://zenodo.org/records/6478698](https://zenodo.org/records/6478698)
-- Further information: [https://www.nfdi.de/section-edutrain/working-group-rdm-helpdesk-network/](https://www.nfdi.de/section-edutrain/working-group-rdm-helpdesk-network/)
-- FDM Helpdesk Network on forschungsdaten.org: [https://www.forschungsdaten.org/](https://www.forschungsdaten.org/)
+- [Working Group Charter](https://zenodo.org/records/6478698)
+- [Further information](https://www.nfdi.de/section-edutrain/working-group-rdm-helpdesk-network/)
+- FDM Helpdesk Network on [forschungsdaten.org](https://www.forschungsdaten.org/index.php/FDM-Helpdesk-Netzwerk)

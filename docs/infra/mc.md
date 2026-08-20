@@ -9,7 +9,7 @@ The key objective of all NFDI consortia is to systematically register and provid
 :::info Meetings
 - Regularity: Every 2 weeks
 - Day/Time: Tuesday, 9-10 AM
-- Next meeting: TBD (2026-08-18, 09:00 CEST)
+- Next meeting: 2026-08-18, 09:00 CEST
 - Contact: Kilian Schwarz, Alexander Sczyrba
 :::
 
@@ -25,5 +25,5 @@ The key objective of all NFDI consortia is to systematically register and provid
 
 ## Coordinators
 
-- Kilinan Schwarz, Alexander Sczyrba
+- Kilian Schwarz, Alexander Sczyrba
 
