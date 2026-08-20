@@ -9,6 +9,7 @@ This process applies to any content: new pages, changed panges, calendar entries
 * Click on "Pull Requests" in the top navigation bar
 * Select the proposed change that you want to review
 * Click on "Files Changed"
-* evaluate if the proposed changes are O.K.
-If "yes" => click xxx
-If "no" => click yyy
+* Evaluate if the proposed changes are O.K.
+  * If "yes" => click xxx
+  * If "no" => click yyy
+
