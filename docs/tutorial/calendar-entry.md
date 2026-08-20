@@ -3,7 +3,7 @@ title: Create a calendar entry
 sidebar_position: 3
 ---
 
-### Create a new Calendar Entry
+# Create a new Calendar Entry
 
 To create a new entry in the [Calendar](https://nfdi-de.github.io/nfdi-sections/docs/calendar):
 
