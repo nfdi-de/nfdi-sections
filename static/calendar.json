@@ -405,18 +405,6 @@
     "createdBy": "okoepler"
   },
   {
-    "title": "Section Meeting Metadata",
-    "start": "2026-06-30T16:00:00+02:00",
-    "end": "2026-06-30T18:00:00+02:00",
-    "allDay": false,
-    "type": "Section",
-    "organiser": "Section-Meta",
-    "category": "section-meta",
-    "color": "#00617c",
-    "description": "3rd General Section meeting",
-    "createdBy": "okoepler"
-  },
-  {
     "title": "NFDI4Society 10|KSWD - CALL",
     "start": "2026-06-22",
     "end": "2026-06-23",
@@ -439,6 +427,18 @@
     "category": "nfdi",
     "color": "#003764",
     "createdBy": "Wiljes"
+  },
+  {
+    "title": "Section Meeting Metadata",
+    "start": "2026-06-30T16:00:00+02:00",
+    "end": "2026-06-30T18:00:00+02:00",
+    "allDay": false,
+    "type": "Section",
+    "organiser": "Section-Meta",
+    "category": "section-meta",
+    "color": "#00617c",
+    "description": "3rd General Section meeting",
+    "createdBy": "okoepler"
   },
   {
     "title": "Section Int WG Landscape Monthly Meeting",
@@ -479,6 +479,17 @@
     "color": "#A0C818",
     "description": "Boosting Biodata Bootcamp",
     "createdBy": "okoepler"
+  },
+  {
+    "title": "Section Meeting of Section Ethical, Legal and Social Aspects",
+    "start": "2026-09-17T09:00:00+02:00",
+    "end": "2026-09-17T11:00:00+02:00",
+    "allDay": false,
+    "type": "section-ELSA",
+    "organiser": "Section ELSA",
+    "category": "section-elsa",
+    "color": "#7B2D8B",
+    "createdBy": "Wiljes"
   },
   {
     "title": "NFDI4Immuno Annual All-Hands Meeting",

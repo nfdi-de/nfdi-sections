@@ -1,21 +1,22 @@
 ---
-title: Tutorial
+title: Formatting content
 sidebar_position: 100
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Showcases on formatting options with Docusarus
+# Formatting content
 
+## GitHub Markdown Syntax
 
----
+You can use [GitHub MarkDown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to format your content.
 
-## Formatting Examples (Docusaurus)
+## Formatting examples (Docusaurus)
 
 Below are common formatting patterns you can use in docs.
 
-### Grid: Rows and Columns
+### Grid: rows and columns
 
 <div className="row">
   <div className="col col--6">
@@ -52,7 +53,7 @@ Below are common formatting patterns you can use in docs.
 | Grid    |   Yes     | Use <code>row</code>/<code>col</code> classes |
 | MDX     |   Yes     | Mix Markdown and JSX |
 
-### Admonitions (Alert Boxes)
+### Admonitions (alert boxes)
 
 :::info
 Informational callout with neutral tone.
@@ -97,7 +98,7 @@ print('Hello from Python')
   </TabItem>
 </Tabs>
 
-### Details (Collapsible)
+### Details (collapsible)
 
 <details>
   <summary>Click to expand details</summary>
