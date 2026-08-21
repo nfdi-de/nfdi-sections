@@ -3,7 +3,7 @@ title: WG RDM Helpdesk Network
 sidebar_position: 10
 ---
 
-# Working Group RDM Helpdesk Network
+# Working Group RDM Helpdesk Network (WG-Helpdesk)
 
 The goal of this working group is to connect the helpdesk teams of NFDI consortia with the helpdesk teams of institutions, so that all users can find and receive optimal support for their RDM needs.
 
