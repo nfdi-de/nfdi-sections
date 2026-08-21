@@ -25,4 +25,4 @@ jobs:
 
       # so far, this is just applied to Section Int. could apply in general later.
       - name: Lint markdown
-        run: npx --yes prettier --check --prose-wrap always docs/internationalisation/*.md
+        run: npx --yes prettier --check --prose-wrap always docs/int/*.md

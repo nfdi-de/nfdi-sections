@@ -102,7 +102,7 @@ body:
         - Section Infra
         - Section Edu
         - Section Industry
-        - Section International
+        - Section International Engagement
         - WG Onto (Section-Meta)
         - WG Terminology Services (Section-Meta)
         - WG Ethics (Section ELSA)
@@ -124,9 +124,9 @@ body:
         - WG Cooperation Models and Agreements (Section Industry)
         - WG Data Spaces & Interoperability (Section Industry)
         - WG Knowledge Transfer and Impact (Section Industry)
-        - WG Landscape Survey (Section International)
-        - WG EOSC Node Germany (Section International)
-        - WG Outreach (Section International)
+        - WG Landscape (Section Int)
+        - WG EOSC Node Germany (Section Int)
+        - WG Outreach (Section Int)
     validations:
       required: true
   - type: textarea
