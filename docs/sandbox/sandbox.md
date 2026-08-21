@@ -10,3 +10,5 @@ Try to find Waldo in the picture:
 ![Test Image](images/testbild.jpg)
 
 This is a test. And another test. And a third test.
+
+TEST
