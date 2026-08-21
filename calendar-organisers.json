@@ -20,8 +20,8 @@
       "label": "Section Industry Engagement",
       "color": "#009688"
     },
-    "section-international": {
-      "label": "Section International",
+    "section-int": {
+      "label": "Section International Engagement",
       "color": "#4CAF50"
     },
     "natural-sciences": {
@@ -67,8 +67,8 @@
       "category": "section-industry"
     },
     {
-      "label": "Section International",
-      "category": "section-international"
+      "label": "Section International Engagement",
+      "category": "section-int"
     },
     {
       "label": "WG Onto (Section-Meta)",
@@ -155,16 +155,16 @@
       "category": "section-industry"
     },
     {
-      "label": "WG Landscape Survey (Section International)",
-      "category": "section-international"
+      "label": "WG Landscape (Section Int)",
+      "category": "section-int"
     },
     {
-      "label": "WG EOSC Node Germany (Section International)",
-      "category": "section-international"
+      "label": "WG EOSC Node Germany (Section Int)",
+      "category": "section-int"
     },
     {
-      "label": "WG Outreach (Section International)",
-      "category": "section-international"
+      "label": "WG Outreach (Section Int)",
+      "category": "section-int"
     },
     {
       "label": "NFDI",
