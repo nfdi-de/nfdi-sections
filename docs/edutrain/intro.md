@@ -29,22 +29,22 @@ The coordinated, needs-oriented, and targeted teaching of data competence is of 
 
 | Role | Name | Institution |
 |------|------|-------------|
-| Spokesperson | Prof. Dr. Sonja Herres-Pawlis | RWTH Aachen |
-| Deputy Spokesperson | Prof. Dr. Peter Pelz | Technische Universität Darmstadt |
+| Spokesperson | Dr. Jens Dierkes | University and City Library, University of Cologne |
+| Deputy Spokesperson | Dr. Nanette Rißler-Pipka | Max Weber Foundation - German Humanities Institutes Abroad |
 
 ## Working Groups
 
 | Working Group | Contact | Focus |
 |---------------|---------|-------|
 | [Target Group and Needs Analysis](./wg_target_analysis) | Britta Petersen | Competency-level analysis, persona development |
-| [Materials Inventory](./wg_materials) | Jonathan D. Geiger | Collecting and FAIR-ifying existing training materials |
-| [Modular and Scalable Concept](./wg_modular_concept) | Timo Mühlhaus | Modular competency canon, curriculum guidelines |
-| [Teaching Materials and Knowledge Base](./wg_knowledge_base) | See DALIA | Comprehensive material formats, query wizard, DALIA platform |
+| [Materials Inventory](./wg_materials) | Andrea Polywka, Jonathan D. Geiger | Collecting and FAIR-ifying existing training materials |
+| [Modular and Scalable Concept](./wg_modular_concept) | Timo Mühlhaus,  Kerstin Helbig, Jan-Michael Haugwitz | Modular competency canon, curriculum guidelines |
+| [Teaching Materials and Knowledge Base](./wg_knowledge_base) | Sonja Herres-Pawlis, see DALIA | Comprehensive material formats, query wizard, DALIA platform |
 | [Training Formats and Certificate Courses](./wg_training_formats) | Konrad Förstner, Birte Lindstädt | Formalised certificate courses for Data Stewards |
-| [Quality Assurance and Evaluation](./wg_quality_assurance) | See DALIA | QA concept, user feedback, train-the-trainer model |
+| [Quality Assurance and Evaluation](./wg_quality_assurance) | Sonja Herres-Pawlis, see DALIA | QA concept, user feedback, train-the-trainer model |
 | [Networking and Outreach](./wg_networking) | Jana Neumann | National and international harmonisation of RDM training |
 | [Error Culture in Science](./wg_error_culture) | Bernhard Miller, Theo Bender, Maximilian Frank | No-blame culture, handling errors in research |
-| [RDM Helpdesk Network](./wg_rdm_helpdesk) | Martha Stellmacher et al. | Connecting NFDI and institutional helpdesk teams |
+| [RDM Helpdesk Network](./wg_rdm_helpdesk) | Martha Stellmacher, Marcus Schmidt, Judith Engel, Kilian Hensen, Marina Lemaire, Cord Wiljes | Connecting NFDI and institutional helpdesk teams |
 
 ## Further Information
 
