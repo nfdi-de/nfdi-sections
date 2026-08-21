@@ -27,10 +27,12 @@ The coordinated, needs-oriented, and targeted teaching of data competence is of 
 
 ## Section Leadership
 
-| Role | Name | Institution |
-|------|------|-------------|
-| Spokesperson | Dr. Jens Dierkes | University and City Library, University of Cologne |
-| Deputy Spokesperson | Dr. Nanette Rißler-Pipka | Max Weber Foundation - German Humanities Institutes Abroad |
+| Role | Name | Institution | Term |
+|------|------|-------------|--------|
+| Spokesperson | Dr. Jens Dierkes | University and City Library, University of Cologne |  (May 2026 -) |
+| Deputy Spokesperson | Dr. Nanette Rißler-Pipka | Max Weber Foundation - German Humanities Institutes Abroad |  (May 2026 -) |
+| Spokesperson | Prof. Dr. Sonja Herres-Pawlis | RWTH Aachen | (2021 - 2026) |
+| Deputy Spokesperson | Prof. Dr. Peter Pelz | Technische Universität Darmstadt | (2021 - 2026) |
 
 ## Working Groups
 
