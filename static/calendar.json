@@ -455,6 +455,19 @@
     "createdBy": "cthoyt"
   },
   {
+    "title": "Section Meeting of NFDI Section International Engagement",
+    "start": "2026-08-27T14:30:00+02:00",
+    "end": "2026-08-27T16:00:00+02:00",
+    "allDay": false,
+    "location": "Online",
+    "type": "Section",
+    "organiser": "NFDI",
+    "category": "nfdi",
+    "color": "#003764",
+    "description": "Regular Meeting of Section International Engagement. Find Zoom Link and Minutes document in the Sections Google Drive Folder.",
+    "createdBy": "desyLoyz"
+  },
+  {
     "title": "Life Sciences 4 NFDI Bioinformatics Workshop",
     "start": "2026-09-02",
     "end": "2026-09-04",

@@ -1,18 +1,18 @@
 ### Title
 
-Section Meeting of Section Ethical, Legal and Social Aspects
+Section Meeting of NFDI Section International Engagement 
 
 ### Date (YYYY-MM-DD)
 
-2026-09-17
+2026-08-27
 
 ### Start time (HH:MM)
 
-09:00
+14:30
 
 ### End time (HH:MM)
 
-11:00
+16:00
 
 ### All day event?
 
@@ -20,7 +20,7 @@ false
 
 ### Location
 
-_No response_
+Online
 
 ### Link (optional)
 
@@ -32,12 +32,12 @@ _No response_
 
 ### Type
 
-section-ELSA
+Section
 
 ### Organiser
 
-Section ELSA
+NFDI
 
 ### Description
 
-_No response_
+Regular Meeting of Section International Engagement. Find Zoom Link and Minutes document in the Sections Google Drive Folder. 
