@@ -12,9 +12,11 @@ For different target groups (e.g. Data Stewards, students, doctoral researchers)
 Furthermore, guidelines and good practices for the implementation of data literacy in curricula are collected and developed.
 
 :::info Contact
-- Contact: Timo Mühlhaus
+- Timo Mühlhaus
+- Kerstin Helbig
 :::
 
 ## Resources
 
 - Working Group Charter: [https://zenodo.org/records/6478698](https://zenodo.org/records/6478698)
+- Brilhaus, D., Haugwitz, J.-M., Helbig, K., Uebachs, M., Schmale Rodrigues, C., & Mühlhaus, T. (2025). EduBricks – Ein Konzept für modulares und skalierbares Lehrmaterial. Zenodo. [https://doi.org/10.5281/zenodo.17850103](https://doi.org/10.5281/zenodo.17850103)
