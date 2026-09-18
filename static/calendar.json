@@ -620,5 +620,18 @@
     "color": "#F8C040",
     "description": "4. NFDI4Memory Community Forum",
     "createdBy": "okoepler"
+  },
+  {
+    "title": "3rd NFDI Metadata Workshop",
+    "start": "2026-12-02T09:00:00+01:00",
+    "end": "2026-12-02T18:00:00+01:00",
+    "allDay": true,
+    "website": "https://www.nfdi.de/3rd-nfdi-metadata-workshop/",
+    "type": "TF",
+    "organiser": "Section-Meta",
+    "category": "section-meta",
+    "color": "#00617c",
+    "description": "3rd NFDI Metadata Workshop\n1–3 December 2026, GESIS – Leibniz Institute for the Social Sciences, Cologne",
+    "createdBy": "okoepler"
   }
 ]
