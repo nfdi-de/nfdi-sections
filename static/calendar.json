@@ -544,6 +544,19 @@
     "createdBy": "okoepler"
   },
   {
+    "title": "Meeting of Section Common Infrastructures",
+    "start": "2026-09-30T10:00:00+02:00",
+    "end": "2026-09-30T12:00:00+02:00",
+    "allDay": false,
+    "location": "Online",
+    "url": "https://www.nfdi.de/section-infra/",
+    "type": "Section",
+    "organiser": "NFDI",
+    "category": "nfdi",
+    "color": "#003764",
+    "createdBy": "wolfgang-pempe"
+  },
+  {
     "title": "NFDI4Cat Summit",
     "start": "2026-10-22",
     "end": "2026-10-23",
