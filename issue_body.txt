@@ -1,18 +1,18 @@
 ### Title
 
-Section Meeting of NFDI Section International Engagement 
+Meeting of Section Common Infrastructures
 
 ### Date (YYYY-MM-DD)
 
-2026-08-27
+2026-12-02
 
 ### Start time (HH:MM)
 
-14:30
+10:00
 
 ### End time (HH:MM)
 
-16:00
+12:00
 
 ### All day event?
 
@@ -20,11 +20,11 @@ false
 
 ### Location
 
-Online
+_No response_
 
 ### Link (optional)
 
-_No response_
+https://www.nfdi.de/section-infra/
 
 ### event.website (optional)
 
@@ -36,8 +36,8 @@ Section
 
 ### Organiser
 
-NFDI
+Section Infra
 
 ### Description
 
-Regular Meeting of Section International Engagement. Find Zoom Link and Minutes document in the Sections Google Drive Folder. 
+_No response_
