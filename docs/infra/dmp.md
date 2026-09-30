@@ -9,7 +9,7 @@ The working group aims to coordinate the DMP activities of the NFDI consortia. I
 :::info Meetings
 - General meetings are held four times a year: in February, May, September, and November
 - Day/Time: Every 3rd Friday of the respective month at 10:00
-- Next meeting: 2026-09-18, 10:00
+- Next meeting: 2026-11-20, 10:00
 - Contact: Join the mailing list to receive further information
 :::
 
