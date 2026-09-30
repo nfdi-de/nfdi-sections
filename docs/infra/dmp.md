@@ -24,5 +24,4 @@ The working group aims to coordinate the DMP activities of the NFDI consortia. I
 
 ## Coordinators
 
-- Daniela Hausen
 - Jürgen Windeck
