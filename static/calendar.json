@@ -544,6 +544,18 @@
     "createdBy": "okoepler"
   },
   {
+    "title": "IAM4NFDI Sprint-Demos & Q&A",
+    "start": "2026-10-15T09:00:00+02:00",
+    "end": "2026-10-15T10:30:00+02:00",
+    "allDay": false,
+    "website": "https://pad.tools.coscine.dev/iQ2w5sjCR1O7h-4mDb_XrA#NFDI-IAM-Working-Group-amp-Sprint-Demos",
+    "type": "Event",
+    "organiser": "WG Identity and Access Management (IAM) (Section Infra)",
+    "category": "section-infra",
+    "color": "#0BBBEF",
+    "createdBy": "wolfgang-pempe"
+  },
+  {
     "title": "NFDI4Cat Summit",
     "start": "2026-10-22",
     "end": "2026-10-23",
