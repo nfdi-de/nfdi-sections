@@ -11,6 +11,18 @@
     "description": "Regular WG meeting. There will be a talk by Ulrik Servbo on NFDI4Immuno. And we will also talk about the TF Metadata and the Use Case Matrix."
   },
   {
+    "title": "NFDI-ELSA Webinar Series",
+    "start": "2025-10-07T16:00:00+02:00",
+    "end": "2025-10-07T17:00:00+02:00",
+    "allDay": false,
+    "type": "Webinar",
+    "organiser": "WG Ethics (Section ELSA)",
+    "category": "section-elsa",
+    "color": "#7B2D8B",
+    "description": "The very first webinar after our summer break will be held on 7 Oct at 16:00 h by Prof. Walter Radermacher from the LMU Munich. His talk on “Sociology and Ethics of Quantification” will focus on the scientific responsibility in times of AI, crisis and the fight for societal facts.",
+    "createdBy": "thrichter-FD"
+  },
+  {
     "title": "NFDI TF-Tools  JourFixe TF-Tools (monthly)",
     "start": "2025-10-08T15:00:00+02:00",
     "end": "2025-10-08T15:30:00+02:00",
