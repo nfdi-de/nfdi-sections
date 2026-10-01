@@ -1,18 +1,18 @@
 ### Title
 
-Section Meeting of NFDI Section International Engagement 
+IAM4NFDI Sprint-Demos & Q&A
 
 ### Date (YYYY-MM-DD)
 
-2026-08-27
+2026-10-15
 
 ### Start time (HH:MM)
 
-14:30
+09:00
 
 ### End time (HH:MM)
 
-16:00
+10:30
 
 ### All day event?
 
@@ -20,7 +20,7 @@ false
 
 ### Location
 
-Online
+_No response_
 
 ### Link (optional)
 
@@ -28,16 +28,16 @@ _No response_
 
 ### event.website (optional)
 
-_No response_
+https://pad.tools.coscine.dev/iQ2w5sjCR1O7h-4mDb_XrA#NFDI-IAM-Working-Group-amp-Sprint-Demos
 
 ### Type
 
-Section
+_No response_
 
 ### Organiser
 
-NFDI
+WG Identity and Access Management (IAM) (Section Infra)
 
 ### Description
 
-Regular Meeting of Section International Engagement. Find Zoom Link and Minutes document in the Sections Google Drive Folder. 
+_No response_
