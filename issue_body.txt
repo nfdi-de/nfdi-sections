@@ -1,18 +1,18 @@
 ### Title
 
-Section Meeting of NFDI Section International Engagement 
+NFDI-ELSA Webinar Series
 
 ### Date (YYYY-MM-DD)
 
-2026-08-27
+2025-10-07
 
 ### Start time (HH:MM)
 
-14:30
+16:00
 
 ### End time (HH:MM)
 
-16:00
+17:00
 
 ### All day event?
 
@@ -20,7 +20,7 @@ false
 
 ### Location
 
-Online
+_No response_
 
 ### Link (optional)
 
@@ -32,12 +32,12 @@ _No response_
 
 ### Type
 
-Section
+Webinar
 
 ### Organiser
 
-NFDI
+WG Ethics (Section ELSA)
 
 ### Description
 
-Regular Meeting of Section International Engagement. Find Zoom Link and Minutes document in the Sections Google Drive Folder. 
+The very first webinar after our summer break will be held on 7 Oct at 16:00 h by Prof. Walter Radermacher from the LMU Munich. His talk on “Sociology and Ethics of Quantification” will focus on the scientific responsibility in times of AI, crisis and the fight for societal facts.
