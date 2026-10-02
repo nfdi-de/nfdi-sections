@@ -20,7 +20,7 @@ Use this page as the entry point for infrastructure topics, services, and operat
 | [Data Management Planning](dmp) | DMP | Coordination of DMP tools and templates |
 | [Data Science and Artificial Intelligence](dsai) | DSAI | FAIR digital objects, reproducible data analysis |
 | [Electronic Lab Notebooks](eln) | ELN | ELN evaluation, selection and deployment |
-| [Identity and Access Management](iam) | IAM | Federated digital identities and access control |
+| [Identity and Access Management and Accounting](iam) | IAM | Federated digital identities, access control, and accounting |
 | [Infrastructure and Data Security](ids) | IDS | GDPR compliance and information security |
 | [Long-term Access and Preservation](lta) | LTA | Long-term archiving of data and software |
 | [Multi-Cloud](mc) | MC | Federated multi-cloud architecture and IAM |
