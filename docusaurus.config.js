@@ -4,7 +4,7 @@ import footer from './footer.config.js';
 import fs from 'fs';
 import path from 'path';
 
-const announcementBarActive = true; // set to true to activate the announcement bar
+const announcementBarActive = false; // set to true to activate the announcement bar
 let announcementBar = {};
 if (announcementBarActive) {
   try {

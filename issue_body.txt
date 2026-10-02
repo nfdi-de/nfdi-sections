@@ -1,10 +1,10 @@
 ### Title
 
-Section Meeting of Section Ethical, Legal and Social Aspects
+3rd NFDI Metadata Workshop
 
 ### Date (YYYY-MM-DD)
 
-2026-09-17
+2026-12-02
 
 ### Start time (HH:MM)
 
@@ -12,11 +12,11 @@ Section Meeting of Section Ethical, Legal and Social Aspects
 
 ### End time (HH:MM)
 
-11:00
+18:00
 
 ### All day event?
 
-false
+true
 
 ### Location
 
@@ -28,16 +28,17 @@ _No response_
 
 ### event.website (optional)
 
-_No response_
+https://www.nfdi.de/3rd-nfdi-metadata-workshop/
 
 ### Type
 
-section-ELSA
+TF
 
 ### Organiser
 
-Section ELSA
+Section-Meta
 
 ### Description
 
-_No response_
+3rd NFDI Metadata Workshop
+1–3 December 2026, GESIS – Leibniz Institute for the Social Sciences, Cologne

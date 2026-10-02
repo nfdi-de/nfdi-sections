@@ -12,18 +12,20 @@ The "data literacy from the start" paradigm encompasses:
 - Further development of scientific methods and good scientific practice
 - Establishment and improvement of data quality as a resource for value-generating knowledge and sustainable solutions to societal challenges
 - Development of a better understanding of data for more efficient, sustainable, and cross-disciplinary reuse
-
+- Establish a federated helpdesk network providing a shared infrastructure (ticketing system, knowledge base and catalogue)
+  
 A key prerequisite is adherence to the FAIR principles and ensuring accessibility, transparency, and reusability in both open and protected data spaces at national and European level.
 
 The coordinated, needs-oriented, and targeted teaching of data competence is of great importance for the competitiveness of Germany as a research location. In Section EduTrain, actors from university teaching and research, libraries and computing centres, as well as non-university research institutes and state-level initiatives, work closely together to promote the cultural shift towards FAIR data.
 
 ## Section Goals
 
-- Creating a common platform for teaching materials as a knowledge base (see [DALIA](./wg_knowledge_base))
-- Teaching data literacy and FAIR concepts at all education and competency levels: Bachelor, Master, PhD, PostDoc, Data Stewards, Professors
+- Creating a common catalogue for teaching materials as a knowledge base (see [DALIA](./wg_knowledge_base))
+- Disseminate data literacy and FAIR data concepts at all education and competency levels: Bachelor, Master, PhD, PostDoc, Data Stewards, Professors
 - Developing generic, institutional, and discipline-specific Train-the-Trainer concepts and RDM content
-- Defining competency parameters for implementing domain-specific curricula within NFDI consortia
+- Defining competency parameters for implementing domain-specific curricula 
 - Integrating further stakeholders such as professional associations, specialist societies, industry, and others
+- 
 
 ## Section Leadership
 
@@ -44,7 +46,7 @@ The coordinated, needs-oriented, and targeted teaching of data competence is of 
 | [Teaching Materials and Knowledge Base](./wg_knowledge_base) | Sonja Herres-Pawlis, see DALIA | Comprehensive material formats, query wizard, DALIA platform |
 | [Training Formats and Certificate Courses](./wg_training_formats) | Konrad Förstner, Birte Lindstädt | Formalised certificate courses for Data Stewards |
 | [Quality Assurance and Evaluation](./wg_quality_assurance) | Sonja Herres-Pawlis, see DALIA | QA concept, user feedback, train-the-trainer model |
-| [Networking and Outreach](./wg_networking) | Jana Neumann | National and international harmonisation of RDM training |
+| [Networking and Outreach](./wg_networking) | Janna Neumann | National and international harmonisation of RDM training |
 | [Error Culture in Science](./wg_error_culture) | Bernhard Miller, Theo Bender, Maximilian Frank | No-blame culture, handling errors in research |
 | [RDM Helpdesk Network](./wg_rdm_helpdesk) | Martha Stellmacher, Marcus Schmidt, Judith Engel, Kilian Hensen, Marina Lemaire, Cord Wiljes | Connecting NFDI and institutional helpdesk teams |
 
