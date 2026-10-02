@@ -10,7 +10,8 @@ Intensive networking at national and international (European) level contributes 
 This working group coordinates EduTrain's engagement with external stakeholders, partner initiatives, and European counterparts to align approaches, share best practices, and avoid duplication of effort across the broader research data training landscape.
 
 :::info Contact
-- Contact: Jana Neumann
+- Janna Neumann
+- Kerstin Helbig
 :::
 
 ## Resources
