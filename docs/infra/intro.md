@@ -11,6 +11,21 @@ This section documents shared services and technical building blocks enabling FA
 
 Use this page as the entry point for infrastructure topics, services, and operations.
 
+## Section Goals
+
+1. *Networking of infrastructure components for shared use:* 
+the identification, conception and division of labor in the development of jointly usable infrastructure components and their interoperability.
+2. *Research Data Commons - a commons for research data:* The creation of a multi-cloud-based infrastructure that can be used by consortia to exchange and share data, software, and compute resources.
+3. *Sustainable structures:* The establishment of sustainable structures for technology partnerships within the NFDI in order to organize the provision of shared information infrastructures in the long term.
+
+## Section Leadership
+
+| Role | Name | Institution | Term |
+|------|------|-------------|--------|
+| Spokesperson | Prof. Dr. Sonja Schimmler | Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V./ TU Berlin |  (2021 - ongoing) |
+| Deputy Spokesperson | Dr. Marius Politze | RWTH Aachen University |  (2026 - ongoing) |
+| Deputy Spokesperson | Dr. Michael Diepenbroek | Universität Bremen, GFBio e.V. | (2021 - 2026) |
+
 ## Working Groups
 
 | Working Group | Short | Focus |
@@ -27,3 +42,6 @@ Use this page as the entry point for infrastructure topics, services, and operat
 | [Persistent Identifiers](pid) | PID | PID services aligned with FAIR principles |
 | [Research Software Engineering](rse) | RSE | Software infrastructure across NFDI consortia |
 
+## Further Information
+
+Section Charter: [https://zenodo.org/records/15000221](https://zenodo.org/records/15000221)
