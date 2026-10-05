@@ -1,10 +1,10 @@
 ### Title
 
-3rd NFDI Metadata Workshop
+IAM4NFDI Sprint Demos & Q&A
 
 ### Date (YYYY-MM-DD)
 
-2026-12-02
+2026-10-15
 
 ### Start time (HH:MM)
 
@@ -12,15 +12,15 @@
 
 ### End time (HH:MM)
 
-18:00
+10:30
 
 ### All day event?
 
-true
+false
 
 ### Location
 
-_No response_
+Online
 
 ### Link (optional)
 
@@ -28,17 +28,16 @@ _No response_
 
 ### event.website (optional)
 
-https://www.nfdi.de/3rd-nfdi-metadata-workshop/
+https://pad.tools.coscine.dev/iQ2w5sjCR1O7h-4mDb_XrA#NFDI-IAM-Working-Group-amp-Sprint-Demos
 
 ### Type
 
-TF
+_No response_
 
 ### Organiser
 
-Section-Meta
+WG Identity and Access Management (IAM) (Section Infra)
 
 ### Description
 
-3rd NFDI Metadata Workshop
-1–3 December 2026, GESIS – Leibniz Institute for the Social Sciences, Cologne
+The sprint demos for the individual incubator projects will take place alongside an open Q&A session hosted by the Identity and Access Management Working Group. The event is held every month on the third Thursday of the month from 9:00 a.m. to 10:30 a.m.
