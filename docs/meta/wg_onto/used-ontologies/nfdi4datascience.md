@@ -18,16 +18,21 @@ Suggest a new addition to this collection
 The following table comes from Semantic Farm collection
 [`0000029`](https://semantic.farm/collection/0000029).
 
-| Prefix                                         | Name                      | License      |
-| ---------------------------------------------- | ------------------------- | ------------ |
-| [`nfdi.core`](https://semantic.farm/nfdi.core) | NFDI Core Ontology        | CC0-1.0      |
-| [`nfdi4dso`](https://semantic.farm/nfdi4dso)   | NFDI4DataScience Ontology |              |
-| [`schema`](https://semantic.farm/schema)       | Schema.org                | CC-BY-SA-3.0 |
+| Prefix                                           | Name                      | License      |
+| ------------------------------------------------ | ------------------------- | ------------ |
+| [`BFO`](https://semantic.farm/bfo)               | Basic Formal Ontology     | CC-BY-4.0    |
+| [`bioschemas`](https://semantic.farm/bioschemas) | BioSchemas                |              |
+| [`codemeta`](https://semantic.farm/codemeta)     | CodeMeta                  | Apache-2.0   |
+| [`DataCite`](https://semantic.farm/datacite)     | DataCite Ontology         | CC-BY-4.0    |
+| [`dcatap`](https://semantic.farm/dcatap)         | DCAT AP                   |              |
+| [`nfdi.core`](https://semantic.farm/nfdi.core)   | NFDI Core Ontology        | CC0-1.0      |
+| [`nfdi4dso`](https://semantic.farm/nfdi4dso)     | NFDI4DataScience Ontology |              |
+| [`schema`](https://semantic.farm/schema)         | Schema.org                | CC-BY-SA-3.0 |
 
 ## Colophon
 
-This page was automatically generated on 2026-06-10 using Semantic Farm
-([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+This page was automatically generated on 2026-10-19 using Semantic Farm
+([v0.15.5](https://github.com/biopragmatics/bioregistry/releases/tag/v0.15.5))
 by running the following commands:
 
 ```console

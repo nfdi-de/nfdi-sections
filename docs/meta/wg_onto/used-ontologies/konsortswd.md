@@ -11,6 +11,7 @@ vocabularies used by members of the consortium.
 ## Maintainers
 
 - [Noemi Betancort Cabrera](https://semantic.farm/orcid:0000-0002-0156-3556)
+- [Brigitte Mathiak](https://semantic.farm/orcid:0000-0003-1793-9615)
 
 Suggest a new addition to this collection
 [here](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000020&title=Add%20prefix%20X%20to%20collection%200000020).
@@ -54,7 +55,9 @@ The following table comes from Semantic Farm collection
 | [`ddi.typeofnote`](https://semantic.farm/ddi.typeofnote)                                                 | Type of Note                                                     | CC-BY-4.0 |
 | [`ddi.typeoftelephone`](https://semantic.farm/ddi.typeoftelephone)                                       | Type of Telephone                                                | CC-BY-4.0 |
 | [`ddi.typeoftranslationmethod`](https://semantic.farm/ddi.typeoftranslationmethod)                       | Type of Translation Method                                       | CC-BY-4.0 |
+| [`esco.isco`](https://semantic.farm/esco.isco)                                                           | ESCO - International Standard Classification of Occupations      |           |
 | [`gesis.kategorienschemawahlstudien`](https://semantic.farm/gesis.kategorienschemawahlstudien)           | Category Scheme Election Studies                                 | CC-BY-4.0 |
+| [`gesis.kg`](https://semantic.farm/gesis.kg)                                                             | GESIS Knowledge Graph Ontology                                   |           |
 | [`gesis.rexconcepts`](https://semantic.farm/gesis.rexconcepts)                                           | Central concepts of REX research                                 | CC-BY-4.0 |
 | [`gesis.rexdatatype`](https://semantic.farm/gesis.rexdatatype)                                           | Data types in REX research                                       | CC-BY-4.0 |
 | [`gesis.rexgroups`](https://semantic.farm/gesis.rexgroups)                                               | Diversification criteria of REX research                         | CC-BY-4.0 |
@@ -63,11 +66,12 @@ The following table comes from Semantic Farm collection
 | [`isced1997`](https://semantic.farm/isced1997)                                                           | International Standard Classification of Education, 1997 Edition |           |
 | [`isced2011`](https://semantic.farm/isced2011)                                                           | International Standard Classification of Education, 2011 Edition |           |
 | [`isced2013`](https://semantic.farm/isced2013)                                                           | International Standard Classification of Education, 2013 Edition | CC-BY-4.0 |
+| [`loc.demographicterms`](https://semantic.farm/loc.demographicterms)                                     | Library of Congress Demographic Group Terms                      |           |
 
 ## Colophon
 
-This page was automatically generated on 2026-06-10 using Semantic Farm
-([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+This page was automatically generated on 2026-10-19 using Semantic Farm
+([v0.15.5](https://github.com/biopragmatics/bioregistry/releases/tag/v0.15.5))
 by running the following commands:
 
 ```console

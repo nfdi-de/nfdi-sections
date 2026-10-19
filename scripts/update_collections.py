@@ -47,6 +47,8 @@ $ git push
 @click.command()
 def main() -> None:
     for path in ONTOLOGIES.glob("*.md"):
+        if path.name == "common-tlo-concepts.md":
+            continue
         path.unlink()
 
     index_rows = []

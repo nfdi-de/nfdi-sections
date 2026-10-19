@@ -24,14 +24,15 @@ The following table comes from Semantic Farm collection
 | [`BFO`](https://semantic.farm/bfo)             | Basic Formal Ontology                                 | CC-BY-4.0 |                                   |
 | [`CHEBI`](https://semantic.farm/chebi)         | Chemical Entities of Biological Interest              | CC-BY-4.0 |                                   |
 | [`mwo`](https://semantic.farm/mwo)             | NFDI MatWerk Ontology                                 | CC0-1.0   |                                   |
+| [`nexus`](https://semantic.farm/nexus)         | NeXus Ontology                                        | GFDL-1.3  |                                   |
 | [`nfdi.core`](https://semantic.farm/nfdi.core) | NFDI Core Ontology                                    | CC0-1.0   |                                   |
 | [`pmdco`](https://semantic.farm/pmdco)         | Platform Material Digital Core Ontology               | CC-BY-4.0 |                                   |
 | [`prima`](https://semantic.farm/prima)         | Provenance Information for Materials Science Ontology | CC-BY-3.0 | used by JL MDMC, NEP, EOSC-Pillar |
 
 ## Colophon
 
-This page was automatically generated on 2026-06-10 using Semantic Farm
-([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+This page was automatically generated on 2026-10-19 using Semantic Farm
+([v0.15.5](https://github.com/biopragmatics/bioregistry/releases/tag/v0.15.5))
 by running the following commands:
 
 ```console

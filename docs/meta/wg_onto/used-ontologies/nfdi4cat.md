@@ -52,17 +52,17 @@ synced from the TIB Terminology Service collection
 | [`om`](https://semantic.farm/om)                                     | Ontology of units of Measure                                  | CC-BY-4.0                                           |
 | [`ontocape`](https://semantic.farm/ontocape)                         | Ontology for computer aided process engineering               | GPL-2.0                                             |
 | [`osmo`](https://semantic.farm/osmo)                                 | Ontology for simulation, modelling, and optimization          | [Custom](http://rightsstatements.org/vocab/InC/1.0) |
-| [`REX`](https://semantic.farm/rex)                                   | Physico-chemical process                                      |                                                     |
+| [`REX`](https://semantic.farm/rex)                                   | Physico-chemical process                                      | CC-BY-4.0                                           |
 | [`RXNO`](https://semantic.farm/rxno)                                 | Name Reaction Ontology                                        | CC-BY-4.0                                           |
 | [`SBO`](https://semantic.farm/sbo)                                   | Systems Biology Ontology                                      | Artistic-2.0                                        |
 | [`voc4cat`](https://semantic.farm/voc4cat)                           | A vocabulary for the catalysis disciplines                    | CC0-1.0                                             |
-| [`worldavatar.compchem`](https://semantic.farm/worldavatar.compchem) | Computational Chemistry Ontology                              | MIT                                                 |
-| [`worldavatar.kin`](https://semantic.farm/worldavatar.kin)           | Ontology for Chemical Kinetic Reaction Mechanisms             | MIT                                                 |
+| [`worldavatar.compchem`](https://semantic.farm/worldavatar.compchem) | WorldAvatar computational chemistry ontology                  | MIT                                                 |
+| [`worldavatar.kin`](https://semantic.farm/worldavatar.kin)           | WorldAvatar ontology for chemical kinetic reaction mechanisms | MIT                                                 |
 
 ## Colophon
 
-This page was automatically generated on 2026-06-10 using Semantic Farm
-([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+This page was automatically generated on 2026-10-19 using Semantic Farm
+([v0.15.5](https://github.com/biopragmatics/bioregistry/releases/tag/v0.15.5))
 by running the following commands:
 
 ```console

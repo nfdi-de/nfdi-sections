@@ -51,10 +51,10 @@ The following table comes from Semantic Farm collection
 | [`mirbase`](https://semantic.farm/mirbase)     | miRBase pre-miRNA                                                              | public-domain                                                                                                      |
 | [`NCBIGene`](https://semantic.farm/ncbigene)   | NCBI Gene                                                                      |                                                                                                                    |
 | [`NCBITaxon`](https://semantic.farm/ncbitaxon) | NCBI Taxonomy                                                                  | CC0-1.0                                                                                                            |
-| [`NCIT`](https://semantic.farm/ncit)           | NCI Thesaurus                                                                  | CC-BY-4.0                                                                                                          |
+| [`NCIT`](https://semantic.farm/ncit)           | National Cancer Institute Thesaurus                                            | CC-BY-4.0                                                                                                          |
 | [`ORPHA`](https://semantic.farm/orpha)         | Orphanet                                                                       | CC-BY-4.0                                                                                                          |
 | [`rgd`](https://semantic.farm/rgd)             | Rat Genome Database                                                            | CC-BY-4.0                                                                                                          |
-| [`snomedct`](https://semantic.farm/snomedct)   | SNOMED CT (International Edition)                                              | [Custom](https://uts.nlm.nih.gov/uts/assets/LicenseAgreement.pdf)                                                  |
+| [`snomedct`](https://semantic.farm/snomedct)   | Systematized Nomenclature of Medicine - Clinical Terms                         | [Custom](https://uts.nlm.nih.gov/uts/assets/LicenseAgreement.pdf)                                                  |
 | [`spdx`](https://semantic.farm/spdx)           | Software Package Data Exchange License                                         | CC0-1.0                                                                                                            |
 | [`UBERON`](https://semantic.farm/uberon)       | Uber Anatomy Ontology                                                          | CC-BY-3.0                                                                                                          |
 | [`ucum`](https://semantic.farm/ucum)           | Unified Code for Units of Measure                                              |                                                                                                                    |
@@ -63,8 +63,8 @@ The following table comes from Semantic Farm collection
 
 ## Colophon
 
-This page was automatically generated on 2026-06-10 using Semantic Farm
-([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+This page was automatically generated on 2026-10-19 using Semantic Farm
+([v0.15.5](https://github.com/biopragmatics/bioregistry/releases/tag/v0.15.5))
 by running the following commands:
 
 ```console

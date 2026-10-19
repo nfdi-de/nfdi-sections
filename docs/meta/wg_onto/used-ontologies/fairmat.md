@@ -23,14 +23,14 @@ synced from the TIB Terminology Service collection
 | Prefix                                     | Name                                       | License   |
 | ------------------------------------------ | ------------------------------------------ | --------- |
 | [`BFO`](https://semantic.farm/bfo)         | Basic Formal Ontology                      | CC-BY-4.0 |
-| [`nexus`](https://semantic.farm/nexus)     | NeXusOntology                              | GFDL-1.3  |
+| [`nexus`](https://semantic.farm/nexus)     | NeXus Ontology                             | GFDL-1.3  |
 | [`tfsco`](https://semantic.farm/tfsco)     | Thin-film Solar Cells Ontology             | CC-BY-4.0 |
 | [`voc4cat`](https://semantic.farm/voc4cat) | A vocabulary for the catalysis disciplines | CC0-1.0   |
 
 ## Colophon
 
-This page was automatically generated on 2026-06-10 using Semantic Farm
-([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+This page was automatically generated on 2026-10-19 using Semantic Farm
+([v0.15.5](https://github.com/biopragmatics/bioregistry/releases/tag/v0.15.5))
 by running the following commands:
 
 ```console

@@ -45,11 +45,11 @@ synced from the TIB Terminology Service collection
 | [`GAZ`](https://semantic.farm/gaz)                                   | Gazetteer                                  | CC0-1.0      |
 | [`GO`](https://semantic.farm/go)                                     | Gene Ontology                              | CC-BY-4.0    |
 | [`MMO`](https://semantic.farm/mmo)                                   | Measurement method ontology                | CC0-1.0      |
-| [`MOD`](https://semantic.farm/mod)                                   | Protein modification                       | CC-BY-4.0    |
+| [`MOD`](https://semantic.farm/mod)                                   | PSI-MOD Protein Modifications Ontology     | CC-BY-4.0    |
 | [`MS`](https://semantic.farm/ms)                                     | Mass spectrometry ontology                 | CC-BY-3.0    |
 | [`msio`](https://semantic.farm/msio)                                 | Metabolomics Standards Initiative Ontology | CC-BY-3.0    |
 | [`NCBITaxon`](https://semantic.farm/ncbitaxon)                       | NCBI Taxonomy                              | CC0-1.0      |
-| [`NCIT`](https://semantic.farm/ncit)                                 | NCI Thesaurus                              | CC-BY-4.0    |
+| [`NCIT`](https://semantic.farm/ncit)                                 | National Cancer Institute Thesaurus        | CC-BY-4.0    |
 | [`OBI`](https://semantic.farm/obi)                                   | Ontology for Biomedical Investigations     | CC-BY-4.0    |
 | [`OMP`](https://semantic.farm/omp)                                   | Ontology of Microbial Phenotypes           | CC-BY-3.0    |
 | [`PATO`](https://semantic.farm/pato)                                 | Phenotype And Trait Ontology               | CC-BY-3.0    |
@@ -68,8 +68,8 @@ synced from the TIB Terminology Service collection
 
 ## Colophon
 
-This page was automatically generated on 2026-06-10 using Semantic Farm
-([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+This page was automatically generated on 2026-10-19 using Semantic Farm
+([v0.15.5](https://github.com/biopragmatics/bioregistry/releases/tag/v0.15.5))
 by running the following commands:
 
 ```console

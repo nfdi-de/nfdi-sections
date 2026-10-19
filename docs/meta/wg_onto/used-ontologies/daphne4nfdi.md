@@ -22,15 +22,16 @@ Suggest a new addition to this collection
 The following table comes from Semantic Farm collection
 [`0000026`](https://semantic.farm/collection/0000026).
 
-| Prefix                                 | Name                                                | License   |
-| -------------------------------------- | --------------------------------------------------- | --------- |
-| [`nexus`](https://semantic.farm/nexus) | NeXusOntology                                       | GFDL-1.3  |
-| [`panet`](https://semantic.farm/panet) | Photon and Neutron Experimental Techniques Ontology | CC-BY-4.0 |
+| Prefix                                   | Name                                                | License   |
+| ---------------------------------------- | --------------------------------------------------- | --------- |
+| [`esrfet`](https://semantic.farm/esrfet) | ESRF Experimental Techniques Ontology               | CC-BY-4.0 |
+| [`nexus`](https://semantic.farm/nexus)   | NeXus Ontology                                      | GFDL-1.3  |
+| [`panet`](https://semantic.farm/panet)   | Photon and Neutron Experimental Techniques Ontology | CC-BY-4.0 |
 
 ## Colophon
 
-This page was automatically generated on 2026-06-10 using Semantic Farm
-([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+This page was automatically generated on 2026-10-19 using Semantic Farm
+([v0.15.5](https://github.com/biopragmatics/bioregistry/releases/tag/v0.15.5))
 by running the following commands:
 
 ```console

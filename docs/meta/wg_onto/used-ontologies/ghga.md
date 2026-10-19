@@ -32,13 +32,13 @@ The following table comes from Semantic Farm collection
 | [`GSSO`](https://semantic.farm/gsso)           | Gender, Sex, and Sexual Orientation Ontology | Apache-2.0   |
 | [`HANCESTRO`](https://semantic.farm/hancestro) | Human Ancestry Ontology                      | CC-BY-4.0    |
 | [`linkml`](https://semantic.farm/linkml)       | LinkML                                       |              |
-| [`NCIT`](https://semantic.farm/ncit)           | NCI Thesaurus                                | CC-BY-4.0    |
+| [`NCIT`](https://semantic.farm/ncit)           | National Cancer Institute Thesaurus          | CC-BY-4.0    |
 | [`SIO`](https://semantic.farm/sio)             | Semanticscience Integrated Ontology          | CC-BY-4.0    |
 
 ## Colophon
 
-This page was automatically generated on 2026-06-10 using Semantic Farm
-([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+This page was automatically generated on 2026-10-19 using Semantic Farm
+([v0.15.5](https://github.com/biopragmatics/bioregistry/releases/tag/v0.15.5))
 by running the following commands:
 
 ```console

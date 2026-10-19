@@ -56,7 +56,7 @@ synced from the TIB Terminology Service collection
 | [`findex.raum`](https://semantic.farm/findex.raum)                                     | FINDEX Raum                                                                                | CC-BY-SA-4.0                                                                      |
 | [`ftonto`](https://semantic.farm/ftonto)                                               | Fischertechnik Ontology                                                                    | CC                                                                                |
 | [`geosparql`](https://semantic.farm/geosparql)                                         | GeoSPARQL                                                                                  | Apache-2.0                                                                        |
-| [`gist`](https://semantic.farm/gist)                                                   | gist                                                                                       | CC-BY-4.0                                                                         |
+| [`gist`](https://semantic.farm/gist)                                                   | gist ontology                                                                              | CC-BY-4.0                                                                         |
 | [`IAO`](https://semantic.farm/iao)                                                     | Information Artifact Ontology                                                              | CC-BY-4.0                                                                         |
 | [`idsa`](https://semantic.farm/idsa)                                                   | International Data Spaces Information Model                                                | Apache-2.0                                                                        |
 | [`iirds.core`](https://semantic.farm/iirds.core)                                       | International Standard for Intelligent Information Request and Delivery Core Ontology      | CC-BY-ND-4.0                                                                      |
@@ -76,6 +76,7 @@ synced from the TIB Terminology Service collection
 | [`OEO`](https://semantic.farm/oeo)                                                     | Open Energy Ontology                                                                       | CC0-1.0                                                                           |
 | [`okn.sd`](https://semantic.farm/okn.sd)                                               | The Software Description Ontology                                                          | CC-BY-2.0                                                                         |
 | [`om`](https://semantic.farm/om)                                                       | Ontology of units of Measure                                                               | CC-BY-4.0                                                                         |
+| [`onem2m.bo`](https://semantic.farm/onem2m.bo)                                         | oneM2M Base Ontology                                                                       |                                                                                   |
 | [`panet`](https://semantic.farm/panet)                                                 | Photon and Neutron Experimental Techniques Ontology                                        | CC-BY-4.0                                                                         |
 | [`physh`](https://semantic.farm/physh)                                                 | Physics Subject Headings                                                                   | CC0-1.0                                                                           |
 | [`pmdco`](https://semantic.farm/pmdco)                                                 | Platform Material Digital Core Ontology                                                    | CC-BY-4.0                                                                         |
@@ -104,8 +105,8 @@ synced from the TIB Terminology Service collection
 | [`sweet`](https://semantic.farm/sweet)                                                 | Semantic Web for Earth and Environment Technology Ontology                                 | CC0-1.0                                                                           |
 | [`SWO`](https://semantic.farm/swo)                                                     | Software Ontology                                                                          | CC-BY-4.0                                                                         |
 | [`T4FS`](https://semantic.farm/t4fs)                                                   | terms4FAIRskills                                                                           | CC-BY-4.0                                                                         |
+| [`tib.ac`](https://semantic.farm/tib.ac)                                               | The Audio Commons Ontology                                                                 | CC0-1.0                                                                           |
 | [`tib.bk`](https://semantic.farm/tib.bk)                                               | Basic Classification                                                                       | CC0-1.0                                                                           |
-| [`tib.bo`](https://semantic.farm/tib.bo)                                               | Base Ontology                                                                              |                                                                                   |
 | [`tib.dot`](https://semantic.farm/tib.dot)                                             | Damage Topology Ontology                                                                   | CC-BY-1.0                                                                         |
 | [`tib.dr`](https://semantic.farm/tib.dr)                                               | Digital Reference                                                                          | GPL-3.0-only                                                                      |
 | [`tib.gpo`](https://semantic.farm/tib.gpo)                                             | General Process Ontology                                                                   | CC-BY-4.0                                                                         |
@@ -118,7 +119,6 @@ synced from the TIB Terminology Service collection
 | [`tib.mdo`](https://semantic.farm/tib.mdo)                                             | Materials Design Ontology - Full                                                           | MIT                                                                               |
 | [`tib.mdv`](https://semantic.farm/tib.mdv)                                             | Simple Knowledge Organization System (SKOS) version of Materials Data Vocabulary           |                                                                                   |
 | [`tib.mt`](https://semantic.farm/tib.mt)                                               | Mobility Theme                                                                             | CC-BY-4.0                                                                         |
-| [`tib.n0`](https://semantic.farm/tib.n0)                                               | The Audio Commons Ontology                                                                 | CC0-1.0                                                                           |
 | [`tib.ofm`](https://semantic.farm/tib.ofm)                                             | Ontology for manufacturing and logistics                                                   |                                                                                   |
 | [`tib.sto`](https://semantic.farm/tib.sto)                                             | Standards Ontology                                                                         | CC-BY-NC-SA-3.0                                                                   |
 | [`tib.tso`](https://semantic.farm/tib.tso)                                             | TUBES system ontology                                                                      | CC-BY-4.0                                                                         |
@@ -131,8 +131,8 @@ synced from the TIB Terminology Service collection
 
 ## Colophon
 
-This page was automatically generated on 2026-06-10 using Semantic Farm
-([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+This page was automatically generated on 2026-10-19 using Semantic Farm
+([v0.15.5](https://github.com/biopragmatics/bioregistry/releases/tag/v0.15.5))
 by running the following commands:
 
 ```console
