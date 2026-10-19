@@ -49,7 +49,7 @@ The following table comes from Semantic Farm collection
 | [`FLOPO`](https://semantic.farm/flopo)                         | Flora Phenotype Ontology                                             | CC0-1.0                                                                           |
 | [`geonames`](https://semantic.farm/geonames)                   | GeoNames                                                             | CC-BY-4.0                                                                         |
 | [`gfbio.biobank`](https://semantic.farm/gfbio.biobank)         | AMMOD Metabarcoding Ontology                                         |                                                                                   |
-| [`gfbio.biol`](https://semantic.farm/gfbio.biol)               | Biological Taxonomy Vocabulary 0.2 (Core)                            |                                                                                   |
+| [`gfbio.biol`](https://semantic.farm/gfbio.biol)               | Biological Taxonomy Vocabulary 0.2 (Core)                            | [Custom](http://creativecommons.org/licenses/by-sa/2.0/uk)                        |
 | [`gfbio.botany`](https://semantic.farm/gfbio.botany)           | Biological Taxonomy Vocabulary 0.2 (Botany)                          |                                                                                   |
 | [`gfbio.ets`](https://semantic.farm/gfbio.ets)                 | Ecological Trait-data Standard                                       | CC-BY-4.0                                                                         |
 | [`gfbio.iho`](https://semantic.farm/gfbio.iho)                 | IHO World Seas                                                       |                                                                                   |
@@ -91,8 +91,8 @@ The following table comes from Semantic Farm collection
 
 ## Colophon
 
-This page was automatically generated on 2026-06-10 using Semantic Farm
-([v0.13.59](https://github.com/biopragmatics/bioregistry/releases/tag/v0.13.59))
+This page was automatically generated on 2026-10-19 using Semantic Farm
+([v0.15.5](https://github.com/biopragmatics/bioregistry/releases/tag/v0.15.5))
 by running the following commands:
 
 ```console
