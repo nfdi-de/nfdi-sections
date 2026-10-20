@@ -1,6 +1,6 @@
 ### Title
 
-3rd NFDI Metadata Workshop
+Section ELSA Webinar eTIC+ Tool
 
 ### Date (YYYY-MM-DD)
 
@@ -8,15 +8,15 @@
 
 ### Start time (HH:MM)
 
-09:00
+16:00
 
 ### End time (HH:MM)
 
-18:00
+17:00
 
 ### All day event?
 
-true
+false
 
 ### Location
 
@@ -24,21 +24,20 @@ _No response_
 
 ### Link (optional)
 
-_No response_
+https://www.nfdi.de/section-elsa/webinar-series-research-ethics/
 
 ### event.website (optional)
 
-https://www.nfdi.de/3rd-nfdi-metadata-workshop/
+https://www.nfdi.de/section-elsa/webinar-series-research-ethics/
 
 ### Type
 
-TF
+_No response_
 
 ### Organiser
 
-Section-Meta
+Section ELSA
 
 ### Description
 
-3rd NFDI Metadata Workshop
-1–3 December 2026, GESIS – Leibniz Institute for the Social Sciences, Cologne
+In this Webinar, Dr. Sonja Mathes (TU Munich) will describe how the eTIC+ tool supports researchers for ethics applications.
