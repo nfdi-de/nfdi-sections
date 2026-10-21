@@ -8,6 +8,12 @@ permissions:
   contents: write
   pull-requests: write
 
+# Serialise runs per issue: opening an issue fires both "opened" and "labeled",
+# and edits can race with each other on the same PR branch.
+concurrency:
+  group: calendar-issue-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
 jobs:
   create-pr:
     # Run if the issue has the 'calendar' label OR the title starts with our template prefix
@@ -55,13 +61,15 @@ jobs:
         with:
           script: |
             const fs = require('fs');
+            const path = require('path');
             const body = context.payload.issue.body || '';
-            fs.writeFileSync('issue_body.txt', body, 'utf8');
+            // Write outside the workspace so the file is never committed
+            fs.writeFileSync(path.join(process.env.RUNNER_TEMP, 'issue_body.txt'), body, 'utf8');
             core.info(`Issue body written (${body.length} chars)`);
 
       - name: Append calendar entry
         env:
-          ISSUE_BODY_FILE: issue_body.txt
+          ISSUE_BODY_FILE: ${{ runner.temp }}/issue_body.txt
           ISSUE_USER: ${{ github.event.issue.user.login }}
         run: |
           node scripts/addCalendarEntry.cjs
@@ -83,6 +91,7 @@ jobs:
 
             Closes #${{ github.event.issue.number }}
           branch: chore/add-calendar-${{ github.event.issue.number }}
+          add-paths: static/calendar.json
           labels: calendar
 
       - name: Verify PR was created
