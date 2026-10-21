@@ -544,6 +544,45 @@
     "createdBy": "okoepler"
   },
   {
+    "title": "Meeting of Section Common Infrastructures",
+    "start": "2026-09-30T10:00:00+02:00",
+    "end": "2026-09-30T12:00:00+02:00",
+    "allDay": false,
+    "location": "Online",
+    "url": "https://www.nfdi.de/section-infra/",
+    "type": "Section",
+    "organiser": "Section Infra",
+    "category": "section-infra",
+    "color": "#0BBBEF",
+    "createdBy": "wolfgang-pempe"
+  },
+  {
+    "title": "NFDI-ELSA Webinar Series",
+    "start": "2026-10-07T16:00:00+02:00",
+    "end": "2026-10-07T17:00:00+02:00",
+    "allDay": false,
+    "type": "Webinar",
+    "organiser": "WG Ethics (Section ELSA)",
+    "category": "section-elsa",
+    "color": "#7B2D8B",
+    "description": "The very first webinar after our summer break will be held on 7 Oct at 16:00 h by Prof. Walter Radermacher from the LMU Munich. His talk on “Sociology and Ethics of Quantification” will focus on the scientific responsibility in times of AI, crisis and the fight for societal facts.",
+    "createdBy": "thrichter-FD"
+  },
+  {
+    "title": "IAM4NFDI Sprint Demos & Q&A",
+    "start": "2026-10-15T09:00:00+02:00",
+    "end": "2026-10-15T10:30:00+02:00",
+    "allDay": false,
+    "location": "Online",
+    "website": "https://pad.tools.coscine.dev/iQ2w5sjCR1O7h-4mDb_XrA#NFDI-IAM-Working-Group-amp-Sprint-Demos",
+    "type": "Event",
+    "organiser": "WG Identity and Access Management (IAM) (Section Infra)",
+    "category": "section-infra",
+    "color": "#0BBBEF",
+    "description": "The sprint demos for the individual incubator projects will take place alongside an open Q&A session hosted by the Identity and Access Management Working Group. The event is held every month on the third Thursday of the month from 9:00 a.m. to 10:30 a.m.",
+    "createdBy": "wolfgang-pempe"
+  },
+  {
     "title": "NFDI4Cat Summit",
     "start": "2026-10-22",
     "end": "2026-10-23",
@@ -596,6 +635,17 @@
     "createdBy": "okoepler"
   },
   {
+    "title": "Section ELSA Webinar \"Hidden choices in data curation\"",
+    "start": "2026-11-11T16:00:00+01:00",
+    "end": "2026-11-11T17:00:00+01:00",
+    "allDay": false,
+    "type": "Event",
+    "organiser": "Section ELSA",
+    "category": "section-elsa",
+    "color": "#7B2D8B",
+    "createdBy": "thrichter-FD"
+  },
+  {
     "title": "UC4B202​​6",
     "start": "2026-11-24",
     "end": "2026-11-25",
@@ -623,9 +673,10 @@
   },
   {
     "title": "3rd NFDI Metadata Workshop",
-    "start": "2026-12-02T09:00:00+01:00",
-    "end": "2026-12-02T18:00:00+01:00",
+    "start": "2026-12-01T00:00:00+01:00",
+    "end": "2026-12-03T23:59:00+01:00",
     "allDay": true,
+    "location": "GESIS, Cologne",
     "website": "https://www.nfdi.de/3rd-nfdi-metadata-workshop/",
     "type": "TF",
     "organiser": "Section-Meta",
@@ -633,6 +684,18 @@
     "color": "#00617c",
     "description": "3rd NFDI Metadata Workshop\n1–3 December 2026, GESIS – Leibniz Institute for the Social Sciences, Cologne",
     "createdBy": "okoepler"
+  },
+  {
+    "title": "Meeting of Section Common Infrastructures",
+    "start": "2026-12-02T10:00:00+01:00",
+    "end": "2026-12-02T12:00:00+01:00",
+    "allDay": false,
+    "url": "https://www.nfdi.de/section-infra/",
+    "type": "Section",
+    "organiser": "Section Infra",
+    "category": "section-infra",
+    "color": "#0BBBEF",
+    "createdBy": "wolfgang-pempe"
   },
   {
     "title": "Section ELSA Webinar eTIC+ Tool",
