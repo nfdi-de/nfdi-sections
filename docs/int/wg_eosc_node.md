@@ -18,6 +18,11 @@ Section Int serves as the **central point of contact** for all matters
 concerning the establishment of the EOSC Node Germany and gives the NFDI
 community the possibility to directly support the development of the node.
 
+:::info Contact
+- Wilma Wolf (NFDI)
+- Ilona Lang (RWTH)
+:::
+
 ## About EOSC Node Germany
 
 EOSC Node Germany is the German national node of the European Open Science
@@ -35,4 +40,4 @@ the EOSC federation.
 ## Mailing List
 
 - Subscribe / Archive:
-  [section-int.lists.nfdi.de](https://lists.nfdi.de/postorius/lists/section-int.lists.nfdi.de/)
+  [section-int-wg-eosc.lists.nfdi.de](https://lists.nfdi.de/postorius/lists/section-int-wg-eosc.lists.nfdi.de/)
